@@ -1,0 +1,66 @@
+#getInTouch {
+    background: #FAFCFF;
+    padding: 5em 0;
+}
+
+#getInTouch h1{
+    color: #0A0A33;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 65px;
+}
+
+#getInTouch p {
+    color: #667085;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+
+#getInTouch .contact-us,
+#getInTouch .detail {
+   width: 50%;
+}
+
+#getInTouch button {
+    width: 45%;
+   background-color: transparent;
+   border: 1px solid #5F676D;
+   border-radius: 50px;
+   color: #5F676D;
+   font-weight: 700;
+   font-size: 1rem;
+   line-height: 24px;
+}
+
+#getInTouch .arrow {
+    font-size: 21px;
+    color: #0075FF;
+}
+
+#getInTouch button:hover,
+#getInTouch button:focus,
+#getInTouch button:active {
+   background-color: #0A0A33;
+   border: 1px solid #0A0A33;
+   color: #fff;
+}
+
+#getInTouch button:hover .arrow,
+#getInTouch button:focus .arrow,
+#getInTouch button:active .arrow {
+   color: #fff;
+}
+
+@media (max-width:1200px){
+    #getInTouch button {
+        width: 55%;
+    }
+}
+
+@media (max-width:768px){
+    #getInTouch .contact-us,
+#getInTouch .detail {
+   width: 100%;
+}
+}
