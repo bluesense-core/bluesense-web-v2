@@ -6,7 +6,7 @@ import "./get-in-touch.css";
 const GetInTouch = () => {
 	return (
 		<section id="getInTouch">
-			<Container className="d-flex flex-lg-row flex-column justify-content-between align-items-center">
+			<Container className="d-flex flex-md-row flex-column justify-content-between align-items-center">
 				<div className="detail">
 					<h1 className="mb-2">Get in touch</h1>
 					<p>
