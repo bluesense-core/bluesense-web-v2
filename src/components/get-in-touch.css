@@ -23,6 +23,7 @@
 }
 
 #getInTouch button {
+    font-family: 'Inter', sans-serif;
     width: 45%;
    background-color: transparent;
    border: 1px solid #5F676D;

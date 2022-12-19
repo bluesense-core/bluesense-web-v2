@@ -1,3 +1,49 @@
-#home {
-    z-index: 0;
+#home .home-hero{
+    padding-top: 12em;
+}
+
+#home .home-hero h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 100%;
+    color: #0A0A33;
+    padding: 0 2em;
+}
+
+#home .home-hero h1 span{
+    color: #0075FF;
+}
+
+#home .home-hero .subtitle{
+    font-size: 1.125rem;
+line-height: 1.875rem;
+padding: 0 15em;
+color: #374151;
+}
+
+#home .home-hero button{
+    font-family: 'Inter', sans-serif;
+    background: #0075FF;
+    width: 20%;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+   font-size: 1rem;
+   line-height: 24px;
+   margin-bottom: 7em;
+}
+
+#home .home-hero button:hover,
+#home .home-hero button:focus,
+#home .home-hero button:active {
+   background-color: #0A0A33;
+   border: 1px solid #0A0A33;
+   color: #fff;
+}
+
+#home .blocks {
+   max-width: 100%;
+   margin-bottom: 5em;
+
 }
