@@ -1,0 +1,139 @@
+/* Home Hero */
+#home .home-hero{
+    padding-top: 12em;
+    background: linear-gradient(180deg, #FFFFFF 56.22%, #FCFDFF 100%), #FFFFFF;
+}
+
+#home .home-hero h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 4.75rem;
+    line-height: 100%;
+    color: #0A0A33;
+    padding: 0 3em;
+}
+
+#home .home-hero h1 span{
+    color: #0075FF;
+}
+
+#home .home-hero .subtitle{
+    font-size: 18px;
+line-height: 30px;
+padding: 0 20em;
+color: #374151;
+}
+
+#home .home-hero button{
+    font-family: 'Inter', sans-serif;
+    background: #0075FF;
+    width: 20%;
+    border-radius: 3.125rem;
+    color: #fff;
+    font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5rem;
+   margin-bottom: 7em;
+}
+
+#home .home-hero button:hover,
+#home .home-hero button:focus,
+#home .home-hero button:active {
+   background-color: #0A0A33;
+   border: .0625rem solid #0A0A33;
+   color: #fff;
+}
+
+#home .blocks {
+   max-width: 100%;
+   margin-bottom: 4em;
+}
+
+#home .home-hero .business{
+    font-size: 16px;
+line-height: 1.3125rem;
+color: #505055;
+}
+
+#home .home-hero .comp-logos img{
+   max-width: 100%;
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+
+#home .home-hero .comp-logos img:hover{
+    filter: none;
+    transform: scale(1.2);
+}
+
+@media (max-width: 1399px) {
+    #home .home-hero{
+        padding-top: 10em;
+    }
+    #home .home-hero h1{
+        padding: 0 2em;
+    }
+
+    #home .home-hero .subtitle{
+        padding: 0 15em;
+    }
+}
+
+@media (max-width: 74.9375rem) {
+    #home .home-hero h1{
+        padding: 0 1em;
+    }
+
+    #home .home-hero .subtitle{
+        padding: 0 12em;
+    }
+
+    #home .home-hero button{
+        width: 30%;
+    }
+}
+
+@media (max-width: 61.9375rem) {
+    #home .home-hero{
+        padding-top: 8em;
+    }
+    #home .home-hero h1{
+        padding: 0;
+    font-size: 4.5rem; 
+    }
+
+    #home .home-hero .subtitle{
+        padding: 0 5em;
+    }
+
+    #home .home-hero button{
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    #home .home-hero{
+        padding-top: 5em;
+    }
+    #home .home-hero h1{
+        font-size: 3.45rem; 
+    }
+
+    #home .home-hero .subtitle{
+        padding: 0;
+    }
+
+    #home .home-hero button{
+        width: 50%;
+    }
+}
+
+@media (max-width: 565px) {
+    #home .home-hero h1{
+        font-size: 3rem; 
+    }
+
+    #home .blocks {
+        width: 70%;
+     }
+}
