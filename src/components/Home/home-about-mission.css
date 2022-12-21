@@ -1,0 +1,205 @@
+/* Home About */
+#home .home-about {
+    background-color: #fcfdff;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+
+/* Mission */
+#home .home-about #mission {
+    padding-bottom: 10em;
+}
+#home .home-about #mission h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 3.125rem;
+    line-height: 100%;
+    color: #0a0a33;
+}
+
+#home .home-about #mission h2 span {
+    color: #0075ff;
+}
+
+#home .home-about #mission p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #667085;
+}
+
+#home .home-about #mission .circles {
+    position: relative;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#home .home-about #mission .circle {
+    border: 0.1416rem solid rgba(58, 93, 208, 0.36);
+    border-radius: 100%;
+    width: 34.375rem;
+    height: 34.375rem;
+    padding: 3em;
+}
+
+#home .home-about #mission .circle-1 {
+    position: relative;
+    left: 10%;
+}
+
+#home .home-about #mission #circle-2 {
+    position: absolute;
+    left: 47%;
+    top: 40%;
+}
+
+#home .home-about #mission .circles h4 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #0a0a33;
+    margin-bottom: 1.5em;
+}
+
+#home .home-about #mission .circles p {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6a6a85;
+}
+
+@media (max-width: 1399px) {
+    #home .home-about #mission .circle-1 {
+        left: 5%;
+    }
+    #home .home-about #mission #circle-2 {
+        position: absolute;
+        left: 48%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #home .home-about #mission {
+        padding-bottom: 13em;
+    }
+    #home .home-about #mission .circle {
+        width: 33.5rem;
+        height: 33.5rem;
+    }
+
+    #home .home-about #mission .circle-1 {
+        left: 0%;
+    }
+    #home .home-about #mission #circle-2 {
+        position: absolute;
+        left: 45%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 1050px) {
+    #home .home-about #mission .circle {
+        width: 33rem;
+        height: 33rem;
+    }
+    #home .home-about #mission #circle-2 {
+        position: absolute;
+        left: 46%;
+        top: 45%;
+    }
+
+    #home .home-about {
+        padding-bottom: 4em;
+    }
+}
+
+@media (max-width: 991px) {
+    #home .home-about #mission .circle {
+        width: 80%;
+        height: 500px;
+    }
+    #home .home-about #mission #circle-2 {
+        position: absolute;
+        left: 10%;
+        top: 80%;
+        bottom: 50%;
+    }
+
+    #home .home-about #mission .circles {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    #home .home-about #mission {
+        padding-bottom: 30em;
+    }
+
+    #home .home-about {
+        padding-bottom: 3em;
+    }
+}
+
+@media (max-width: 767px) {
+    #home .home-about #mission .circle {
+        width: 100%;
+        height: 500px;
+    }
+    #home .home-about #mission #circle-2 {
+        left: 0;
+    }
+
+    #home .home-about #mission .circles {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    #home .home-about {
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+    #home .home-about #mission {
+        text-align: center;
+    }
+
+    #home .home-about #mission .circle {
+        width: 100%;
+        height: 350px;
+    }
+
+    #home .home-about #mission #circle-2 {
+        left: 0%;
+        top: 85%;
+    }
+
+    #home .home-about #mission {
+        padding-bottom: 22em;
+    }
+
+    #home .home-about #mission .circles h4 {
+        margin-bottom: 0.25em;
+    }
+
+    #home .home-about #mission .circles p {
+        margin-top: 0.25em;
+    }
+}
+
+@media (max-width: 374px) {
+    #home .home-about #mission .circle {
+        height: 400px;
+    }
+
+    #home .home-about #mission #circle-2 {
+        top: 88%;
+    }
+
+    #home .home-about #mission {
+        padding-bottom: 24em;
+    }
+}

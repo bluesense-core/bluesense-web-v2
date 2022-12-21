@@ -1,0 +1,60 @@
+#home .home-about #clients {
+    padding: 15em 0;
+}
+
+#home .home-about #clients h2,
+#home .home-about #clients .client-text {
+    width: 48%;
+}
+
+#home .home-about #clients .client-text {
+    background-image: url(../../assets/images/home-img/half-box.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    padding-left: 2rem;
+}
+
+#home .home-about #clients h2 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 3.125rem;
+    line-height: 100%;
+    color: #0a0a33;
+}
+
+#home .home-about #clients h2 span {
+    color: #0075ff;
+}
+
+#home .home-about #clients p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #667085;
+}
+
+@media (max-width: 992px) {
+    #home .home-about #clients {
+        padding: 10em 0;
+    }
+
+    #home .home-about #clients .client-text {
+        padding-left: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #home .home-about #clients {
+        padding: 8em 0;
+    }
+
+    #home .home-about #clients h2,
+    #home .home-about #clients .client-text {
+        width: 100%;
+    }
+
+    #home .home-about #clients h2 {
+        font-size: 2.8rem;
+    }
+}

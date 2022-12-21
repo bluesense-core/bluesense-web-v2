@@ -1,0 +1,118 @@
+#home .home-about #numbers {
+}
+
+#home .home-about #numbers .datas {
+    width: 65%;
+}
+
+#home .home-about #numbers h2 {
+    width: 25%;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 100%;
+    color: #0a0a33;
+}
+
+#home .home-about #numbers h2 span {
+    color: #0075ff;
+}
+
+#home .home-about #numbers .data {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .home-about #numbers .data h3 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 62px;
+    color: #0a0a33;
+    margin-bottom: 0;
+}
+
+#home .home-about #numbers .data p {
+    margin-top: 0.5em;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #667085;
+}
+
+#home .home-about #numbers .data .box {
+    border: 1px solid #0075ff;
+    width: 50px;
+}
+
+#home .home-about #numbers .data1 {
+    background-image: url(../../assets/images/home-img/about-stroke-1.svg);
+}
+
+#home .home-about #numbers .data2 {
+    background-image: url(../../assets/images/home-img/about-stroke-2.svg);
+    margin-bottom: 12em;
+}
+
+#home .home-about #numbers .data3 {
+    background-image: url(../../assets/images/home-img/about-stroke-3.svg);
+}
+
+@media (max-width: 1399px) {
+    #home .home-about #numbers h2 {
+        width: 28%;
+    }
+
+    #home .home-about #numbers .data {
+        width: 32%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #home .home-about #numbers .datas,
+    #home .home-about #numbers h2 {
+        width: 100%;
+    }
+
+    #home .home-about #numbers .data {
+        width: 30%;
+    }
+}
+
+@media (max-width: 991px) {
+    #home .home-about #numbers .data {
+        width: 31%;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 767px) {
+    #home .home-about #numbers .data1 {
+        width: 100%;
+    }
+
+    #home .home-about #numbers .data2 {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    #home .home-about #numbers .data3 {
+        width: 45%;
+    }
+
+    #home .home-about #numbers h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #home .home-about #numbers .data {
+        width: 100%;
+    }
+}

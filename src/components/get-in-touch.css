@@ -1,10 +1,10 @@
 #getInTouch {
-    background: #FAFCFF;
+    background: #fafcff;
     padding: 6em 0;
 }
 
-#getInTouch h1{
-    color: #0A0A33;
+#getInTouch h1 {
+    color: #0a0a33;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 65px;
@@ -19,88 +19,90 @@
 
 #getInTouch .contact-us,
 #getInTouch .detail {
-   width: 50%;
+    width: 50%;
+}
+
+#getInTouch button a {
+    width: 45%;
 }
 
 #getInTouch button {
     font-family: 'Inter', sans-serif;
-    width: 45%;
-   background-color: transparent;
-   border: 1px solid #5F676D;
-   border-radius: 50px;
-   color: #5F676D;
-   font-weight: 700;
-   font-size: 1rem;
-   line-height: 24px;
+    background-color: transparent;
+    border: 1px solid #5f676d;
+    border-radius: 50px;
+    color: #5f676d;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 24px;
 }
 
 #getInTouch .arrow {
     font-size: 21px;
-    color: #0075FF;
+    color: #0075ff;
 }
 
 #getInTouch button:hover,
 #getInTouch button:focus,
 #getInTouch button:active {
-   background-color: #0A0A33;
-   border: 1px solid #0A0A33;
-   color: #fff;
+    background-color: #0a0a33;
+    border: 1px solid #0a0a33;
+    color: #fff;
 }
 
 #getInTouch button:hover .arrow,
 #getInTouch button:focus .arrow,
 #getInTouch button:active .arrow {
-   color: #fff;
+    color: #fff;
 }
 
-@media (max-width:1200px){
-    #getInTouch button {
+@media (max-width: 1200px) {
+    #getInTouch a {
         width: 55%;
     }
 }
 
-@media (max-width:992px){
+@media (max-width: 992px) {
     #getInTouch .contact-us {
-       width: 45%;
+        width: 45%;
     }
 
     #getInTouch .detail {
         width: 55%;
-     }
-    
-    #getInTouch button {
+    }
+
+    #getInTouch a {
         width: 70%;
     }
 }
 
-@media (max-width:767px){
+@media (max-width: 767px) {
     #getInTouch .contact-us,
-#getInTouch .detail {
-   width: 100%;
+    #getInTouch .detail {
+        width: 100%;
+    }
+
+    #getInTouch {
+        padding: 5em 0;
+    }
+
+    #getInTouch {
+        text-align: center;
+    }
+
+    #getInTouch button {
+        margin-top: 1em;
+        width: 70%;
+    }
 }
 
-#getInTouch {
-    padding: 5em 0;
-}
+@media (max-width: 600px) {
+    #getInTouch button {
+        width: 90%;
+    }
 
-#getInTouch {
-    text-align: center;
-}
-
-#getInTouch button {
-    margin-top: 1em;
-    width: 70%;
-}
-}
-
-@media (max-width:600px){
-
-#getInTouch button {
-    width: 90%;
-}
-
-#getInTouch h1{
-    font-size: 2.8125rem;
-    line-height: 45px;
-}
+    #getInTouch h1 {
+        font-size: 2.8125rem;
+        line-height: 45px;
+    }
 }
