@@ -1,0 +1,130 @@
+#home #home-reviews {
+    background-color: #f1f3f4;
+}
+
+#home #home-reviews h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    color: #373f47;
+}
+
+#home #home-reviews h2 span {
+    color: #0075ff;
+}
+
+#home #home-reviews .carousel {
+    width: 63%;
+}
+
+#home #home-reviews .carousel p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0a0a33;
+    margin-bottom: 1.5em;
+}
+
+#home #home-reviews .carousel h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0c1116;
+    margin-top: 1.5em;
+}
+#home #home-reviews .carousel img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Carousel */
+
+#home #home-reviews .carousel-caption {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 9em;
+
+    color: #fff;
+    text-align: left;
+}
+
+#home #home-reviews .carousel-control-next,
+#home #home-reviews .carousel-control-prev {
+    position: absolute;
+    bottom: 81%;
+    width: 10%;
+}
+
+#home #home-reviews .carousel-control-prev {
+    left: 87%;
+}
+
+#home #home-reviews .carousel-control-next {
+    left: 95%;
+}
+
+#home #home-reviews .carousel-control-prev-icon {
+    background-image: url(../../assets/images/home-img/arrow-left.svg);
+    background-size: auto;
+}
+
+#home #home-reviews .carousel-control-next-icon {
+    background-image: url(../../assets/images/home-img/arrow-right.svg);
+    background-size: auto;
+}
+
+#home #home-reviews .carousel-control-next-icon::after,
+#home #home-reviews .carousel-control-prev-icon::after {
+    content: '';
+}
+/* Carousel */
+
+@media (max-width: 1399px) {
+    #home #home-reviews .carousel-caption {
+        padding-right: 8em;
+    }
+}
+
+@media (max-width: 1199px) {
+    #home #home-reviews .carousel-caption {
+        padding-right: 7em;
+    }
+
+    #home #home-reviews .carousel {
+        width: 58%;
+    }
+
+    #home #home-reviews .carousel-control-prev {
+        left: 80%;
+    }
+
+    #home #home-reviews .carousel-control-next {
+        left: 90%;
+    }
+}
+
+@media (max-width: 991px) {
+    #home #home-reviews .carousel {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #home #home-reviews h2 {
+        font-size: 2.8rem;
+    }
+
+    #home #home-reviews .carousel-caption {
+        padding-right: 0em;
+    }
+
+    #home #home-reviews .carousel-control-prev,
+    #home #home-reviews .carousel-control-next {
+        display: none;
+    }
+}
