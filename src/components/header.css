@@ -58,6 +58,10 @@ header #header-nav .show > .nav-link {
     color: #0075ff;
 }
 
+header #header-nav .show > .nav-link > a {
+    border-bottom: none;
+}
+
 header .navbar .dropdown-menu {
     background-color: #0a0a33;
     border: 1px solid #eaecf0;
@@ -67,6 +71,9 @@ header .navbar .dropdown-menu {
     color: #fff;
     transition: display 500ms;
     left: -10%;
+}
+.navbar #header-nav .dropdown .dropdown-menu .dropdown-item a.active {
+    border: none;
 }
 
 .navbar #header-nav .dropdown .dropdown-menu a {
