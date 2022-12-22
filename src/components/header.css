@@ -39,7 +39,7 @@ header .navbar a {
 
 header .navbar a:hover,
 header .navbar a:focus,
-header .navbar a:active {
+header .navbar a.active {
     border-bottom: 4px solid #0075ff;
     border-left: none;
     border-right: none;
@@ -159,7 +159,7 @@ header .navbar .navbar-brand:active {
     .navbar #header-nav .dropdown .dropdown-menu a:focus a,
     .navbar #header-nav .dropdown .dropdown-menu a:active a {
         color: #0a0a33;
-        background-color: transparenoffcanvas;
+        background-color: transparent;
     }
 
     header .navbar-toggler {

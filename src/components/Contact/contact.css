@@ -1,0 +1,92 @@
+#contact {
+    padding-top: 7em;
+    padding-bottom: 10em;
+    padding-left: 18em;
+    padding-right: 18em;
+}
+
+#contact h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0a0a33;
+}
+
+#contact h2 span {
+    color: #4097ff;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #4f5b67;
+}
+
+#contact p span {
+    color: #0075ff;
+}
+
+#contact form {
+    padding-top: 2.5em;
+}
+
+#contact label {
+    font-size: 12px;
+    line-height: 15px;
+    color: #373f47;
+    margin-bottom: 0.7rem;
+}
+
+#contact input,
+#contact textarea {
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #eff3fd;
+    border: none;
+}
+
+#contact textarea {
+    padding-top: 12px;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    color: #a8b0b9;
+}
+
+#contact button {
+    border: 1px solid #5f676d;
+    border-radius: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5f676d;
+}
+
+#contact button:hover,
+#contact button:focus {
+    border: 1px solid #0075ff;
+    background-color: #0075ff;
+    color: #fff;
+}
+
+#contact button .arrow {
+    font-size: 24px;
+}
+
+@media (max-width: 1380px) {
+    #contact {
+        padding-left: 16em;
+        padding-right: 16em;
+    }
+}
+
+@media (max-width: 1250px) {
+    #contact {
+        padding-left: initial;
+        padding-right: initial;
+    }
+}
