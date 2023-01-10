@@ -77,7 +77,6 @@ const Header = () => {
 
                                 <NavDropdown
                                     title={<span>Services </span>}
-                                    to='/services'
                                     id='hover-dropdown'
                                     className='px-lg-4 px-md-3 d-md-block d-none'
                                     show={dropdown}
@@ -86,6 +85,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#fundraising'>
                                             Fundraising
@@ -94,6 +94,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#analytics'>
                                             Analytics
@@ -102,6 +103,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#strategy'>
                                             Strategy
@@ -111,6 +113,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#advisory'>
                                             Advisory
@@ -119,6 +122,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#learning'>
                                             Learning
@@ -134,6 +138,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#fundraising'>
                                             Fundraising
@@ -142,6 +147,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#analytics'>
                                             Analytics
@@ -150,6 +156,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#strategy'>
                                             Strategy
@@ -159,6 +166,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#advisory'>
                                             Advisory
@@ -167,6 +175,7 @@ const Header = () => {
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
+                                            className='d-block'
                                             onClick={handleClose}
                                             to='/services#learning'>
                                             Learning

@@ -48,6 +48,10 @@ header .navbar-expand-md .navbar-nav .nav-link {
 }
 
 header #header-nav .show > .nav-link {
+    border-top: 5px solid #0075ff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
     color: #0075ff;
 }
 
@@ -75,8 +79,19 @@ header .navbar .dropdown-menu {
     padding: 0;
 }
 
-.navbar #header-nav .dropdown .dropdown-menu .dropdown-item {
+.navbar #header-nav .dropdown .dropdown-menu .dropdown-item a {
     padding: 12px;
+}
+
+.navbar
+    #header-nav
+    .dropdown:has(.dropdown-menu > .dropdown-item a:active)
+    > #hover-dropdown {
+    border-top: 5px solid #0075ff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: #0075ff;
 }
 
 .navbar #header-nav .dropdown .dropdown-menu a:hover,
@@ -91,8 +106,10 @@ header .navbar .dropdown-menu {
 .navbar #header-nav .dropdown .dropdown-menu a:hover a,
 .navbar #header-nav .dropdown .dropdown-menu a:focus a,
 .navbar #header-nav .dropdown .dropdown-menu a:active a {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 0;
     color: #0a0a33;
-    background-color: transparent;
 }
 
 header #hover-dropdown {
@@ -152,7 +169,7 @@ header .navbar .navbar-brand:active {
         padding: 0;
     }
 
-    .offcanvas .offcanvas-body #header-nav .dropdown-menu .dropdown-item {
+    .offcanvas .offcanvas-body #header-nav .dropdown-menu .dropdown-item a {
         padding: 12px;
     }
 
@@ -168,8 +185,10 @@ header .navbar .navbar-brand:active {
     .navbar #header-nav .dropdown .dropdown-menu a:hover a,
     .navbar #header-nav .dropdown .dropdown-menu a:focus a,
     .navbar #header-nav .dropdown .dropdown-menu a:active a {
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 0;
         color: #0a0a33;
-        background-color: transparent;
     }
 
     header .navbar-toggler {
