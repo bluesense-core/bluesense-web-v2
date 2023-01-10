@@ -1,92 +1,55 @@
 #contact {
     padding-top: 7em;
     padding-bottom: 10em;
-    padding-left: 18em;
-    padding-right: 18em;
 }
 
 #contact h2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 32px;
     line-height: 48px;
-    color: #0a0a33;
-}
-
-#contact h2 span {
-    color: #4097ff;
+    color: #141414;
 }
 
 #contact p {
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 20px;
     line-height: 27px;
-    color: #4f5b67;
+    color: #444549;
 }
 
 #contact p span {
-    color: #0075ff;
+    color: #0f74b9;
 }
 
-#contact form {
-    padding-top: 2.5em;
+#contact .form-floating > .form-control:not(:placeholder-shown) ~ label {
+    transform: none;
+}
+
+#contact .form-floating > .form-control:not(:placeholder-shown):focus ~ label {
+    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+#contact textarea {
+    height: 140px;
 }
 
 #contact label {
-    font-size: 12px;
-    line-height: 15px;
-    color: #373f47;
-    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: rgba(15, 117, 185, 0.7);
+    font-weight: 500;
+    opacity: 1;
 }
 
 #contact input,
 #contact textarea {
-    padding: 18px;
-    border-radius: 8px;
-    background-color: #eff3fd;
+    border-radius: 10px;
+    background: #f0f0f0;
     border: none;
 }
 
-#contact textarea {
-    padding-top: 12px;
-}
-
-#contact input::placeholder,
-#contact textarea::placeholder {
-    font-size: 16px;
-    line-height: 24px;
-    color: #a8b0b9;
-}
-
 #contact button {
-    border: 1px solid #5f676d;
-    border-radius: 50px;
-    background-color: transparent;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #5f676d;
-}
-
-#contact button:hover,
-#contact button:focus {
-    border: 1px solid #0075ff;
-    background-color: #0075ff;
-    color: #fff;
-}
-
-#contact button .arrow {
-    font-size: 24px;
-}
-
-@media (max-width: 1380px) {
-    #contact {
-        padding-left: 16em;
-        padding-right: 16em;
-    }
-}
-
-@media (max-width: 1250px) {
-    #contact {
-        padding-left: initial;
-        padding-right: initial;
-    }
+    padding: 0 32px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #4c8eda;
 }

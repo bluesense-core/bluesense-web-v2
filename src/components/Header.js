@@ -11,7 +11,6 @@ import './header.css';
 import Logo from '../assets/images/logo.svg';
 import { NavLink } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
-import { FaChevronUp } from 'react-icons/fa';
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -33,7 +32,7 @@ const Header = () => {
         <header id='header'>
             <Navbar className='bg-white ' expand='md'>
                 <Container>
-                    <Navbar.Brand href='/' className='py-3 d-flex'>
+                    <Navbar.Brand href='/' className='py-2 d-flex'>
                         <Image
                             src={Logo}
                             className='header-logo'
@@ -77,19 +76,14 @@ const Header = () => {
                                 </Nav.Item>
 
                                 <NavDropdown
-                                    title={
-                                        <span>
-                                            Services{' '}
-                                            <FaChevronUp className='arrow ms-1' />
-                                        </span>
-                                    }
+                                    title={<span>Services </span>}
                                     to='/services'
                                     id='hover-dropdown'
                                     className='px-lg-4 px-md-3 d-md-block d-none'
                                     show={dropdown}
                                     onMouseEnter={showDropdown}
                                     onMouseLeave={hideDropdown}>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -97,7 +91,7 @@ const Header = () => {
                                             Fundraising
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -105,7 +99,7 @@ const Header = () => {
                                             Analytics
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -114,7 +108,7 @@ const Header = () => {
                                         </NavHashLink>
                                     </NavDropdown.Item>
 
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -122,7 +116,7 @@ const Header = () => {
                                             Advisory
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -133,16 +127,11 @@ const Header = () => {
                                 </NavDropdown>
 
                                 <NavDropdown
-                                    title={
-                                        <span>
-                                            Services{' '}
-                                            <FaChevronUp className='arrow ms-1' />
-                                        </span>
-                                    }
+                                    title={<span>Services </span>}
                                     to='/services'
                                     id='nav-dropdown'
                                     className='px-lg-4 px-md-3 d-md-none d-block'>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -150,7 +139,7 @@ const Header = () => {
                                             Fundraising
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -158,7 +147,7 @@ const Header = () => {
                                             Analytics
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -167,7 +156,7 @@ const Header = () => {
                                         </NavHashLink>
                                     </NavDropdown.Item>
 
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}
@@ -175,7 +164,7 @@ const Header = () => {
                                             Advisory
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='py-2'>
+                                    <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
                                             onClick={handleClose}

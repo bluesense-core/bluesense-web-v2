@@ -37,7 +37,7 @@ const HomeHero = () => {
                     alt='illustration'
                     fluid
                 />
-                <p className='business mb-5'>
+                <p className='business mb-5 text-start'>
                     Businesses of all sizes trust us
                 </p>
                 <Row className='pt-5 pb-4 gy-5 comp-logos'>
@@ -45,28 +45,28 @@ const HomeHero = () => {
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-md-start justify-content-center align-items-center'>
                         <Image src={Payhippo} alt='Payhippo Logo' />
                     </Col>
                     <Col
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
-                        <Image src={Hugo} alt='Hugo Logo' />
+                        className='d-flex justify-content-md-center justify-content-center  align-items-center'>
+                        <Image src={Hugo} alt='Hugo Logo' className='me-xl-5' />
                     </Col>
                     <Col
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
-                        <Image src={Hash} alt='Hash Logo' />
+                        className='d-flex justify-content-center  align-items-center'>
+                        <Image src={Hash} alt='Hash Logo' className='ms-xl-5' />
                     </Col>
                     <Col
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-end justify-content-center align-items-center'>
                         <Image src={Mede} alt='Mede Logo' />
                     </Col>
 
@@ -74,26 +74,34 @@ const HomeHero = () => {
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-md-start justify-content-center align-items-center'>
                         <Image src={Icrc} alt='ICRC Logo' />
                     </Col>
                     <Col
                         md={3}
                         sm={4}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
-                        <Image src={Lifestores} alt='Lifestores Logo' />
+                        className='d-flex justify-content-center  align-items-center'>
+                        <Image
+                            src={Lifestores}
+                            alt='Lifestores Logo'
+                            className='me-xl-5'
+                        />
                     </Col>
                     <Col
                         md={3}
                         xs={6}
                         className='d-flex justify-content-center align-items-center'>
-                        <Image src={Ease} alt='Easeme Logo' />
+                        <Image
+                            src={Ease}
+                            alt='Easeme Logo'
+                            className='ms-xl-5'
+                        />
                     </Col>
                     <Col
                         md={3}
                         xs={6}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-md-end justify-content-center align-items-center'>
                         <Image src={Leeds} alt='Leeds Logo' />
                     </Col>
                 </Row>

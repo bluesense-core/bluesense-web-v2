@@ -39,9 +39,9 @@
 #home .home-hero button:hover,
 #home .home-hero button:focus,
 #home .home-hero button:active {
-    background-color: #0a0a33;
-    border: 0.0625rem solid #0a0a33;
-    color: #fff;
+    background-color: transparent;
+    border: 1px solid #0075ff;
+    color: #0075ff;
 }
 
 #home .blocks {
