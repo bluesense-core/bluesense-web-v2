@@ -1,5 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import OurCompany from '../components/About/OurCompany';
+import OurHistory from '../components/About/OurHistory';
+import Simplify from '../components/About/Simplify';
+import Values from '../components/About/Values';
+import Vision from '../components/About/Vision';
 import GetInTouch from '../components/GetInTouch';
 
 const About = () => {
@@ -15,10 +20,17 @@ const About = () => {
                 />
                 <meta
                     name='keywords'
-                    content='Business, firm, Consultng, Startups, Intelligence, Strategy, About, startup consultants, Bluesense info, BlueSense, bluesense'
+                    content='Business, firm, Consulting, Startups, Intelligence, Strategy, About, startup consultants, Bluesense info, BlueSense, bluesense'
                 />
             </Helmet>
-            <GetInTouch />
+            <main id='about'>
+                <OurCompany />
+                <OurHistory />
+                <Values />
+                <Vision />
+                <Simplify />
+                <GetInTouch />
+            </main>
         </>
     );
 };

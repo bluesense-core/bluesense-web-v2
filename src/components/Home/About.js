@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Accordion, Container, Image } from 'react-bootstrap';
-import './home-about-mission.css';
-import './home-about-core.css';
-import './home-about-clients.css';
-import './home-about-numbers.css';
+import './about-mission.css';
+import './about-core.css';
+import './about-clients.css';
+import './about-numbers.css';
 import Map from '../../assets/images/home-img/world-map.svg';
 import Bulb from '../../assets/images/home-img/lightbulb-icon.svg';
 import Brain from '../../assets/images/home-img/brain-icon.svg';

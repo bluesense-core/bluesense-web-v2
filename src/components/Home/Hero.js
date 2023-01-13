@@ -1,5 +1,5 @@
 import React from 'react';
-import './home-hero.css';
+import './hero.css';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import Blocks from '../../assets/images/home-img/hero-blocks.svg';
 import Payhippo from '../../assets/images/home-img/payhippo-logo.svg';

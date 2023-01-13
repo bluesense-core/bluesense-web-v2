@@ -1,0 +1,27 @@
+#about .history {
+    padding-top: 7em;
+}
+
+#about .history .container {
+    padding-bottom: 7em;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#about .history h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #0a0a33;
+}
+
+#about .history h2 span {
+    color: #0075ff;
+}
+
+#about .history p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444549;
+}

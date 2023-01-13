@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import GetInTouch from '../components/GetInTouch';
-import HomeAbout from '../components/Home/HomeAbout';
-import HomeCaseStudies from '../components/Home/HomeCaseStudies';
-import HomeHero from '../components/Home/HomeHero';
-import HomeReviews from '../components/Home/HomeReviews';
+import About from '../components/Home/About';
+import CaseStudies from '../components/Home/CaseStudies';
+import Hero from '../components/Home/Hero';
+import Reviews from '../components/Home/Reviews';
 
 const Home = () => {
     return (
@@ -19,16 +19,16 @@ const Home = () => {
                 />
                 <meta
                     name='keywords'
-                    content='Business, bluesense, Consultng, Startups, Tech Startups, Strategy, BlueSense, Business Consulting'
+                    content='Business, bluesense, Consulting, Startups, Tech Startups, Strategy, BlueSense, Business Consulting'
                 />
             </Helmet>
-            <section id='home'>
-                <HomeHero />
-                <HomeAbout />
-                <HomeReviews />
-                <HomeCaseStudies />
+            <main id='home'>
+                <Hero />
+                <About />
+                <Reviews />
+                <CaseStudies />
                 <GetInTouch />
-            </section>
+            </main>
         </>
     );
 };

@@ -29,7 +29,7 @@ const Services = () => {
                 />
             </Helmet>
             <Container>
-                <section id='services' className=''>
+                <main id='services' className=''>
                     <article
                         id='fundraising'
                         className=' d-flex flex-lg-row flex-column-reverse justify-content-between align-items-stretch'>
@@ -210,7 +210,7 @@ const Services = () => {
 
                         <Image src={learn} alt='' className='m-lg-0 mx-auto' />
                     </article>
-                </section>
+                </main>
             </Container>
 
             <GetInTouch />

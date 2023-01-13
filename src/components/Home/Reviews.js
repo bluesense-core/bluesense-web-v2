@@ -1,6 +1,6 @@
 import React from 'react';
-import { Carousel, Container, Image } from 'react-bootstrap';
-import './home-reviews.css';
+import { Carousel, Container } from 'react-bootstrap';
+import './reviews.css';
 import Andrew from '../../assets/images/home-img/andrew.svg';
 import James from '../../assets/images/home-img/james.svg';
 import Tonye from '../../assets/images/home-img/tonye.svg';

@@ -38,7 +38,7 @@ const Contact = () => {
                 />
             </Helmet>
 
-            <section id='contact'>
+            <main id='contact'>
                 <Container>
                     <h2>Contact</h2>
                     <p>
@@ -127,7 +127,7 @@ const Contact = () => {
                         </Button>
                     </Form>
                 </Container>
-            </section>
+            </main>
         </>
     );
 };

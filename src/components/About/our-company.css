@@ -1,0 +1,53 @@
+#about .company {
+    padding: 7em 0;
+}
+
+#about .company .details {
+    width: 45%;
+}
+
+#about .company img {
+    max-width: 100%;
+}
+
+@media (max-width: 1199px) {
+    #about .company img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    #about .company img {
+        max-width: 60%;
+    }
+
+    #about .company .details {
+        width: 100%;
+    }
+}
+
+#about .company .details .blue {
+    width: 22px;
+    height: 7px;
+    background-color: #0075ff;
+}
+
+#about .company .details h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #0a0a33;
+    margin-bottom: 52px;
+}
+
+#about .company .details h2 span {
+    color: #0075ff;
+}
+
+#about .company .details p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444549;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Image, Tab, Tabs } from 'react-bootstrap';
-import './home-case-studies.css';
+import './case-studies.css';
 import Hash from '../../assets/images/home-img/hash.svg';
 import MVX from '../../assets/images/home-img/mvx.svg';
 import Hugo from '../../assets/images/home-img/hugo.svg';
