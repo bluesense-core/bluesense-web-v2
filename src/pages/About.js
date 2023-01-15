@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import MeetTheTeam from '../components/About/MeetTheTeam';
 import OurCompany from '../components/About/OurCompany';
 import OurHistory from '../components/About/OurHistory';
 import Simplify from '../components/About/Simplify';
@@ -29,6 +30,7 @@ const About = () => {
                 <Values />
                 <Vision />
                 <Simplify />
+                <MeetTheTeam />
                 <GetInTouch />
             </main>
         </>

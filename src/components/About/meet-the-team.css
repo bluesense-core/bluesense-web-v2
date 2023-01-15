@@ -1,0 +1,64 @@
+#about .team {
+    padding-bottom: 7em;
+}
+
+#about .team .blue {
+    width: 22px;
+    height: 7px;
+    background-color: #0075ff;
+}
+
+#about .team h2,
+#about .team h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #0a0a33;
+    margin-bottom: 35px;
+}
+
+#about .team h2 span {
+    color: #0075ff;
+}
+
+#about .team h3 {
+    font-size: 2rem;
+    margin-bottom: 48px;
+}
+
+#about .team .card {
+    background: linear-gradient(180deg, #fcfcfc 0%, #f9f9f9 3.21%);
+    border-radius: 1.7013px;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+#about .team .card:hover {
+    box-shadow: 0.3em 0.3em 0 0 #0a0a3321;
+    transform: scale(1.05);
+}
+
+#about .team .card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0a0a33;
+}
+
+#about .team .card-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444549;
+}
+
+#about .team .card img {
+    width: 90%;
+}
+
+#about .team .partnerCards,
+#about .team .advisoryCards {
+    padding: 4em 0;
+}

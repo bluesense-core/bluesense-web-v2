@@ -45,7 +45,8 @@
     color: #0075ff;
 }
 
-#about .company .details p {
+#about .company .details p,
+#about .company .details ul {
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
