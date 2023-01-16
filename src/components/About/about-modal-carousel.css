@@ -1,0 +1,105 @@
+@media (min-width: 768px) {
+    .modal-90 {
+        max-width: 80%;
+    }
+}
+
+#amc .modal-header {
+    padding: 30px 45px;
+}
+
+#amc .modal-header .btn-close {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+#amc .modal-body {
+    padding: 0 50px;
+    padding-bottom: 30px;
+}
+
+#amc .modal-footer {
+    padding: 0 50px;
+}
+#amc .modal-footer div {
+    width: 100%;
+    padding: 35px 0;
+    border-top: 1px solid #cadbd7;
+}
+
+#amc .modal-body .profile {
+    width: 35%;
+}
+
+#amc .modal-body .carousel-caption {
+    width: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-right: 40px;
+}
+@media (max-width: 991px) {
+    #amc .modal-body .carousel-caption {
+        width: 100%;
+        padding-right: 0px;
+    }
+}
+
+#amc .modal-body .carousel-caption h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #0a0a33;
+}
+
+#amc .modal-body .carousel-caption .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717d8a;
+}
+
+#amc .modal-body .carousel-caption .links a {
+    text-decoration: none;
+    font-size: 22.5px;
+    color: #0075ff;
+}
+
+#amc .modal-body .carousel-caption .desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373f47;
+}
+
+#amc .modal-body .carousel-control-next,
+#amc .modal-body .carousel-control-prev {
+    top: auto;
+    bottom: -84px;
+    width: 50px;
+    opacity: 1;
+}
+
+#amc .modal-body .carousel-indicators {
+    bottom: -95px;
+}
+
+#amc .modal-body .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #0075ff;
+}
+#amc .modal-body .carousel-control-next-icon {
+    background-image: url(../../assets/images/about-img/right.svg);
+}
+
+#amc .modal-body .carousel-control-prev-icon {
+    background-image: url(../../assets/images/about-img/left.svg);
+}
+
+#amc .modal-body .carousel-dark .carousel-control-next-icon,
+#amc .modal-body .carousel-dark .carousel-control-prev-icon {
+    filter: none;
+}
