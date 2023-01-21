@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/Services/services.css';
 import GetInTouch from '../components/GetInTouch';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import adv from '../assets/images/services-img/advisory.png';
 import aly from '../assets/images/services-img/analytics.png';
 import fund from '../assets/images/services-img/fundraising.png';
@@ -11,7 +11,7 @@ import { Container, Image } from 'react-bootstrap';
 
 const Services = () => {
     return (
-        <>
+        <HelmetProvider>
             <Helmet>
                 <meta charSet='utf-8' />
                 <title>Services | BlueSense</title>
@@ -214,7 +214,7 @@ const Services = () => {
             </Container>
 
             <GetInTouch />
-        </>
+        </HelmetProvider>
     );
 };
 

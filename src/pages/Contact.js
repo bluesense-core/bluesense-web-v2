@@ -7,7 +7,8 @@ import {
     Form,
     Row,
 } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 import '../components/Contact/contact.css';
 
 const Contact = () => {
@@ -23,7 +24,7 @@ const Contact = () => {
         setValidated(true);
     };
     return (
-        <>
+        <HelmetProvider>
             <Helmet>
                 <meta charSet='utf-8' />
                 <title>Contact | BlueSense</title>
@@ -128,7 +129,7 @@ const Contact = () => {
                     </Form>
                 </Container>
             </main>
-        </>
+        </HelmetProvider>
     );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import GetInTouch from '../components/GetInTouch';
 import About from '../components/Home/About';
 import CaseStudies from '../components/Home/CaseStudies';
@@ -8,7 +8,7 @@ import Reviews from '../components/Home/Reviews';
 
 const Home = () => {
     return (
-        <>
+        <HelmetProvider>
             <Helmet>
                 <meta charSet='utf-8' />
                 <title>BlueSense | Business Consulting</title>
@@ -29,7 +29,7 @@ const Home = () => {
                 <CaseStudies />
                 <GetInTouch />
             </main>
-        </>
+        </HelmetProvider>
     );
 };
 
