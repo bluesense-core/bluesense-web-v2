@@ -1,0 +1,30 @@
+.misc {
+    padding-top: 3em;
+}
+
+.misc h1,
+.misc h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    color: #0a0a33;
+}
+
+.misc h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.misc p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444549;
+    margin-bottom: 2em;
+}
+
+.misc a {
+    color: #0a0a33;
+}

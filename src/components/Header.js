@@ -182,14 +182,14 @@ const Header = () => {
                                         </NavHashLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Item className='px-lg-4 px-md-3'>
+                                {/* <Nav.Item className='px-lg-4 px-md-3'>
                                     <NavLink
                                         reloadDocument
                                         onClick={handleClose}
                                         to='/team'>
                                         Team
                                     </NavLink>
-                                </Nav.Item>
+                                </Nav.Item> */}
                                 <Nav.Item className='px-lg-4 px-md-3'>
                                     <NavLink
                                         reloadDocument

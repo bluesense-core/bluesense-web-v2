@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const CookiePolicy = () => {
@@ -20,6 +21,9 @@ const CookiePolicy = () => {
                     content='BlueSense blog, bluesense, Business, Consulting, Startups, Intelligence, Cookie Policy'
                 />
             </Helmet>
+            <Container className='misc text-center py-5'>
+                <h2>BlueSense does not use cookies</h2>
+            </Container>
         </HelmetProvider>
     );
 };

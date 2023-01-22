@@ -18,11 +18,15 @@ import SharingEco from './components/Blog/blog-pages/SharingEco';
 import StartUpTrends22 from './components/Blog/blog-pages/StartUpTrends22';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import ErrorPage from './pages/404';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import CookiePolicy from './pages/CookiePolicy';
 import Home from './pages/Home';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import Services from './pages/Services';
+import Terms from './pages/Terms';
 
 function App() {
     function toText(node) {
@@ -83,6 +87,10 @@ function App() {
                     }
                 />
                 <Route path='/contact' element={<Contact />} />
+                <Route path='/terms-and-conditions' element={<Terms />} />
+                <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+                <Route path='/cookie-policy' element={<CookiePolicy />} />
+                <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
                 <Route

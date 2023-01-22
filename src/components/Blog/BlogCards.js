@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
     Badge,
     Col,
@@ -25,8 +25,10 @@ const BlogCards = ({ toText, shortenText, removeDash }) => {
     const [searchInput, setSearchInput] = useState('');
     const mediumData = blogs.items.slice(0, 11);
     const insights = blogs.items.slice(-5);
+
+    // eslint-disable-next-line
     const filteredData = mediumData.filter((e) => {
-        if (searchInput == '') {
+        if (searchInput === '') {
             return e;
         } else if (
             e.title.toLowerCase().includes(searchInput) ||

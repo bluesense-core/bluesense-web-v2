@@ -161,7 +161,7 @@ const Footer = () => {
                         </a>
 
                         <a
-                            href='#'
+                            href='/'
                             target='_blank'
                             aria-label='Instagram'
                             className='me-3'

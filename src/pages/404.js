@@ -7,16 +7,15 @@ const ErrorPage = () => {
         <HelmetProvider>
             <Helmet>
                 <meta charSet='utf-8' />
-                <title>404 PageNotFounnd</title>
+                <title>Page Not Found</title>
             </Helmet>
-            <Container className='error404'>
+            <Container className='misc text-center'>
                 <h1>404 Page Not Found!</h1>
-                <p>
-                    The page you're looking for does not exist! Click
-                    <Link to='/' className='home-link'>
-                        {' '}
+                <p className='mt-3'>
+                    The page you're looking for does not exist! Click{' '}
+                    <a href='/' className='home-link'>
                         here
-                    </Link>{' '}
+                    </a>{' '}
                     to return to the homepage.
                 </p>
             </Container>
