@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+    Button,
     Container,
     Image,
     Nav,
@@ -65,7 +66,15 @@ const Header = () => {
                                 onSelect={(e) => {
                                     handleActive(e);
                                 }}
-                                className='justify-content-md-between align-items-center'>
+                                className='justify-content-md-between align-items-md-center'>
+                                <Nav.Item className='px-lg-4 px-md-3 d-md-none d-block'>
+                                    <NavLink
+                                        reloadDocument
+                                        onClick={handleClose}
+                                        to='/'>
+                                        Home
+                                    </NavLink>
+                                </Nav.Item>
                                 <Nav.Item className='px-lg-4 px-md-3'>
                                     <NavLink
                                         reloadDocument
@@ -198,7 +207,7 @@ const Header = () => {
                                         Blog
                                     </NavLink>
                                 </Nav.Item>
-                                <Nav.Item className='ps-lg-4 ps-md-3'>
+                                <Nav.Item className='ps-lg-4 ps-md-3 d-md-block d-none'>
                                     <NavLink
                                         reloadDocument
                                         onClick={handleClose}
@@ -207,6 +216,12 @@ const Header = () => {
                                     </NavLink>
                                 </Nav.Item>
                             </Nav>
+                            <Button
+                                as='a'
+                                href='/contact'
+                                className='mt-4 d-md-none d-block contact-btn'>
+                                Contact Us
+                            </Button>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Container>

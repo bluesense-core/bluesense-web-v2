@@ -23,7 +23,7 @@ import Moment from 'react-moment';
 
 const BlogCards = ({ toText, shortenText, removeDash }) => {
     const [searchInput, setSearchInput] = useState('');
-    const mediumData = blogs.items.slice(0, 11);
+    const mediumData = blogs.items.slice(0, -5);
     const insights = blogs.items.slice(-5);
 
     // eslint-disable-next-line

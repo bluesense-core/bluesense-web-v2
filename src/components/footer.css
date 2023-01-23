@@ -7,8 +7,8 @@ footer #footer-top {
 footer #footer-top h5 {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 1rem;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.5rem;
     color: #1f72d1;
 }
 
@@ -17,8 +17,8 @@ footer #footer-top .left {
 }
 
 footer #footer-top .left .address {
-    font-size: 0.875rem;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 1.3125rem;
     color: #000;
 }
 
@@ -28,8 +28,8 @@ footer #footer-top .center {
 
 footer #footer-top .center a {
     text-decoration: none;
-    font-size: 0.875rem;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 1.3125rem;
     color: #0a0a33;
     transition: 300ms;
 }
@@ -42,7 +42,7 @@ footer #footer-top .center a:active {
 }
 
 footer #footer-top .center .icon {
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 footer #footer-top .right {
@@ -51,27 +51,27 @@ footer #footer-top .right {
 
 footer #footer-top .right p {
     color: #0a0a33;
-    font-size: 14px;
-    line-height: 1.3125rem;
+    font-size: 0.875rem;
+    line-height: 21px;
 }
 
 footer #footer-top .right input,
 footer #footer-top .right button {
     font-family: Inter;
-    font-size: 14px;
-    box-shadow: 0rem 0.0625rem 0.125rem rgba(16, 24, 40, 0.05);
-    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
 }
 
 footer #footer-top .right input {
-    border: 0.0625rem solid #d0d5dd;
+    border: 1px solid #d0d5dd;
     color: #667085;
     width: 63%;
 }
 
 footer #footer-top .right button {
     background: #1f72d1;
-    border: 0.0625rem solid #0075ff;
+    border: 1px solid #1f72d1;
     color: #fff;
     transition: 300ms;
 }
@@ -82,7 +82,7 @@ footer #footer-top .right button:focus {
     border-color: #0a0a33;
 }
 
-@media (max-width: 75rem) {
+@media (max-width: 1200px) {
     footer #footer-top .center,
     footer #footer-top .left {
         width: 48%;
@@ -93,7 +93,7 @@ footer #footer-top .right button:focus {
     }
 }
 
-@media (max-width: 62rem) {
+@media (max-width: 992px) {
     footer #footer-top .center {
         width: 68%;
     }
@@ -107,61 +107,78 @@ footer #footer-top .right button:focus {
     }
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 767px) {
+    footer #footer-top .left .address {
+        font-size: 15px;
+        line-height: 1.3125rem;
+        color: #667085;
+    }
     footer #footer-top {
         padding-top: 3em;
     }
 
-    footer #footer-top .center,
-    footer #footer-top .left,
-    footer #footer-top .right {
+    footer #footer-top .left {
         width: 100%;
-        text-align: center;
     }
 
-    footer #footer-top .left img {
-        margin: auto;
+    footer #footer-top .right {
+        width: 100%;
+    }
+
+    footer #footer-top .right p {
+        font-size: 15px;
+        color: #667085;
     }
 
     footer #footer-top .center {
-        text-align: left;
+        width: 100%;
         margin-top: 2em;
     }
 
-    footer #footer-top .center .contact {
-        width: 45%;
+    footer .center .company,
+    footer .center .legal,
+    footer .center .contact {
+        width: 50%;
     }
 
-    footer #footer-top .center .legal {
-        width: 20%;
-    }
-}
-
-@media (max-width: 20.625rem) {
-    footer #footer-top .center {
-        font-size: 0.75rem;
+    footer #footer-top .center a {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #667085;
     }
 
     footer #footer-top .icon {
         display: none;
+    }
+
+    footer #footer-top .right input {
+        width: 100%;
+    }
+
+    footer #footer-bottom .copyright {
+        font-size: 15px;
+        line-height: 24px;
+
+        color: #98a2b3;
     }
 }
 
 /* Footer Bottom */
 footer #footer-bottom {
     padding: 2em 0;
-    border-top: 0.0625rem solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
 }
 
 footer #footer-bottom .copyright {
     color: #4d4d4d;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 footer #footer-bottom .social-icons a {
     color: #000;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 20px;
     transition: 500ms;
 }
 
@@ -171,8 +188,22 @@ footer #footer-bottom .social-icons a:active {
     color: #667085;
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 767px) {
     footer #footer-bottom {
-        padding: 1.5em 0;
+        padding-bottom: 1.5em;
+        padding-top: 0;
+        border: none;
+    }
+
+    footer #footer-bottom .container {
+        border-top: 1px solid #eaecf0;
+        padding-top: 1.5em;
+    }
+
+    footer #footer-top .right button {
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 41px;
+        width: 100%;
     }
 }

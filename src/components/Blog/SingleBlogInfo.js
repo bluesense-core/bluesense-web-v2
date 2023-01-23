@@ -40,7 +40,15 @@ const SingleBlogInfo = ({
                         </a>
 
                         <div className='ms-4'>
-                            <h5 className='mb-3'>{article.title}</h5>
+                            <a
+                                href={
+                                    'https://www.bluesense.co/blog' +
+                                    article.link.slice(28, -44)
+                                }
+                                className='text-decoration-none'>
+                                <h5 className='mb-3'>{article.title}</h5>
+                            </a>
+
                             <p>
                                 By {article.author}{' '}
                                 <span className='mx-1'>.</span>{' '}

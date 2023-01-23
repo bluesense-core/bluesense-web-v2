@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
 
                         <div className='center'>
-                            <Nav className='d-flex justify-content-between align-items-start'>
+                            <Nav className='d-flex justify-content-between align-items-start flex-md-nowrap flex-wrap'>
                                 <div className='company'>
                                     <h5 className='mb-3'>Company</h5>
                                     <Nav.Item className='mb-2'>
@@ -45,7 +45,7 @@ const Footer = () => {
 
                                     <Nav.Item className='mb-2'>
                                         <NavLink reloadDocument to='/services'>
-                                            Core
+                                            Services
                                         </NavLink>
                                     </Nav.Item>
 
@@ -89,7 +89,7 @@ const Footer = () => {
                                     </Nav.Item>
                                 </div>
 
-                                <div className='contact'>
+                                <div className='contact m-md-0 mt-5'>
                                     <h5 className='mb-3'>Contact</h5>
 
                                     <a
@@ -134,7 +134,7 @@ const Footer = () => {
                                     className='py-2 px-3'
                                     id='newsletter-email'
                                 />
-                                <button className='py-2 px-3 ms-md-3 ms-2'>
+                                <button className='py-2 px-3 ms-md-3 ms-0 mt-md-0 mt-3'>
                                     Subscribe
                                 </button>
                             </form>
@@ -144,8 +144,8 @@ const Footer = () => {
             </section>
 
             <section id='footer-bottom'>
-                <Container className='d-flex flex-md-row flex-column-reverse justify-content-between align-items-center'>
-                    <p className='copyright m-0 text-md-start text-center'>
+                <Container className='d-flex flex-md-row flex-column-reverse justify-content-between align-items-md-center'>
+                    <p className='copyright m-0 text-start'>
                         © 2023 BlueSense.Reuben & Company.Lagos.Nigeria.All
                         Rights Reserved
                     </p>
@@ -161,7 +161,7 @@ const Footer = () => {
                         </a>
 
                         <a
-                            href='/'
+                            href='https://www.instagram.com/bluesensehq/'
                             target='_blank'
                             aria-label='Instagram'
                             className='me-3'

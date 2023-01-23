@@ -113,7 +113,7 @@ header .navbar .dropdown-menu {
 }
 
 header #hover-dropdown {
-    margin-bottom: 0.1em;
+    /* margin-bottom: 0.1em; */
     padding: 1.8em 0;
 }
 
@@ -131,24 +131,24 @@ header .navbar .navbar-brand:active {
     .offcanvas .offcanvas-body #header-nav .nav-link,
     .offcanvas .offcanvas-body #header-nav a {
         text-decoration: none;
-        color: #667085;
         transition: 300ms;
         padding: 1em 0;
         display: block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717d8a;
+        text-align: left;
     }
 
     .offcanvas .offcanvas-body #header-nav a:hover,
     .offcanvas .offcanvas-body #header-nav a:focus,
     .offcanvas .offcanvas-body #header-nav a:active {
-        border-top: 5px solid #0075ff;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-        color: #0075ff;
+        color: #292929;
     }
 
     .offcanvas .offcanvas-body #header-nav > .nav-link {
-        color: #0075ff;
+        color: #292929;
     }
 
     .offcanvas .offcanvas-body #header-nav .dropdown-menu {
@@ -195,12 +195,40 @@ header .navbar .navbar-brand:active {
         border: none;
     }
 
-    .offcanvas .offcanvas-body {
-        text-align: center;
-    }
-
     .offcanvas .offcanvas-body #header-nav .dropdown-menu a:hover a {
         color: #0a0a33;
         background-color: transparent;
+    }
+
+    header .navbar-toggler-icon {
+        background-image: url(../assets/images/toggler.svg);
+        width: 24px;
+        height: 24px;
+    }
+
+    .offcanvas .btn-close {
+        width: 24px;
+        height: 24px;
+    }
+
+    .offcanvas .contact-btn {
+        padding: 12px 0;
+        border-radius: 20px;
+        background-color: #0075ff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.05px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        padding: 1.05rem 0;
+    }
+    /* Logo */
+    header .header-logo,
+    .offcanvas .header-logo {
+        width: 110px;
     }
 }
