@@ -6,10 +6,10 @@ import { Container, Image } from 'react-bootstrap';
 const Simplify = () => {
     return (
         <section className='simplify'>
-            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-start'>
+            <Container className='d-flex flex-lg-row flex-column-reverse justify-content-between align-items-start'>
                 <Image
                     src={challenge}
-                    className='d-block m-lg-0 mx-auto mb-3'
+                    className='d-block m-lg-0 mx-auto mt-5'
                 />
 
                 <div className='details'>

@@ -26,6 +26,18 @@
     }
 }
 
+@media (max-width: 767px) {
+    #about .company img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    #about .company {
+        padding: 3em 0;
+    }
+}
+
 #about .company .details .blue {
     width: 22px;
     height: 7px;
@@ -51,4 +63,20 @@
     font-size: 18px;
     line-height: 27px;
     color: #444549;
+}
+
+@media (max-width: 425px) {
+    #about .company .details h2 {
+        font-weight: 600;
+        font-size: 24px;
+        color: #101828;
+        margin-bottom: 24px;
+    }
+
+    #about .company .details p,
+    #about .company .details ul {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
 }

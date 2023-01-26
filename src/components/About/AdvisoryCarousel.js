@@ -20,7 +20,7 @@ const AdvisoryCarousel = ({ code, show, hide }) => {
                         <Image
                             src={olaleyeBig}
                             alt='Andrew Olaleye'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -60,7 +60,7 @@ const AdvisoryCarousel = ({ code, show, hide }) => {
                         <Image
                             src={nadayarBig}
                             alt='Nadayar Enegesi'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -99,7 +99,7 @@ const AdvisoryCarousel = ({ code, show, hide }) => {
                         <Image
                             src={andrewBig}
                             alt='Andrew Garza'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -139,7 +139,7 @@ const AdvisoryCarousel = ({ code, show, hide }) => {
                         <Image
                             src={lisaBig}
                             alt='Lisa Satolli'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>

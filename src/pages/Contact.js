@@ -123,7 +123,7 @@ const Contact = () => {
 
                         <Button
                             type='submit'
-                            className='d-block rounded-pill py-2 ms-auto'>
+                            className='d-block rounded-pill py-sm-2 py-3 ms-sm-auto'>
                             Send
                         </Button>
                     </Form>

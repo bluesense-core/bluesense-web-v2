@@ -6,7 +6,7 @@ const OurHistory = () => {
     return (
         <section className='history'>
             <Container>
-                <Row className='gx-md-4 gy-5'>
+                <Row className='gx-md-4 gy-sm-5'>
                     <Col md='4'>
                         <h2>
                             Our <span>history</span>

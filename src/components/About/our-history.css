@@ -25,3 +25,31 @@
     line-height: 27px;
     color: #444549;
 }
+
+@media (max-width: 575px) {
+    #about .history {
+        padding-top: 5em;
+    }
+
+    #about .history .container {
+        padding-bottom: 2.5em;
+    }
+
+    #about .history h2 {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    #about .history h2 {
+        font-weight: 600;
+        font-size: 24px;
+        color: #101828;
+    }
+
+    #about .history p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
+}

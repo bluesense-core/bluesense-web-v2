@@ -42,7 +42,7 @@ const BlogCards = ({ toText, shortenText, removeDash }) => {
     });
 
     return (
-        <Container className='main-cards'>
+        <Container className='main-cards d-lg-block d-none'>
             <Row className=''>
                 <Col lg={7} id='left'>
                     {Object.keys(filteredData).length === 0 ? (
@@ -158,7 +158,7 @@ const BlogCards = ({ toText, shortenText, removeDash }) => {
                     )}
                 </Col>
 
-                <Col lg={4} id='right' className='ms-auto'>
+                <Col lg={4} id='right' className='ms-auto d-lg-block d-none'>
                     <InputGroup className=''>
                         <InputGroup.Text
                             id=''

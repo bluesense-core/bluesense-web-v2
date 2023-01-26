@@ -30,7 +30,7 @@
 }
 
 #home .home-about #numbers .data h3 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 41px;
     line-height: 62px;
@@ -43,7 +43,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
-    color: #667085;
+    color: #444549;
 }
 
 #home .home-about #numbers .data .box {
@@ -87,32 +87,50 @@
 
 @media (max-width: 991px) {
     #home .home-about #numbers .data {
-        width: 31%;
+        width: 33%;
         background-size: contain;
     }
 }
 
 @media (max-width: 767px) {
-    #home .home-about #numbers .data1 {
-        width: 100%;
+    #home .home-about #numbers .data h3 {
+        font-size: 30px;
+        line-height: 42px;
     }
 
-    #home .home-about #numbers .data2 {
-        width: 45%;
-        margin-bottom: 0;
-    }
-
-    #home .home-about #numbers .data3 {
-        width: 45%;
-    }
-
-    #home .home-about #numbers h2 {
-        font-size: 2.8rem;
+    #home .home-about #numbers .data p {
+        margin-top: 0;
     }
 }
 
-@media (max-width: 500px) {
-    #home .home-about #numbers .data {
-        width: 100%;
+@media (max-width: 575px) {
+    #home .home-about #numbers .data h3 {
+        font-size: 24px;
+    }
+
+    #home .home-about #numbers .data p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    #home .home-about #numbers .data h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0a0a33;
+    }
+
+    #home .home-about #numbers .data p {
+        margin-top: 0.5em;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    #home .home-about #numbers h2 {
+        font-weight: 600;
+        font-size: 32px;
+        color: #101828;
     }
 }

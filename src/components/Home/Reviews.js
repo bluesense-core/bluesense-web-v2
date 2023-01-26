@@ -34,7 +34,7 @@ const HomeReviews = () => {
                             <h3>
                                 Andrew Garza
                                 <br />
-                                Lifestores Pharmacy, Cofounder + COO
+                                <span>Lifestores Pharmacy, Cofounder + COO</span>
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -59,7 +59,7 @@ const HomeReviews = () => {
                             <h3>
                                 Tonye Membere-Otaji
                                 <br />
-                                MVXChange, Founder + CEO
+                                <span>MVXChange, Founder + CEO</span>
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -86,7 +86,7 @@ const HomeReviews = () => {
                             <h3>
                                 James Adeniji PhD
                                 <br />
-                                University of Leeds
+                                <span>University of Leeds</span>
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>

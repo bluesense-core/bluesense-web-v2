@@ -25,7 +25,6 @@
 }
 
 #home #home-cases .nav-tabs .nav-link {
-    font-family: 'Poppins', sans-serif;
     padding-bottom: 2rem;
     border-bottom: 2px solid #e9ebf0;
     border-top-left-radius: 0;
@@ -54,7 +53,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 23px;
-    color: #373F47;
+    color: #444549;
 }
 
 #home #home-cases img {
@@ -72,14 +71,39 @@
     }
 }
 
-@media (max-width: 767px) {
-    #home #home-cases h2 {
-        font-size: 2.8rem;
+@media (max-width: 575px) {
+    #home #home-cases {
+        padding: 4em 0;
     }
 }
 
 @media (max-width: 600px)   {
     #home #home-cases .tab-content {
         padding-top: 2em;
+    }
+}
+
+@media (max-width: 425px) {
+    #home #home-cases h2 {
+        font-weight: 600;
+font-size: 32px;
+    }
+
+    #home #home-cases .nav-tabs .nav-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #292929;
+    
+    }
+    
+    #home #home-cases p {
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
+
+    #home #home-cases .nav-tabs {
+        padding-top: 2rem;
     }
 }

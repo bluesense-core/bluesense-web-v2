@@ -58,7 +58,7 @@ const HomeAbout = () => {
                 </section>
 
                 <section id='core'>
-                    <h2 className='mb-4'>
+                    <h2 className='mb-sm-4 mb-3'>
                         Our core <br className='d-lg-block d-none' />{' '}
                         <span>competencies</span>
                     </h2>
@@ -68,7 +68,7 @@ const HomeAbout = () => {
                         offer the most effective solutions to help your company.
                     </p>
 
-                    <div className='py-4 d-flex flex-md-row flex-column-reverse justify-content-between align-items-center'>
+                    <div className='py-4 d-md-flex  d-none justify-content-between align-items-center'>
                         <Accordion
                             className='mt-md-0 mt-5'
                             defaultActiveKey='2'
@@ -131,17 +131,63 @@ const HomeAbout = () => {
                             />
                         </div>
                     </div>
+
+                    <div className='py-5 d-block d-md-none extra'>
+                        <div className='mb-5'>
+                            <Image src={Graph} alt='Graph' className='mb-4' />
+                            <h3 className='mb-sm-3 mb-2'>Strategy</h3>
+                            <p className='mb-0'>
+                                As a consulting firm, we work with organizations
+                                like yours to plan for sustainable growth by
+                                identifying the issues unique to your company +
+                                develop a plan to help you attain your set goal.
+                                Our advice is based on a deep understanding of
+                                the stages of company growth from infertile
+                                through to maturity and diversification.
+                            </p>
+                        </div>
+                        <div className='mb-5'>
+                            <Image src={Bulb} alt='Bulb' className='mb-4' />
+                            <h3 className='mb-sm-3 mb-2'>Learning</h3>
+                            <p className='mb-0'>
+                                {' '}
+                                At BlueSense, we work with our clients to build
+                                + up-skill team capabilities and skills at every
+                                level and every opportunity. We do this to help
+                                build internal support, get to real issues, and
+                                reach practical recommendations. We bring out
+                                the capabilities of clients to fully participate
+                                in the process and lead the ongoing work.
+                            </p>
+                        </div>
+                        <div className=''>
+                            <Image src={Brain} alt='Brain' className='mb-4' />
+                            <h3 className='mb-sm-3 mb-2'>Advisory</h3>
+                            <p className='mb-0'>
+                                {' '}
+                                Founders are arguably the most important group
+                                in an organisation. They usually have the most
+                                overt power and their decisions have
+                                implications for the entire organisation; yet
+                                the founding/executive team is often poorly
+                                resourced to accomplish its tasks. Our advisory
+                                services creates a space for executives +
+                                founders alike to get replenished for their task
+                                ahead.
+                            </p>
+                        </div>
+                    </div>
                 </section>
 
                 <section
                     id='clients'
-                    className='d-flex flex-md-row flex-column justify-content-between align-items-start'>
+                    className='d-flex flex-lg-row flex-column justify-content-between align-items-start'>
                     <h2>
                         How we help our <br className='d-lg-block d-none' />
                         <span>clients</span>
                     </h2>
 
-                    <div className='client-text pt-3 mt-md-0 mt-5'>
+                    <div className='client-text pt-sm-3 pt-2 mt-lg-0 mt-sm-5 mt-4'>
                         <p>
                             We support organisations through a detailed
                             diagnostic-approach; researching organisational
@@ -157,7 +203,7 @@ const HomeAbout = () => {
                 <section
                     id='numbers'
                     className='d-flex flex-xl-row flex-column-reverse justify-content-between align-items-center'>
-                    <div className='datas mt-lg-0 mt-3 d-flex flex-md-nowrap flex-wrap justify-content-between align-items-center'>
+                    <div className='datas mt-lg-0 mt-sm-3 d-flex flex-md-nowrap flex-wrap justify-content-between align-items-center'>
                         <div className='data data1'>
                             <span className='ms-xl-5 ms-0'>
                                 <h3>$100M+</h3>

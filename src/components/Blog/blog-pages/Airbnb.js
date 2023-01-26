@@ -53,7 +53,7 @@ const Airbnb = ({
                 />
             </Helmet>
             <Container className='single-blog container-lg-fluid'>
-                <div className='details d-flex align-items-center'>
+                <div className='details d-sm-flex d-none align-items-center'>
                     <Image
                         src='https://cdn-images-1.medium.com/fit/c/1024/1024/1*MUMDr9g1cY4wVG63MMljvw.jpeg'
                         alt={finalBlog.author}
@@ -75,7 +75,32 @@ const Airbnb = ({
                         </p>
                     </div>
                 </div>
+
+                <div className='info-time d-sm-none d-block'>
+                    <p className='m-0 d-flex align-items-center '>
+                        <span className='me-1'>
+                            <Moment format='D MMM YYYY'>
+                                {finalBlog.pubDate}
+                            </Moment>
+                        </span>{' '}
+                        <span className='mb-2 mx-1'>.</span>{' '}
+                        <span className='ms-1'>
+                            {finalBlog.readTime} min read
+                        </span>
+                    </p>
+                </div>
                 <h1>{finalBlog.title}</h1>
+                <div className='details d-sm-none d-flex align-items-center'>
+                    <Image
+                        src='https://cdn-images-1.medium.com/fit/c/1024/1024/1*MUMDr9g1cY4wVG63MMljvw.jpeg'
+                        alt={finalBlog.author}
+                        className='author-img'
+                        fluid
+                    />
+                    <div className='ms-2'>
+                        <h4 className='mb-1'>{finalBlog.author}</h4>
+                    </div>
+                </div>
 
                 <div
                     id='main-content'

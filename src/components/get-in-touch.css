@@ -106,3 +106,35 @@
         line-height: 45px;
     }
 }
+
+@media (max-width: 575px) {
+    #getInTouch {
+        text-align: left;
+        padding: 4rem 0;
+    }
+    #getInTouch button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    #getInTouch {
+        padding: 2rem 0;
+    }
+    #getInTouch button {
+        width: 100%;
+    }
+
+    #getInTouch h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #getInTouch p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #444549;
+    }
+}

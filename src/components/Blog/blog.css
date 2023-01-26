@@ -80,11 +80,11 @@
     object-position: center;
 }
 
-#blog #right .input-group {
+#blog .input-group {
     margin-bottom: 39px;
 }
 
-#blog #right .search-icon {
+#blog .search-icon {
     padding: 12px 15px;
     border-top-left-radius: 50rem;
     border-bottom-left-radius: 50rem;
@@ -92,12 +92,12 @@
     border: none;
 }
 
-#blog #right .search-icon .search {
+#blog .search-icon .search {
     font-size: 18px;
     color: rgba(117, 117, 117, 1);
 }
 
-#blog #right input {
+#blog input {
     border-top-right-radius: 50rem;
     border-bottom-right-radius: 50rem;
     background: #fafafa;
@@ -105,7 +105,7 @@
     font-size: 15px;
 }
 
-#blog #right input::placeholder {
+#blog input::placeholder {
     font-weight: 400;
     font-size: 15px;
     color: #757575;
@@ -131,8 +131,9 @@
 }
 
 #blog #right .insights .details .author-img {
-    width: 40px;
+    width: 50px;
     border-radius: 50px;
+    border: 1px solid #f1f0f0;
 }
 
 #blog #right .insights h3,
@@ -152,4 +153,119 @@
 
 #blog .main-cards .no-blog {
     font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    #blog #mobile h3 {
+        font-weight: 600;
+        color: #292929;
+        margin-bottom: 32px;
+    }
+
+    #blog .blog-cards .img-div {
+        border-radius: 0;
+        margin-bottom: 32px;
+    }
+
+    #blog .blog-cards img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #blog #mobile .title {
+        margin-bottom: 12px;
+        margin-top: 24px;
+    }
+
+    #blog .blog-cards p {
+        margin-bottom: 12px;
+    }
+
+    #blog .paginate button {
+        border: none;
+        background-color: #ffffff;
+        font-size: 32px;
+        color: #667085;
+    }
+
+    #blog .paginate p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #344054;
+    }
+}
+
+@media (max-width: 575px) {
+    #blog .blog-cards {
+        border: none;
+        margin-bottom: 48px;
+    }
+
+    #blog .paginate {
+        border-top: 1px solid #eaecf0;
+    }
+
+    #blog .hero p {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    #blog .main-cards {
+        padding-top: 4em;
+    }
+
+    #blog .hero {
+        padding-top: 8em;
+        padding-bottom: 6em;
+        background-position: top;
+    }
+
+    #blog .hero h1 {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+    }
+
+    #blog .hero p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #blog .search-icon {
+        padding: 16px 20px;
+        padding-right: 10px;
+    }
+
+    #blog input::placeholder {
+        font-size: 16px;
+        color: #667085;
+    }
+
+    #blog #mobile h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #blog .blog-cards .badge {
+        font-size: 14px;
+    }
+
+    #blog #mobile .title {
+        line-height: 30px;
+    }
+
+    #blog .blog-cards .details p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #717d8a;
+    }
+
+    #blog .paginate p {
+        font-size: 14px;
+    }
+
+    #blog .paginate button {
+        font-size: 28px;
+    }
 }

@@ -25,7 +25,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
-    color: #667085;
+    color: #444549;
 }
 
 #home .home-about #mission .circles {
@@ -65,11 +65,10 @@
 #home .home-about #mission .circles p {
     margin-top: 1.5em;
     margin-bottom: 0;
-
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
-    color: #6a6a85;
+    color: #444549;
 }
 
 @media (max-width: 1399px) {
@@ -161,12 +160,21 @@
         padding-bottom: 2em;
     }
 }
-
-@media (max-width: 500px) {
-    #home .home-about #mission {
-        text-align: center;
+@media (max-width: 575px) {
+    #home .home-about {
+        padding-top: 5em;
     }
 
+    #home .home-about #mission .circles h4 {
+        margin-bottom: 16px;
+    }
+
+    #home .home-about #mission .circles p {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
     #home .home-about #mission .circle {
         width: 100%;
         height: 350px;
@@ -180,26 +188,46 @@
     #home .home-about #mission {
         padding-bottom: 22em;
     }
+}
+
+@media (max-width: 425px) {
+    #home .home-about #mission h2 {
+        font-weight: 600;
+        font-size: 32px;
+        color: #101828;
+    }
+
+    #home .home-about #mission p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
 
     #home .home-about #mission .circles h4 {
-        margin-bottom: 0.25em;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
     }
 
     #home .home-about #mission .circles p {
-        margin-top: 0.25em;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    #home .home-about #mission .circle {
+        width: 75%;
+        height: 250px;
+    }
+
+    #home .home-about #mission #circle-2 {
+        left: 12%;
+        top: 82%;
     }
 }
 
 @media (max-width: 374px) {
-    #home .home-about #mission .circle {
-        height: 400px;
-    }
-
     #home .home-about #mission #circle-2 {
-        top: 88%;
-    }
-
-    #home .home-about #mission {
-        padding-bottom: 24em;
+        top: 85%;
     }
 }

@@ -8,7 +8,7 @@ const Vision = () => {
             <Container className=''>
                 <Row className='gx-md-4'>
                     <Col md={4}>
-                        <h2 className='mb-lg-0 mb-5'>
+                        <h2 className='mb-lg-0 mb-sm-5'>
                             Our <span>vision</span>
                         </h2>
                     </Col>

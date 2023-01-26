@@ -6,7 +6,7 @@ import './our-company.css';
 const OurCompany = () => {
     return (
         <section className='company'>
-            <Container className='d-flex flex-lg-row flex-column-reverse justify-content-between align-items-xl-start'>
+            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-xl-start'>
                 <div className='details'>
                     <div className='blue mb-3'></div>
                     <h2>
@@ -42,7 +42,7 @@ const OurCompany = () => {
                     </ul>
                 </div>
 
-                <Image src={building} className='d-block m-lg-0 mx-auto mb-3' />
+                <Image src={building} className='d-block m-lg-0 mx-auto mt-5' />
             </Container>
         </section>
     );

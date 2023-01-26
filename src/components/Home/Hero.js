@@ -16,10 +16,10 @@ const HomeHero = () => {
     return (
         <section className='home-hero'>
             <Container className='text-center'>
-                <h1 className='mb-4'>
+                <h1 className='mb-sm-4 mb-3'>
                     A simpler way to <span>grow</span> your company
                 </h1>
-                <p className='subtitle mb-4'>
+                <p className='subtitle mb-sm-4 mb-5'>
                     Tailored connections to select VC’S and Angels to get you
                     investment oppourtunities
                 </p>
@@ -37,50 +37,44 @@ const HomeHero = () => {
                     alt='illustration'
                     fluid
                 />
-                <p className='business mb-5 text-start'>
+                <p className='business mb-sm-5 mb-4 text-start'>
                     Businesses of all sizes trust us
                 </p>
-                <Row className='pt-5 pb-4 gy-5 comp-logos'>
+                <Row className='pt-sm-5 pt-3 pb-4 gy-5 comp-logos'>
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-md-start justify-content-center align-items-center'>
                         <Image src={Payhippo} alt='Payhippo Logo' />
                     </Col>
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-md-center justify-content-center  align-items-center'>
                         <Image src={Hugo} alt='Hugo Logo' className='me-xl-5' />
                     </Col>
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-center  align-items-center'>
                         <Image src={Hash} alt='Hash Logo' className='ms-xl-5' />
                     </Col>
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-end justify-content-center align-items-center'>
                         <Image src={Mede} alt='Mede Logo' />
                     </Col>
 
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-md-start justify-content-center align-items-center'>
                         <Image src={Icrc} alt='ICRC Logo' />
                     </Col>
                     <Col
                         md={3}
-                        sm={4}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-center  align-items-center'>
                         <Image
                             src={Lifestores}
@@ -90,7 +84,7 @@ const HomeHero = () => {
                     </Col>
                     <Col
                         md={3}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-center align-items-center'>
                         <Image
                             src={Ease}
@@ -100,7 +94,7 @@ const HomeHero = () => {
                     </Col>
                     <Col
                         md={3}
-                        xs={6}
+                        xs={3}
                         className='d-flex justify-content-md-end justify-content-center align-items-center'>
                         <Image src={Leeds} alt='Leeds Logo' />
                     </Col>

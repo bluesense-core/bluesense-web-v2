@@ -22,7 +22,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                         <Image
                             src={christianBig}
                             alt='Christian Reuben'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -61,7 +61,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                         <Image
                             src={abiyeBig}
                             alt='Abiye Levy-Braide'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -99,7 +99,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                         <Image
                             src={ololadeBig}
                             alt='Ololade Olanipekun'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
@@ -138,7 +138,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                         <Image
                             src={jamesBig}
                             alt='James Adeniji PhD'
-                            className='profile m-lg-0 me-auto'
+                            className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>

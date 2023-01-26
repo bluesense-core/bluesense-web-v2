@@ -45,6 +45,7 @@
     #amc .modal-body .carousel-caption {
         width: 100%;
         padding-right: 0px;
+        padding-bottom: 0;
     }
 }
 
@@ -102,4 +103,55 @@
 #amc .modal-body .carousel-dark .carousel-control-next-icon,
 #amc .modal-body .carousel-dark .carousel-control-prev-icon {
     filter: none;
+}
+
+@media (max-width: 991px) {
+    #amc .modal-header .btn-close {
+        border: none;
+    }
+
+    #amc .modal-header {
+        padding: 45px 32px;
+    }
+
+    #amc .modal-body {
+        padding: 0 37px;
+        padding-bottom: 31px;
+    }
+
+    #amc .modal-footer {
+        padding: 0 37px;
+    }
+
+    #amc .modal-body .profile {
+        width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    #amc .modal-body .profile {
+        width: 80%;
+    }
+
+    #amc .modal-body .carousel-caption h2 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    #amc .modal-body .carousel-caption .title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #amc .modal-body .carousel-caption .links a {
+        font-size: 24px;
+    }
+
+    #amc .modal-body .carousel-caption .desc {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        color: #242d35;
+    }
 }

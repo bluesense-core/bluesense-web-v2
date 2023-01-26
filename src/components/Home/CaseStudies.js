@@ -23,7 +23,7 @@ const HomeCaseStudies = () => {
                             </span>
                         }>
                         <div className='d-flex flex-lg-row flex-column-reverse justify-content-between align-items-center'>
-                            <p className='mt-lg-0 mt-5'>
+                            <p className='mt-lg-0 mt-sm-5'>
                                 Hash Vest is a US based fintech that allows
                                 immigrant communities in the US, invest in their
                                 local stock market back in their home countries.
@@ -63,13 +63,18 @@ const HomeCaseStudies = () => {
                                 We added ₦100M value to the company’s
                                 bottomline.
                             </p>
-                            <Image src={Hash} alt='Hash Logo' fluid />
+                            <Image
+                                src={Hash}
+                                alt='Hash Logo'
+                                fluid
+                                className='d-sm-block d-none'
+                            />
                         </div>
                     </Tab>
 
                     <Tab eventKey='mvx' title='MVX'>
                         <div className='d-flex flex-lg-row flex-column-reverse justify-content-between align-items-center'>
-                            <p className='mt-lg-0 mt-5'>
+                            <p className='mt-lg-0 mt-sm-5'>
                                 MVX is a platform that allows users hire
                                 vessels, barges + ships for long term use / the
                                 transportation of cargo across Atlantic waters.
@@ -98,7 +103,12 @@ const HomeCaseStudies = () => {
                                 <br />
                                 We added ₦5M value to the company’s bottomline.
                             </p>
-                            <Image src={MVX} alt='MVX Logo' fluid />
+                            <Image
+                                src={MVX}
+                                alt='MVX Logo'
+                                fluid
+                                className='d-sm-block d-none'
+                            />
                         </div>
                     </Tab>
 
@@ -113,7 +123,7 @@ const HomeCaseStudies = () => {
                             </span>
                         }>
                         <div className='d-flex flex-lg-row flex-column-reverse justify-content-between align-items-center'>
-                            <p className='mt-lg-0 mt-5'>
+                            <p className='mt-lg-0 mt-sm-5'>
                                 In March 2017 we started a project for a company
                                 that needed to setup operations in Nigeria. The
                                 essence of the company was to build a data-entry
@@ -141,7 +151,12 @@ const HomeCaseStudies = () => {
                                 We added ₦5.2b value to the company’s
                                 bottomline.
                             </p>
-                            <Image src={Hugo} alt='Hugo Logo' fluid />
+                            <Image
+                                src={Hugo}
+                                alt='Hugo Logo'
+                                fluid
+                                className='d-sm-block d-none'
+                            />
                         </div>
                     </Tab>
                 </Tabs>

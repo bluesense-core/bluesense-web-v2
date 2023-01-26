@@ -54,7 +54,7 @@ const MeetTheTeam = () => {
                                         getIDOfPartners(e);
                                         handleShowPartners();
                                     }}
-                                    className='h-100 py-5 px-md-3 px-2 text-center'>
+                                    className='h-100 py-sm-5 py-4 px-md-3 px-2 text-center'>
                                     <Card.Img
                                         variant='top'
                                         src={item.thumbnail}
@@ -81,7 +81,7 @@ const MeetTheTeam = () => {
                                         getIDOfAdvisory(e);
                                         handleShowAdvisory();
                                     }}
-                                    className='h-100 py-5 px-md-3 px-2 text-center'>
+                                    className='h-100 py-sm-5 py-4 px-md-3 px-2 text-center'>
                                     <Card.Img
                                         variant='top'
                                         src={item.thumbnail}
