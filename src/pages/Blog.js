@@ -99,7 +99,7 @@ const Blog = ({ toText, shortenText, removeDash }) => {
                     filteredData={filteredData}
                 />
 
-                <Container className='paginate d-flex justify-content-between align-items-center'>
+                <Container className='paginate d-lg-none d-flex justify-content-between align-items-center'>
                     <Button onClick={prevPage}>
                         <BsArrowLeftShort className='arrow' />
                     </Button>
