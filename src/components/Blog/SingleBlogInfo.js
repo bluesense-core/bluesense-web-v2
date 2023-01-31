@@ -27,54 +27,57 @@ const SingleBlogInfo = ({
                 className='insight'>
                 <h3>Discover more insights</h3>
                 {shuffledData.map((article) => (
-                    <div
+                    <a
                         key={article.id}
-                        className='d-flex flex-md-row flex-column align-items-md-center mb-4'>
-                        <a
-                            href={'/blog' + article.link.slice(28, -44)}
-                            className='text-decoration-none'>
+                        href={'/blog' + article.link.slice(28, -44)}
+                        className='text-decoration-none'>
+                        <div className='d-flex flex-md-row flex-column align-items-md-center mb-4'>
                             <Image
                                 src={article.thumbnail}
                                 alt={article.title}
                             />
-                        </a>
 
-                        <div className='ms-md-4'>
-                            <Badge
-                                className='d-md-none d-inline-block rounded-pill'
-                                bg='auto'>
-                                {article.leadTag}
-                            </Badge>
-                            <a
-                                href={'/blog' + article.link.slice(28, -44)}
-                                className='text-decoration-none'>
-                                <h5 className='mb-3'>{article.title}</h5>
-                            </a>
+                            <div className='ms-md-4'>
+                                <Badge
+                                    className='d-md-none d-inline-block rounded-pill'
+                                    bg='auto'>
+                                    {article.leadTag}
+                                </Badge>
+                                <a
+                                    href={'/blog' + article.link.slice(28, -44)}
+                                    className='text-decoration-none'>
+                                    <h5 className='mb-3'>{article.title}</h5>
+                                </a>
 
-                            <p className='desc mt-2 mb-3 d-md-none d-block'>
-                                {shortenText(toText(article.content), 0, 180)}
-                                ...
-                            </p>
+                                <p className='desc mt-2 mb-3 d-md-none d-block'>
+                                    {shortenText(
+                                        toText(article.content),
+                                        0,
+                                        180
+                                    )}
+                                    ...
+                                </p>
 
-                            <p className='info'>
-                                <span className='d-none d-md-inline'>
-                                    By {article.author}{' '}
-                                    <span className='mx-1'>.</span>{' '}
-                                    <Moment format='D MMM YYYY'>
-                                        {article.pubDate}
-                                    </Moment>
-                                </span>
+                                <p className='info'>
+                                    <span className='d-none d-md-inline'>
+                                        By {article.author}{' '}
+                                        <span className='mx-1'>.</span>{' '}
+                                        <Moment format='D MMM YYYY'>
+                                            {article.pubDate}
+                                        </Moment>
+                                    </span>
 
-                                <span className='d-md-none d-flex align-items-center mb-5'>
-                                    <Moment format='D MMM YYYY'>
-                                        {article.pubDate}
-                                    </Moment>
-                                    <span className='mx-2 mb-2'>.</span>{' '}
-                                    {article.readTime} min read
-                                </span>
-                            </p>
+                                    <span className='d-md-none d-flex align-items-center mb-5'>
+                                        <Moment format='D MMM YYYY'>
+                                            {article.pubDate}
+                                        </Moment>
+                                        <span className='mx-2 mb-2'>.</span>{' '}
+                                        {article.readTime} min read
+                                    </span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 ))}
             </Col>
             <Col

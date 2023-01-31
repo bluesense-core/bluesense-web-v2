@@ -32,7 +32,7 @@ const Services = () => {
                 <main id='services' className=''>
                     <article
                         id='fundraising'
-                        className=' d-flex flex-lg-row flex-column justify-content-between align-items-stretch'>
+                        className=' d-flex flex-lg-row flex-column justify-content-between   align-items-xl-start align-items-center'>
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
                             <h2 className=''>Fundraising</h2>
@@ -57,13 +57,27 @@ const Services = () => {
                             </p>
                         </div>
 
-                        <Image src={fund} alt='' className='m-lg-0 mx-auto' />
+                        <div className='img-div'>
+                            <Image
+                                src={fund}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
                     </article>
 
                     <article
                         id='analytics'
-                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between align-items-stretch'>
-                        <Image src={aly} alt='' className='m-lg-0 mx-auto' />
+                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='img-div'>
+                            <Image
+                                src={aly}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
 
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
@@ -96,7 +110,7 @@ const Services = () => {
 
                     <article
                         id='strategy'
-                        className=' d-flex flex-lg-row flex-column  justify-content-between align-items-stretch'>
+                        className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
                             <h2 className=''>Strategy</h2>
@@ -122,13 +136,27 @@ const Services = () => {
                             </p>
                         </div>
 
-                        <Image src={stra} alt='' className='m-lg-0 mx-auto' />
+                        <div className='img-div'>
+                            <Image
+                                src={stra}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
                     </article>
 
                     <article
                         id='advisory'
-                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between align-items-stretch'>
-                        <Image src={adv} alt='' className='m-lg-0 mx-auto' />
+                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='img-div'>
+                            <Image
+                                src={adv}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
 
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
@@ -156,7 +184,7 @@ const Services = () => {
                     </article>
                     <article
                         id='learning'
-                        className=' d-flex flex-lg-row flex-column  justify-content-between align-items-stretch'>
+                        className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
                             <h2 className=''>Learning</h2>
@@ -208,7 +236,14 @@ const Services = () => {
                             </p>
                         </div>
 
-                        <Image src={learn} alt='' className='m-lg-0 mx-auto' />
+                        <div className='img-div'>
+                            <Image
+                                src={learn}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
                     </article>
                 </main>
             </Container>
