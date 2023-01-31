@@ -27,11 +27,16 @@
 }
 
 #home #home-reviews .carousel h3 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     color: #0c1116;
     margin-top: 1.5em;
+}
+
+#home #home-reviews .carousel h3 span {
+    font-weight: 400;
+    color: #4f5b67;
 }
 #home #home-reviews .carousel img {
     max-width: 100%;

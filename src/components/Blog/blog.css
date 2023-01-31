@@ -25,6 +25,10 @@
     padding-top: 5em;
 }
 
+#blog .blog-links {
+    text-decoration: none;
+}
+
 #blog .blog-cards {
     padding-bottom: 42px;
     margin-bottom: 61px;
@@ -111,7 +115,16 @@
     color: #757575;
 }
 
+#blog input:focus,
+#blog input:focus:focus-visible {
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+    box-shadow: none;
+}
+
 #blog #right p {
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -123,32 +136,46 @@
     margin-bottom: 48px;
 }
 
-#blog #right .insights .details p {
+#blog #right a {
+    text-decoration: none;
+}
+
+#blog #right .insights .author {
+    font-family: Inter;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
     color: #292929;
 }
 
 #blog #right .insights .details .author-img {
-    width: 50px;
+    width: 25px;
     border-radius: 50px;
     border: 1px solid #f1f0f0;
 }
 
-#blog #right .insights h3,
-#blog #right .insights h3 a {
+#blog #right .insights h3 {
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 23px;
     color: #292929;
 }
 
 #blog #right .insights .main-img {
-    border-radius: 4px;
-    object-fit: contain;
+    width: 90%;
+    height: 75px;
+    border-radius: 2px;
+    object-fit: cover;
     object-position: center;
+}
+
+@media (max-width: 1199px) {
+    #blog #right .insights .main-img {
+        width: 100%;
+        height: 50px;
+        object-fit: contain;
+    }
 }
 
 #blog .main-cards .no-blog {
@@ -181,7 +208,8 @@
         margin-bottom: 12px;
     }
 
-    #blog .paginate button {
+    #blog .paginate a {
+        text-decoration: none;
         border: none;
         background-color: #ffffff;
         font-size: 32px;
@@ -265,7 +293,7 @@
         font-size: 14px;
     }
 
-    #blog .paginate button {
+    #blog .paginate a {
         font-size: 28px;
     }
 }

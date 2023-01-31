@@ -69,6 +69,12 @@
     border-bottom: 0.0625rem solid rgba(0, 117, 255, 0.44);
 }
 
+.accordion-button:focus,
+.accordion-button:focus-visible {
+    border-color: transparent;
+    box-shadow: none;
+}
+
 @media (max-width: 47.9375rem) {
     #home .home-about #core .extra img {
         width: 35%;

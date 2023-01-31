@@ -36,7 +36,7 @@ const MeetTheTeam = () => {
     };
 
     return (
-        <section className='team pt-5'>
+        <section id='team' className='team pt-5'>
             <Container>
                 <div className='blue mb-3'></div>
                 <h2>

@@ -11,7 +11,7 @@ import {
 import './header.css';
 import Logo from '../assets/images/logo.svg';
 import { NavLink } from 'react-router-dom';
-import { NavHashLink } from 'react-router-hash-link';
+import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -191,14 +191,14 @@ const Header = () => {
                                         </NavHashLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                {/* <Nav.Item className='px-lg-4 px-md-3'>
-                                    <NavLink
-                                        reloadDocument
+                                <Nav.Item className='team-link px-lg-4 px-md-3'>
+                                    <HashLink
+                                        smooth
                                         onClick={handleClose}
-                                        to='/team'>
+                                        to='/about#team'>
                                         Team
-                                    </NavLink>
-                                </Nav.Item> */}
+                                    </HashLink>
+                                </Nav.Item>
                                 <Nav.Item className='px-lg-4 px-md-3'>
                                     <NavLink
                                         reloadDocument

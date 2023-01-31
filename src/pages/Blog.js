@@ -7,6 +7,7 @@ import BlogCards from '../components/Blog/BlogCards';
 import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs';
 import { FiSearch } from 'react-icons/fi';
 import MobileBlogCards from '../components/Blog/MobileBlogCards';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Blog = ({ toText, shortenText, removeDash }) => {
     const [searchInput, setSearchInput] = useState('');
@@ -100,15 +101,15 @@ const Blog = ({ toText, shortenText, removeDash }) => {
                 />
 
                 <Container className='paginate d-lg-none d-flex justify-content-between align-items-center'>
-                    <Button onClick={prevPage}>
+                    <NavHashLink smooth to='/blog#mobile' onClick={prevPage}>
                         <BsArrowLeftShort className='arrow' />
-                    </Button>
+                    </NavHashLink>
 
                     <p className='m-0'>Page {counter} of 2</p>
 
-                    <Button onClick={nextPage}>
+                    <NavHashLink smooth to='/blog#mobile' onClick={nextPage}>
                         <BsArrowRightShort className='arrow' />
-                    </Button>
+                    </NavHashLink>
                 </Container>
             </main>
         </HelmetProvider>

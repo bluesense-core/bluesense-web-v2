@@ -41,6 +41,11 @@ header .navbar a.active {
     color: #0075ff;
 }
 
+header .navbar .team-link a.active {
+    border: none;
+    color: #667085;
+}
+
 /* Dropdown */
 header .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0;

@@ -8,6 +8,7 @@ import { FaFacebookF, FaLinkedin } from 'react-icons/fa';
 import { BiUser } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
 import Profile from '../assets/files/BlueSense Profile.pdf';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
@@ -39,7 +40,7 @@ const Footer = () => {
                                     <h5 className='mb-3'>Company</h5>
                                     <Nav.Item className='mb-2'>
                                         <NavLink reloadDocument to='/about'>
-                                            About Us
+                                            About
                                         </NavLink>
                                     </Nav.Item>
 
@@ -47,6 +48,12 @@ const Footer = () => {
                                         <NavLink reloadDocument to='/services'>
                                             Services
                                         </NavLink>
+                                    </Nav.Item>
+
+                                    <Nav.Item className='mb-2'>
+                                        <HashLink smooth to='/about#team'>
+                                            Team
+                                        </HashLink>
                                     </Nav.Item>
 
                                     <Nav.Item className='mb-2'>

@@ -4,7 +4,7 @@
 
 #home .home-about #clients h2,
 #home .home-about #clients .client-text {
-    width: 48%;
+    width: 50%;
 }
 
 #home .home-about #clients .client-text {
@@ -13,6 +13,17 @@
     background-size: auto;
     background-position: top left;
     padding-left: 2rem;
+    margin-right: 5em;
+}
+
+@media (max-width: 1399px) {
+    #home .home-about #clients h2,
+    #home .home-about #clients .client-text {
+        width: 48%;
+    }
+    #home .home-about #clients .client-text {
+        margin-right: 0;
+    }
 }
 
 #home .home-about #clients h2 {

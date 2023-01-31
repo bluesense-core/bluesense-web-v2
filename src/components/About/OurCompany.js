@@ -6,7 +6,7 @@ import './our-company.css';
 const OurCompany = () => {
     return (
         <section className='company'>
-            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-xl-start'>
+            <Container className='d-flex flex-lg-row flex-column justify-content-between'>
                 <div className='details'>
                     <div className='blue mb-3'></div>
                     <h2>
