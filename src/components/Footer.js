@@ -141,7 +141,7 @@ const Footer = () => {
                                     className='py-2 px-3'
                                     id='newsletter-email'
                                 />
-                                <button className='py-2 px-3 ms-md-3 ms-0 mt-md-0 mt-3'>
+                                <button className='rounded-pill py-2 px-3 ms-md-3 ms-0 mt-md-0 mt-3'>
                                     Subscribe
                                 </button>
                             </form>
@@ -153,8 +153,8 @@ const Footer = () => {
             <section id='footer-bottom'>
                 <Container className='d-flex flex-md-row flex-column-reverse justify-content-between align-items-md-center'>
                     <p className='copyright m-0 text-start'>
-                        © 2023 BlueSense.Reuben & Company.Lagos.Nigeria.All
-                        Rights Reserved
+                        © 2023 All Rights Reserved. BlueSense. Reuben & Company.
+                        Lagos. Nigeria.
                     </p>
 
                     <div className='social-icons mb-md-0 mb-3'>

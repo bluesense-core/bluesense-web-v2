@@ -17,7 +17,6 @@ const Contact = () => {
     const handleSubmit = (event) => {
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
-            event.preventDefault();
             event.stopPropagation();
         }
 
@@ -57,7 +56,11 @@ const Contact = () => {
                         <Row className='mb-4'>
                             <Col md='6'>
                                 <FloatingLabel className='' label='Name'>
-                                    <Form.Control required type='text' />
+                                    <Form.Control
+                                        required
+                                        type='text'
+                                        placeholder='name'
+                                    />
                                     <Form.Control.Feedback>
                                         Looks good!
                                     </Form.Control.Feedback>
@@ -68,8 +71,21 @@ const Contact = () => {
                             </Col>
 
                             <Col md='6' className='m-md-0 mt-4'>
-                                <FloatingLabel className='' label='Email'>
-                                    <Form.Control required type='email' />
+                                <FloatingLabel
+                                    className=''
+                                    label={
+                                        <span>
+                                            Email{' '}
+                                            <span className='d-sm-none d-inline'>
+                                                address
+                                            </span>
+                                        </span>
+                                    }>
+                                    <Form.Control
+                                        required
+                                        type='email'
+                                        placeholder='email'
+                                    />
                                     <Form.Control.Feedback>
                                         Looks good!
                                     </Form.Control.Feedback>
@@ -83,8 +99,21 @@ const Contact = () => {
                         <Row className='mb-4'>
                             <Col md='6'>
                                 <div className='mb-4'>
-                                    <FloatingLabel className='' label='Phone'>
-                                        <Form.Control required type='tel' />
+                                    <FloatingLabel
+                                        className=''
+                                        label={
+                                            <span>
+                                                Phone{' '}
+                                                <span className='d-sm-none d-inline'>
+                                                    number
+                                                </span>
+                                            </span>
+                                        }>
+                                        <Form.Control
+                                            required
+                                            type='tel'
+                                            placeholder='phone'
+                                        />
 
                                         <Form.Control.Feedback>
                                             Looks good!
@@ -97,7 +126,11 @@ const Contact = () => {
 
                                 <div>
                                     <FloatingLabel className='' label='Subject'>
-                                        <Form.Control required type='text' />
+                                        <Form.Control
+                                            required
+                                            type='text'
+                                            placeholder='subject'
+                                        />
                                         <Form.Control.Feedback>
                                             Looks good!
                                         </Form.Control.Feedback>
@@ -110,7 +143,11 @@ const Contact = () => {
 
                             <Col md='6' className='m-md-0 mt-4'>
                                 <FloatingLabel className='' label='Message'>
-                                    <Form.Control required as='textarea' />
+                                    <Form.Control
+                                        required
+                                        as='textarea'
+                                        placeholder='message'
+                                    />
                                     <Form.Control.Feedback>
                                         Looks good!
                                     </Form.Control.Feedback>

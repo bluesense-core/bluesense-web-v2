@@ -57,7 +57,7 @@ const BlogCards = ({ toText, shortenText, removeDash }) => {
                                 href={'/blog' + article.link.slice(28, -44)}>
                                 <Row
                                     id={article.id}
-                                    className='align-items-stretch blog-cards'>
+                                    className='align-items-center blog-cards'>
                                     <Col lg={7} className=''>
                                         <Badge pill bg='auto'>
                                             {article.leadTag}

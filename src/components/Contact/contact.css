@@ -22,14 +22,6 @@
     color: rgb(15, 116, 185);
 }
 
-#contact .form-floating > .form-control:not(:placeholder-shown) ~ label {
-    transform: none;
-}
-
-#contact .form-floating > .form-control:not(:placeholder-shown):focus ~ label {
-    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
-}
-
 #contact textarea {
     height: 140px;
 }
@@ -43,7 +35,7 @@
 #contact input,
 #contact textarea {
     border-radius: 10px;
-    background: #f0f0f0;
+    background-color: #f0f0f0;
     border: none;
 }
 
@@ -65,7 +57,7 @@
 @media (max-width: 425px) {
     #contact h2 {
         font-weight: 600;
-        font-size: 32px;
+        font-size: 24px;
         line-height: 44px;
         color: #101828;
     }
@@ -84,7 +76,9 @@
     #contact button {
         font-size: 16px;
         font-weight: 500;
-        background: #0f74b9;
+        background: transparent;
+        border: 1px solid #0075ff;
+        color: #0075ff;
         width: 100%;
     }
 }

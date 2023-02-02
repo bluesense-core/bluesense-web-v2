@@ -129,16 +129,6 @@ const SingleBlogInfo = ({
                     <WhatsappIcon size={24} round={true} />
                 </WhatsappShareButton>
             </Col>
-            <Col
-                className='d-md-none d-block mx-auto'
-                xs={{ span: 11, order: 2 }}>
-                <Button
-                    as='a'
-                    href='/contact'
-                    className='share-btn rounded-pill py-3 d-block mx-auto'>
-                    Get in contact with us
-                </Button>
-            </Col>
         </Row>
     );
 };
