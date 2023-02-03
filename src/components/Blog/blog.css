@@ -79,7 +79,6 @@
 
 #blog .blog-cards img {
     border-radius: 4px;
-    /* height: 100%; */
     object-fit: contain;
     object-position: center;
 }
@@ -133,7 +132,7 @@
 }
 
 #blog #right .insights {
-    margin-bottom: 48px;
+    margin-bottom: 20px;
 }
 
 #blog #right a {
@@ -157,8 +156,8 @@
 #blog #right .insights h3 {
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 20px;
     color: #292929;
 }
 
@@ -170,9 +169,14 @@
     object-position: center;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
     #blog #right .insights .main-img {
         width: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #blog #right .insights .main-img {
         height: 50px;
         object-fit: contain;
     }

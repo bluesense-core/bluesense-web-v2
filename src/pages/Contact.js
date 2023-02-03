@@ -13,11 +13,25 @@ import '../components/Contact/contact.css';
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
+    const [text, setText] = useState('');
 
     const handleSubmit = (event) => {
+        event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.stopPropagation();
+        } else {
+            setText(
+                'Thank you for reaching out, your inquiry has been sent! We will get back to you soon.'
+            );
+
+            setTimeout(() => {
+                setText('');
+            }, 4000);
+
+            setTimeout(() => {
+                window.location.reload();
+            }, 4500);
         }
 
         setValidated(true);
@@ -57,13 +71,12 @@ const Contact = () => {
                             <Col md='6'>
                                 <FloatingLabel className='' label='Name'>
                                     <Form.Control
+                                        className='txt'
                                         required
                                         type='text'
                                         placeholder='name'
                                     />
-                                    <Form.Control.Feedback>
-                                        Looks good!
-                                    </Form.Control.Feedback>
+
                                     <Form.Control.Feedback type='invalid'>
                                         Please provide a valid name.
                                     </Form.Control.Feedback>
@@ -82,13 +95,12 @@ const Contact = () => {
                                         </span>
                                     }>
                                     <Form.Control
+                                        className='txt'
                                         required
                                         type='email'
                                         placeholder='email'
                                     />
-                                    <Form.Control.Feedback>
-                                        Looks good!
-                                    </Form.Control.Feedback>
+
                                     <Form.Control.Feedback type='invalid'>
                                         Please provide a valid email.
                                     </Form.Control.Feedback>
@@ -110,14 +122,12 @@ const Contact = () => {
                                             </span>
                                         }>
                                         <Form.Control
+                                            className='txt'
                                             required
                                             type='tel'
                                             placeholder='phone'
                                         />
 
-                                        <Form.Control.Feedback>
-                                            Looks good!
-                                        </Form.Control.Feedback>
                                         <Form.Control.Feedback type='invalid'>
                                             Please provide a valid phone number.
                                         </Form.Control.Feedback>
@@ -127,13 +137,12 @@ const Contact = () => {
                                 <div>
                                     <FloatingLabel className='' label='Subject'>
                                         <Form.Control
+                                            className='txt'
                                             required
                                             type='text'
                                             placeholder='subject'
                                         />
-                                        <Form.Control.Feedback>
-                                            Looks good!
-                                        </Form.Control.Feedback>
+
                                         <Form.Control.Feedback type='invalid'>
                                             Please provide a valid subject.
                                         </Form.Control.Feedback>
@@ -144,13 +153,12 @@ const Contact = () => {
                             <Col md='6' className='m-md-0 mt-4'>
                                 <FloatingLabel className='' label='Message'>
                                     <Form.Control
+                                        className='txt'
                                         required
                                         as='textarea'
                                         placeholder='message'
                                     />
-                                    <Form.Control.Feedback>
-                                        Looks good!
-                                    </Form.Control.Feedback>
+
                                     <Form.Control.Feedback type='invalid'>
                                         Please provide a valid message.
                                     </Form.Control.Feedback>
@@ -163,6 +171,10 @@ const Contact = () => {
                             className='d-block rounded-pill py-sm-2 py-3 ms-sm-auto'>
                             Send
                         </Button>
+
+                        <p className='mt-md-3 mt-4 contact-text text-md-end'>
+                            {text}
+                        </p>
                     </Form>
                 </Container>
             </main>

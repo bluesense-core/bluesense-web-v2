@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Button, Col, Image, Row } from 'react-bootstrap';
+import { Badge, Col, Image, Row } from 'react-bootstrap';
 import Moment from 'react-moment';
 import {
     FacebookIcon,

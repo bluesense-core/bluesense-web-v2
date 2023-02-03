@@ -195,7 +195,10 @@ const BlogCards = ({ toText, shortenText, removeDash }) => {
                             <Row
                                 id={article.id}
                                 className='align-items-stretch insights'>
-                                <Col lg={7} className='align-items-center'>
+                                <Col
+                                    xl={7}
+                                    lg={8}
+                                    className='align-items-center'>
                                     <div className='details d-flex align-items-center'>
                                         <Image
                                             src='https://cdn-images-1.medium.com/fit/c/1024/1024/1*MUMDr9g1cY4wVG63MMljvw.jpeg'

@@ -39,12 +39,59 @@
     border: none;
 }
 
+#contact .form-control.is-valid,
+#contact .was-validated .form-control:valid {
+    background-image: none;
+}
+
 #contact button {
     padding: 0 32px;
     font-size: 18px;
     font-weight: 400;
     background: #4c8eda;
     border: none;
+}
+
+#contact .contact-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292929;
+    -webkit-animation: text-focus-in 4s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+        both;
+    animation: text-focus-in 4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    #contact .contact-text {
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 575px) {
