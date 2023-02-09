@@ -22,8 +22,10 @@ const HomeAbout = () => {
                     </h2>
                     <p className='mb-5'>
                         Our mission is to help build the next generation{' '}
-                        <br className='d-sm-block d-none' />
-                        of top tier companies in the continent.
+                        <br className='d-lg-block d-none' />
+                        of top tier companies in the continent by{' '}
+                        <br className='d-lg-block d-none' />
+                        providing management consulting services.
                     </p>
                     <Image
                         className='map d-block mx-auto mb-5'
@@ -38,9 +40,9 @@ const HomeAbout = () => {
                             <p>
                                 BlueSense helps to shape organisations like
                                 yours to plan for sustainable growth by
-                                identifying the issues unique to your company +
-                                develop a plan to help you attain your set goal
-                                and keep you competitive
+                                identifying the issues unique to your company
+                                and developing strategic plans to help you
+                                attain your set goals and keep you competitive.
                             </p>
                         </div>
                         <div
@@ -48,10 +50,12 @@ const HomeAbout = () => {
                             className='circle  d-flex flex-column justify-content-center align-items-center'>
                             <h4> START-UPS</h4>
                             <p>
-                                We partner with, connect and support founders to
-                                find the right investors and raise investment
-                                capital while they navigate the operational
-                                details of building an exceptional company.
+                                We partner with, connect and support founders
+                                through our start-up advisory and VC fundraising
+                                services, helping them find the right investors
+                                and raise investment capital while they navigate
+                                the operational details of building an
+                                exceptional company.
                             </p>
                         </div>
                     </div>
@@ -65,7 +69,11 @@ const HomeAbout = () => {
                     <p>
                         We deploy over twenty years of experience and expertise
                         to <br className='d-lg-block d-none' />
-                        offer the most effective solutions to help your company.
+                        offer the most effective solutions in management
+                        consulting, <br className='d-lg-block d-none' />
+                        strategy consulting, start-up consulting, employee
+                        training <br className='d-lg-block d-none' />
+                        and leadership training to help your company.
                     </p>
 
                     <div className='py-4 d-md-flex  d-none justify-content-between align-items-center'>
@@ -189,10 +197,10 @@ const HomeAbout = () => {
 
                     <div className='client-text pt-sm-3 pt-2 mt-lg-0 mt-sm-5 mt-4'>
                         <p>
-                            We support organisations through a detailed
-                            diagnostic-approach; researching organisational
-                            problems to find out what challenges your
-                            company+teams on a day-to-day; then build out
+                            As management consultants, we support organisations
+                            through a detailed diagnostic-approach; researching
+                            organisational problems to find out what challenges
+                            your company+teams on a day-to-day; then build out
                             proactive solutions that utilise our expertise +
                             experience to solve your most pressing problems and
                             attain set goals & objectives.

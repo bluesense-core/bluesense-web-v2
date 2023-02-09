@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
     Button,
     Col,
@@ -8,12 +8,13 @@ import {
     Row,
 } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-
+import emailjs from '@emailjs/browser';
 import '../components/Contact/contact.css';
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
     const [text, setText] = useState('');
+    const formRef = useRef();
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -21,6 +22,22 @@ const Contact = () => {
         if (form.checkValidity() === false) {
             event.stopPropagation();
         } else {
+            // emailjs
+            //     .sendForm(
+            //         'service_hd6w2lk',
+            //         'contact_form1999',
+            //         formRef.current,
+            //         'NadKuQM6677lL9__h'
+            //     )
+
+            // .then(
+            //     (result) => {
+            //         console.log(result.text);
+            //     },
+            //     (error) => {
+            //         console.log(error.text);
+            //     }
+            // );
             setText(
                 'Thank you for reaching out, your inquiry has been sent! We will get back to you soon.'
             );
@@ -63,6 +80,7 @@ const Contact = () => {
                     </p>
 
                     <Form
+                        ref={formRef}
                         className='mt-5'
                         noValidate
                         validated={validated}
@@ -75,6 +93,7 @@ const Contact = () => {
                                         required
                                         type='text'
                                         placeholder='name'
+                                        name='user_name'
                                     />
 
                                     <Form.Control.Feedback type='invalid'>
@@ -99,6 +118,7 @@ const Contact = () => {
                                         required
                                         type='email'
                                         placeholder='email'
+                                        name='user_email'
                                     />
 
                                     <Form.Control.Feedback type='invalid'>
@@ -126,6 +146,7 @@ const Contact = () => {
                                             required
                                             type='tel'
                                             placeholder='phone'
+                                            name='user_phone'
                                         />
 
                                         <Form.Control.Feedback type='invalid'>
@@ -141,6 +162,7 @@ const Contact = () => {
                                             required
                                             type='text'
                                             placeholder='subject'
+                                            name='subject'
                                         />
 
                                         <Form.Control.Feedback type='invalid'>
@@ -157,6 +179,7 @@ const Contact = () => {
                                         required
                                         as='textarea'
                                         placeholder='message'
+                                        name='message'
                                     />
 
                                     <Form.Control.Feedback type='invalid'>

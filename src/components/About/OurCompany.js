@@ -6,7 +6,7 @@ import './our-company.css';
 const OurCompany = () => {
     return (
         <section className='company'>
-            <Container className='d-flex flex-lg-row flex-column justify-content-between'>
+            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-end'>
                 <div className='details'>
                     <div className='blue mb-3'></div>
                     <h2>
@@ -26,18 +26,26 @@ const OurCompany = () => {
                         <li className='mb-4'>
                             BlueSense Advisory provides research-based
                             recommendations and improvement study for client
-                            consideration and decision making.
+                            consideration and decision making. We also offer
+                            start-up consulting advice, business planning, and
+                            fundraising strategy consulting to help your startup
+                            succeed.
                         </li>
                         <li className='mb-4'>
                             BlueSense Strategy helps you garner the most
                             insightful information you need to make critical
                             decisions that can give your startup a competitive
-                            edge.
+                            edge. We also provide venture capital fundraising
+                            services, and are familiar with VCs that invest in
+                            African and Nigerian start-ups.
                         </li>
                         <li className='mb-4'>
-                            BlueSense Learning is at our core and helps you
-                            effectively build a competitive team that sets your
-                            company apart.
+                            BlueSense Learning is at our core and which helps
+                            you build a competitive team through leadership
+                            training, corporate training, team productivity
+                            training, communication training, and customer
+                            service training. We also offer leadership workshops
+                            to enhance your skills and drive success.
                         </li>
                     </ul>
                 </div>

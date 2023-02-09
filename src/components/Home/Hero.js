@@ -26,7 +26,8 @@ const HomeHero = () => {
         <section className='home-hero'>
             <Container className='text-center'>
                 <h1 className='mb-sm-4 mb-3'>
-                    A simpler way to <span>grow</span> your company
+                    A simpler way to <span>grow</span> your company with
+                    management and start-up consulting services.
                 </h1>
                 <p className='subtitle mb-sm-4 mb-5'>
                     Tailored connections to select VC’S and Angels to get you

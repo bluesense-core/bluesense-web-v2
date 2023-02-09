@@ -21,7 +21,10 @@ const OurHistory = () => {
                             organisations in a variety of sectors. Working
                             hand-in-hand with top tier executives like you to
                             guide them through the rough patches of building a
-                            robust business in the continent.
+                            robust business in the continent. Our team of
+                            experienced management consultants, start-up
+                            consultants, and research and development experts
+                            bring a wealth of knowledge and skills to the table.
                         </p>
                     </Col>
                 </Row>

@@ -45,9 +45,10 @@ const Services = () => {
                                 of receiving investment.
                                 <br />
                                 <br />
-                                BlueSense merges years of hands on experience to
-                                help you accelerate your fundraising process by
-                                creating a bespoke funding strategy, pitch deck
+                                With years of hands-on experience, our team of
+                                fundraising strategy consultants will help you
+                                accelerate your fundraising process by creating
+                                a bespoke funding strategy, pitch deck
                                 construction/tailored feedback, introductions to
                                 select VCs and angels that your company matches
                                 their portfolio companies and investment thesis;
@@ -226,8 +227,8 @@ const Services = () => {
                                 challenges faced.
                                 <br />
                                 <br />
-                                After our learning project; teams get a 15-35%
-                                growth in productivity and a boost in
+                                After our leadership training program, teams get
+                                a 15-35% growth in productivity and a boost in
                                 organisational citizenship which leads to a
                                 ripple effect in the reduction of unproductive
                                 time and a more focused and enhanced team, more

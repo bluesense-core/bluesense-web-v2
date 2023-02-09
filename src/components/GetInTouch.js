@@ -11,7 +11,8 @@ const GetInTouch = () => {
                 <div className='detail'>
                     <h1 className='mb-2'>Get in touch</h1>
                     <p>
-                        We’d love to speak to you and discuss how we can work
+                        We’d love to speak to you and discuss how we can work{' '}
+                        <br className='d-xl-block d-none' />
                         together to bring your ideas to life.
                     </p>
                 </div>
