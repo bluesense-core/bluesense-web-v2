@@ -20,7 +20,7 @@ const HomeAbout = () => {
                     <h2 className='mb-4'>
                         Our <span>mission</span>
                     </h2>
-                    <p className='mb-5'>
+                    <p className=''>
                         Our mission is to help build the next generation{' '}
                         <br className='d-lg-block d-none' />
                         of top tier companies in the continent by{' '}
@@ -28,7 +28,7 @@ const HomeAbout = () => {
                         providing management consulting services.
                     </p>
                     <Image
-                        className='map d-block mx-auto mb-5'
+                        className='map d-block mx-auto'
                         src={Map}
                         alt='Illustration of the World Map'
                         fluid
@@ -66,7 +66,7 @@ const HomeAbout = () => {
                         Our core <br className='d-lg-block d-none' />{' '}
                         <span>competencies</span>
                     </h2>
-                    <p>
+                    <p className='mb-0'>
                         We deploy over twenty years of experience and expertise
                         to <br className='d-lg-block d-none' />
                         offer the most effective solutions in management
@@ -76,7 +76,7 @@ const HomeAbout = () => {
                         and leadership training to help your company.
                     </p>
 
-                    <div className='py-4 d-md-flex  d-none justify-content-between align-items-center'>
+                    <div className='accordion-div d-md-flex  d-none justify-content-between align-items-center'>
                         <Accordion
                             className='mt-md-0 mt-5'
                             defaultActiveKey='2'
@@ -196,7 +196,7 @@ const HomeAbout = () => {
                     </h2>
 
                     <div className='client-text pt-sm-3 pt-2 mt-lg-0 mt-sm-5 mt-4'>
-                        <p>
+                        <p className='mb-0'>
                             As management consultants, we support organisations
                             through a detailed diagnostic-approach; researching
                             organisational problems to find out what challenges

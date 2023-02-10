@@ -25,6 +25,10 @@
     transition: 15s;
 }
 
+#home .home-about #core .accordion-div {
+    padding-top: 97px;
+    padding-bottom: 70px;
+}
 #home .home-about #core .accordion {
     --bs-accordion-bg: transparent;
     --bs-accordion-border-color: rgba(0, 117, 255, 0.44);

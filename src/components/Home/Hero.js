@@ -25,11 +25,11 @@ const HomeHero = () => {
     return (
         <section className='home-hero'>
             <Container className='text-center'>
-                <h1 className='mb-sm-4 mb-3'>
+                <h1 className=''>
                     A simpler way to <span>grow</span> your company with
                     management and start-up consulting services.
                 </h1>
-                <p className='subtitle mb-sm-4 mb-5'>
+                <p className='subtitle'>
                     Tailored connections to select VC’S and Angels to get you
                     investment oppourtunities
                 </p>
@@ -76,7 +76,7 @@ const HomeHero = () => {
                                 'slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
                         });
                     }}>
-                    <Carousel.Item>
+                    <Carousel.Item id='blocks-img'>
                         <Image
                             style={style4}
                             className='d-block mx-auto blocks '

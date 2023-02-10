@@ -7,9 +7,10 @@
 #home .home-hero h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 4.7rem;
-    line-height: 100%;
+    font-size: 4.75rem;
+    line-height: 120%;
     color: #0a0a33;
+    margin-bottom: 32px;
 }
 
 #home .home-hero h1 span {
@@ -21,6 +22,7 @@
     line-height: 30px;
     padding: 0 20em;
     color: #444549;
+    margin-bottom: 40px;
 }
 
 #home .home-hero button {
@@ -32,7 +34,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5rem;
-    margin-bottom: 7em;
+    margin-bottom: 125px;
 }
 
 #home .home-hero button:hover,
@@ -41,6 +43,11 @@
     background-color: transparent;
     border: 1px solid #0075ff;
     color: #0075ff;
+}
+
+#home #blocks-img {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 #home .blocks {
@@ -61,9 +68,6 @@
 }
 
 @media (max-width: 1399px) {
-    #home .home-hero h1 {
-        font-size: 4.6rem;
-    }
     #home .imagery3 {
         bottom: 1em;
     }
@@ -71,7 +75,7 @@
 
 @media (max-width: 1199px) {
     #home .home-hero h1 {
-        font-size: 4.4rem;
+        font-size: 4.6rem;
     }
     #home .imagery3 {
         bottom: 0.7em;
@@ -89,7 +93,7 @@
 }
 
 #home .home-hero .business {
-    margin-top: 4em;
+    margin-top: 125px;
     font-size: 16px;
     line-height: 1.3125rem;
     color: #505055;

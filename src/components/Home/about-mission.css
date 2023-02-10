@@ -1,7 +1,7 @@
 /* Home About */
 #home .home-about {
     background-color: #fcfdff;
-    padding-top: 10em;
+    padding-top: 12em;
     padding-bottom: 5em;
 }
 
@@ -26,11 +26,12 @@
     font-size: 18px;
     line-height: 27px;
     color: #444549;
+    margin-bottom: 55px;
 }
 
 #home .home-about #mission .circles {
     position: relative;
-    padding-top: 5em;
+    padding-top: 56px;
     padding-bottom: 5em;
 }
 
