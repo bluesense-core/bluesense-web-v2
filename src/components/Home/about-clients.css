@@ -13,17 +13,13 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top left;
-    padding-left: 2rem;
-    margin-right: 5em;
+    padding-left: 3rem;
 }
 
 @media (max-width: 1399px) {
     #home .home-about #clients h2,
     #home .home-about #clients .client-text {
         width: 48%;
-    }
-    #home .home-about #clients .client-text {
-        margin-right: 0;
     }
 }
 
