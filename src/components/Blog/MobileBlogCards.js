@@ -1,14 +1,5 @@
 import React from 'react';
 import { Badge, Col, Container, Image, Row } from 'react-bootstrap';
-import {
-    LinkedinIcon,
-    LinkedinShareButton,
-    TwitterIcon,
-    TwitterShareButton,
-    WhatsappIcon,
-    WhatsappShareButton,
-} from 'react-share';
-import blogs from './blogs.json';
 import './blog.css';
 import Moment from 'react-moment';
 

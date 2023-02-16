@@ -8,7 +8,7 @@ import {
     Row,
 } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import '../components/Contact/contact.css';
 
 const Contact = () => {
