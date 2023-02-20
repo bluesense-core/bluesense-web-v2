@@ -7,7 +7,7 @@ const ErrorPage = () => {
         <HelmetProvider>
             <Helmet>
                 <meta charSet='utf-8' />
-                <title>Page Not Found</title>
+                <title>404 Error - Page Not Found</title>
             </Helmet>
             <Container className='misc text-center'>
                 <h1>404 Page Not Found!</h1>
