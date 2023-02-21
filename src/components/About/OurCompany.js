@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
-import building from '../../assets/images/about-img/building.svg';
+import building from '../../assets/images/about-img/building.jpg';
 import './our-company.css';
 
 const OurCompany = () => {
     return (
         <section className='company'>
-            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-end'>
+            <Container className='d-flex flex-lg-row flex-column justify-content-between align-items-center'>
                 <div className='details'>
                     <div className='blue mb-3'></div>
                     <h2>
