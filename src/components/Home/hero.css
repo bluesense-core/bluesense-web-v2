@@ -15,6 +15,12 @@
 
 #home .home-hero h1 span {
     color: #0075ff;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#home .home-hero h1 span:hover {
+    color: #056608;
 }
 
 #home .home-hero .subtitle {

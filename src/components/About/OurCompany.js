@@ -50,7 +50,7 @@ const OurCompany = () => {
                     </ul>
                 </div>
 
-                <Image src={building} className='d-block ms-4 mb-5' />
+                <Image src={building} className='d-block ms-2 mb-5' />
             </Container>
         </section>
     );
