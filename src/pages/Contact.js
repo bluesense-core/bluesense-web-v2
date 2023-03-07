@@ -8,7 +8,7 @@ import {
     Row,
 } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import '../components/Contact/contact.css';
 
 const Contact = () => {
@@ -22,22 +22,22 @@ const Contact = () => {
         if (form.checkValidity() === false) {
             event.stopPropagation();
         } else {
-            // emailjs
-            //     .sendForm(
-            //         'service_hd6w2lk',
-            //         'contact_form1999',
-            //         formRef.current,
-            //         'NadKuQM6677lL9__h'
-            //     )
+            emailjs
+                .sendForm(
+                    'service_hd6w2lk',
+                    'contact_form1999',
+                    formRef.current,
+                    'NadKuQM6677lL9__h'
+                )
 
-            // .then(
-            //     (result) => {
-            //         console.log(result.text);
-            //     },
-            //     (error) => {
-            //         console.log(error.text);
-            //     }
-            // );
+                .then(
+                    (result) => {
+                        console.log(result.text);
+                    },
+                    (error) => {
+                        console.log(error.text);
+                    }
+                );
             setText(
                 'Thank you for reaching out, your inquiry has been sent! We will get back to you soon.'
             );
