@@ -1,7 +1,55 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /strategy/
+Disallow: /learning/
+Disallow: /advisory/
+Disallow: /terms/
+Disallow: /privacypolicy/
+Disallow: /analytics/
+Disallow: /cookiepolicy/
+Disallow: /incubators-accelerators/
+Disallow: /flightdelays/
+Disallow: /fintech/
+Disallow: /wage/
+Disallow: /debt/
+Disallow: /iwd/
+Disallow: /ioc/
+Disallow: /internationaloilcompanies/
+Disallow: /autogas/
+Disallow: /startuptrends/
+Disallow: /nsb/
+Disallow: /traitsofgoodfounders/
+Disallow: /whycompetition/
+Disallow: /6guides/
+
+
 
 Sitemap: https://www.bluesense.co/sitemap.xml
 User-agent: *
-Disallow:
+Disallow: /strategy/
+Disallow: /learning/
+Disallow: /advisory/
+Disallow: /terms/
+Disallow: /privacypolicy/
+Disallow: /analytics/
+Disallow: /cookiepolicy/
+Disallow: /incubators-accelerators/
+Disallow: /flightdelays/
+Disallow: /fintech/
+Disallow: /wage/
+Disallow: /debt/
+Disallow: /iwd/
+Disallow: /ioc/
+Disallow: /internationaloilcompanies/
+Disallow: /autogas/
+Disallow: /startuptrends/
+Disallow: /nsb/
+Disallow: /traitsofgoodfounders/
+Disallow: /whycompetition/
+Disallow: /6guides/
+
+
+
+
+
+
