@@ -7,20 +7,20 @@ Disallow: /terms/
 Disallow: /privacypolicy/
 Disallow: /analytics/
 Disallow: /cookiepolicy/
-Disallow: /incubators-accelerators/
-Disallow: /flightdelays/
-Disallow: /fintech/
-Disallow: /wage/
-Disallow: /debt/
-Disallow: /iwd/
-Disallow: /ioc/
-Disallow: /internationaloilcompanies/
-Disallow: /autogas/
-Disallow: /startuptrends/
-Disallow: /nsb/
-Disallow: /traitsofgoodfounders/
-Disallow: /whycompetition/
-Disallow: /6guides/
+Disallow: /blog/incubators-accelerators/
+Disallow: /blog/flightdelays/
+Disallow: /blog/fintech/
+Disallow: /blog/wage/
+Disallow: /blog/debt/
+Disallow: /blog/iwd/
+Disallow: /blog/ioc/
+Disallow: /blog/internationaloilcompanies/
+Disallow: /blog/autogas/
+Disallow: /blog/startuptrends/
+Disallow: /blog/nsb/
+Disallow: /blog/traitsofgoodfounders/
+Disallow: /blog/whycompetition/
+Disallow: /blog/6guides/
 
 
 
@@ -33,20 +33,20 @@ Disallow: /terms/
 Disallow: /privacypolicy/
 Disallow: /analytics/
 Disallow: /cookiepolicy/
-Disallow: /incubators-accelerators/
-Disallow: /flightdelays/
-Disallow: /fintech/
-Disallow: /wage/
-Disallow: /debt/
-Disallow: /iwd/
-Disallow: /ioc/
-Disallow: /internationaloilcompanies/
-Disallow: /autogas/
-Disallow: /startuptrends/
-Disallow: /nsb/
-Disallow: /traitsofgoodfounders/
-Disallow: /whycompetition/
-Disallow: /6guides/
+Disallow: /blog/incubators-accelerators/
+Disallow: /blog/flightdelays/
+Disallow: /blog/fintech/
+Disallow: /blog/wage/
+Disallow: /blog/debt/
+Disallow: /blog/iwd/
+Disallow: /blog/ioc/
+Disallow: /blog/internationaloilcompanies/
+Disallow: /blog/autogas/
+Disallow: /blog/startuptrends/
+Disallow: /blog/nsb/
+Disallow: /blog/traitsofgoodfounders/
+Disallow: /blog/whycompetition/
+Disallow: /blog/6guides/
 
 
 

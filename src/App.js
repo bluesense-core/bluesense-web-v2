@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AfricaDebtChina from './components/Blog/blog-pages/AfricaDebtChina';
 import Airbnb from './components/Blog/blog-pages/Airbnb';
@@ -77,6 +77,28 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/services' element={<Services />} />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/learning'
+                    element={<Navigate to='/services#learning' />}
+                />
+                <Route
+                    path='/advisory'
+                    element={<Navigate to='/services#advisory' />}
+                />
+                <Route
+                    path='/analytics'
+                    element={<Navigate to='/services#analytics' />}
+                />
+                <Route
+                    path='/strategy'
+                    element={<Navigate to='/services#strategy' />}
+                />
+                <Route
+                    path='/fundraising'
+                    element={<Navigate to='/services#fundraising' />}
+                />
+
                 <Route
                     path='/blog'
                     element={
@@ -89,8 +111,23 @@ function App() {
                 />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/terms-and-conditions' element={<Terms />} />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/terms'
+                    element={<Navigate to='/terms-and-conditions' />}
+                />
                 <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/privacypolicy'
+                    element={<Navigate to='/privacy-policy' />}
+                />
                 <Route path='/cookie-policy' element={<CookiePolicy />} />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/cookiepolicy'
+                    element={<Navigate to='/cookie-policy' />}
+                />
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
@@ -273,6 +310,13 @@ function App() {
                         />
                     }
                 />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/blog/autogas'
+                    element={
+                        <Navigate to='/blog/will-autogas-surpass-petrol-to-become-the-new-fuel-in-nigeria' />
+                    }
+                />
 
                 <Route
                     path='/blog/startup-trends-in-2022'
@@ -286,6 +330,11 @@ function App() {
                         />
                     }
                 />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/blog/startuptrends'
+                    element={<Navigate to='/blog/startup-trends-in-2022' />}
+                />
 
                 <Route
                     path='/blog/the-nigerian-start-up-bill'
@@ -298,6 +347,11 @@ function App() {
                             shortenText={shortenText}
                         />
                     }
+                />
+                {/* Redirect Old Links */}
+                <Route
+                    path='/blog/nsb'
+                    element={<Navigate to='/blog/the-nigerian-start-up-bill' />}
                 />
 
                 <Route
