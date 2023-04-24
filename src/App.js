@@ -5,6 +5,7 @@ import Airbnb from './components/Blog/blog-pages/Airbnb';
 import Autogas from './components/Blog/blog-pages/Autogas';
 import BreakTheBias from './components/Blog/blog-pages/BreakTheBias';
 import CommonMistakes from './components/Blog/blog-pages/CommonMistakes';
+import BusinessResilience from './components/Blog/blog-pages/BusinessResilience';
 import Divesting from './components/Blog/blog-pages/Divesting';
 import EarlyStage from './components/Blog/blog-pages/EarlyStage';
 import FindingTalent from './components/Blog/blog-pages/FindingTalent';
@@ -131,6 +132,18 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
+<Route
+                    path='/blog/dimensions-of-business-resilience-from-ceos-standpoint'
+                    element={
+                        <BusinessResilience
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
                
                 <Route
                     path='/blog/common-mistakes-first-time-founders-make'
