@@ -132,18 +132,7 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
-                <Route
-                    path='blog/dimensions-of-business-resilience-from-ceos-standpoint'
-                    element={
-                        <BusinessResilience
-                            toText={toText}
-                            removeDashAndJoin={removeDashAndJoin}
-                            removeSpace={removeSpace}
-                            createMarkup={createMarkup}
-                            shortenText={shortenText}
-                        />
-                    }
-                />
+               
                 <Route
                     path='/blog/common-mistakes-first-time-founders-make'
                     element={
