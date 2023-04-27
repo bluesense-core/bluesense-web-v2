@@ -23,8 +23,8 @@ import Moment from 'react-moment';
 
 const BlogCards = ({ toText, shortenText, removeDash }) => {
     const [searchInput, setSearchInput] = useState('');
-    const mediumData = blogs.items.slice(0, -5);
-    const insights = blogs.items.slice(-5);
+    const mediumData = blogs.items.slice(0, -9);
+    const insights = blogs.items.slice(-9);
 
     // eslint-disable-next-line
     const filteredData = mediumData.filter((e) => {

@@ -29,6 +29,7 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Services from './pages/Services';
 import Terms from './pages/Terms';
+import AfricaIsPredicted from './components/Blog/blog-pages/AfricaIsPredicted';
 
 function App() {
     function toText(node) {
@@ -132,7 +133,19 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
-               <Route
+                <Route
+                    path='/blog/africa-is-predicted-to-experience-a-sustained-funding-slowdown-in-2023'
+                    element={
+                        <AfricaIsPredicted
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
+                <Route
                     path='/blog/dimensions-of-business-resilience-from-ceos-standpoint'
                     element={
                         <BusinessResilience
