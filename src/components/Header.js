@@ -80,14 +80,8 @@ const Header = () => {
                                 </Nav.Item>
 
                                 <NavDropdown
-                                    title={
-                                        <span
-                                            onClick={(e) =>
-                                                navigate('/services')
-                                            }>
-                                            Services
-                                        </span>
-                                    }
+                                    title='Services'
+                                    onClick={(e) => navigate('/services')}
                                     id='hover-dropdown'
                                     className='px-lg-4 px-md-3 d-md-block d-none'
                                     show={dropdown}
@@ -142,14 +136,8 @@ const Header = () => {
                                 </NavDropdown>
 
                                 <NavDropdown
-                                    title={
-                                        <span
-                                            onClick={(e) =>
-                                                navigate('/services')
-                                            }>
-                                            Services{' '}
-                                        </span>
-                                    }
+                                    title='Services'
+                                    onClick={(e) => navigate('/services')}
                                     to='/services'
                                     id='nav-dropdown'
                                     className='px-lg-4 px-md-3 d-md-none d-block'>
