@@ -118,7 +118,7 @@ const Services = () => {
                             <p>
                                 For big companies, becoming data-driven can take
                                 several months or even years, lots of money and
-                                a heavy workload and for startups trying to
+                                a heavy workload and for start-ups trying to
                                 deliver value quickly, continuously iterate, and
                                 outpace the competition, it can feel out of
                                 reach and difficult to take decisive action with

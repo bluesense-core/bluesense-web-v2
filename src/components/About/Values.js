@@ -27,7 +27,7 @@ const Values = () => {
                             <Col md='6'>
                                 <h3 className='mb-sm-3 mb-2'>Innovation</h3>
                                 <p>
-                                    We help startups find the most innovative
+                                    We help start-ups find the most innovative
                                     ways to improve their teams + company.
                                 </p>
                             </Col>

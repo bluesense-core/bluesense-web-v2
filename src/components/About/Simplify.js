@@ -26,7 +26,7 @@ const Simplify = () => {
                         In this stead, we begin each solve by taking the time to
                         find out what the exact issues; only when we fully
                         understand this, do we approach the problem. Our vast
-                        industry and startup expertise including predictive
+                        industry and start-up expertise including predictive
                         analytics software solutions and emerging technology,
                         allows us to address problems in unique ways that no one
                         else can.

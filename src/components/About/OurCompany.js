@@ -28,13 +28,13 @@ const OurCompany = () => {
                             recommendations and improvement study for client
                             consideration and decision making. We also offer
                             start-up consulting advice, business planning, and
-                            fundraising strategy consulting to help your startup
-                            succeed.
+                            fundraising strategy consulting to help your
+                            start-up succeed.
                         </li>
                         <li className='mb-4'>
                             BlueSense Strategy helps you garner the most
                             insightful information you need to make critical
-                            decisions that can give your startup a competitive
+                            decisions that can give your start-up a competitive
                             edge. We also provide venture capital fundraising
                             services, and are familiar with VCs that invest in
                             African and Nigerian start-ups.

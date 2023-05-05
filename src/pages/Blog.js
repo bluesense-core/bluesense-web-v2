@@ -63,7 +63,7 @@ const Blog = ({ toText, shortenText, removeDash }) => {
                     <Container>
                         <h1>BlueSense Blog</h1>
                         <p>
-                            Discover expert insights into the startup world and{' '}
+                            Discover expert insights into the start-up world and{' '}
                             <br className='d-md-block d-none' />
                             updates on BlueSense
                         </p>

@@ -21,7 +21,7 @@ const About = () => {
                 />
                 <meta
                     name='keywords'
-                    content='Business, firm, Consulting, Startups, Intelligence, Strategy, About, startup consultants, Bluesense info, BlueSense, bluesense'
+                    content='Business, firm, Consulting, Startups, Intelligence, Strategy, About, start-up consultants, Bluesense info, BlueSense, bluesense'
                 />
             </Helmet>
             <main id='about'>

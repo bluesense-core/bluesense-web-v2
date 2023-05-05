@@ -10,10 +10,11 @@ import {
 } from 'react-bootstrap';
 import './header.css';
 import Logo from '../assets/images/logo.svg';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 const Header = () => {
+    const navigate = useNavigate();
     const [show, setShow] = useState(false);
     const [dropdown, setDropdown] = useState(false);
     const showDropdown = (e) => {
@@ -68,24 +69,25 @@ const Header = () => {
                                 }}
                                 className='justify-content-md-between align-items-md-center'>
                                 <Nav.Item className='px-lg-4 px-md-3 d-md-none d-block'>
-                                    <NavLink
-                                        reloadDocument
-                                        onClick={handleClose}
-                                        to='/'>
+                                    <NavLink onClick={handleClose} to='/'>
                                         Home
                                     </NavLink>
                                 </Nav.Item>
                                 <Nav.Item className='px-lg-4 px-md-3'>
-                                    <NavLink
-                                        reloadDocument
-                                        onClick={handleClose}
-                                        to='/about'>
+                                    <NavLink onClick={handleClose} to='/about'>
                                         About
                                     </NavLink>
                                 </Nav.Item>
 
                                 <NavDropdown
-                                    title={<span>Services </span>}
+                                    title={
+                                        <span
+                                            onClick={(e) =>
+                                                navigate('/services')
+                                            }>
+                                            Services
+                                        </span>
+                                    }
                                     id='hover-dropdown'
                                     className='px-lg-4 px-md-3 d-md-block d-none'
                                     show={dropdown}
@@ -140,7 +142,14 @@ const Header = () => {
                                 </NavDropdown>
 
                                 <NavDropdown
-                                    title={<span>Services </span>}
+                                    title={
+                                        <span
+                                            onClick={(e) =>
+                                                navigate('/services')
+                                            }>
+                                            Services{' '}
+                                        </span>
+                                    }
                                     to='/services'
                                     id='nav-dropdown'
                                     className='px-lg-4 px-md-3 d-md-none d-block'>
@@ -191,6 +200,7 @@ const Header = () => {
                                         </NavHashLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
+
                                 <Nav.Item className='team-link px-lg-4 px-md-3'>
                                     <HashLink
                                         smooth
@@ -200,16 +210,12 @@ const Header = () => {
                                     </HashLink>
                                 </Nav.Item>
                                 <Nav.Item className='px-lg-4 px-md-3'>
-                                    <NavLink
-                                        reloadDocument
-                                        onClick={handleClose}
-                                        to='/blog'>
+                                    <NavLink onClick={handleClose} to='/blog'>
                                         Blog
                                     </NavLink>
                                 </Nav.Item>
                                 <Nav.Item className='ps-lg-4 ps-md-3 d-md-block d-none'>
                                     <NavLink
-                                        reloadDocument
                                         onClick={handleClose}
                                         to='/contact'>
                                         Contact

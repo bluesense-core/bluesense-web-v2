@@ -4,8 +4,8 @@ import andrewBig from '../assets/images/about-img/andrew-big.svg';
 import andrewSmall from '../assets/images/about-img/andrew-small.svg';
 import christianBig from '../assets/images/about-img/christian-big.svg';
 import christianSmall from '../assets/images/about-img/christian-small.svg';
-import jamesBig from '../assets/images/about-img/james-big.svg';
-import jamesSmall from '../assets/images/about-img/james-small.svg';
+// import jamesBig from '../assets/images/about-img/james-big.svg';
+// import jamesSmall from '../assets/images/about-img/james-small.svg';
 import lisaBig from '../assets/images/about-img/lisa-big.svg';
 import lisaSmall from '../assets/images/about-img/lisa-small.svg';
 import nadayarBig from '../assets/images/about-img/nadayar-big.svg';
@@ -14,7 +14,10 @@ import olaleyeBig from '../assets/images/about-img/olaleye-big.svg';
 import olaleyeSmall from '../assets/images/about-img/olaleye-small.svg';
 import ololadeBig from '../assets/images/about-img/ololade-big.svg';
 import ololadeSmall from '../assets/images/about-img/ololade-small.svg';
-
+import onyemaBig from '../assets/images/about-img/onyema-big.svg';
+import onyemaSmall from '../assets/images/about-img/onyema-small.svg';
+// big - 320px
+// small - 210px
 const partners = [
     {
         id: 1,
@@ -29,15 +32,14 @@ const partners = [
 
     {
         id: 2,
-        name: 'Abiye Levy-Braide',
-        title: 'Technology Partner',
-        desc: 'Abiye has many years of experience as a CTO + Project Engineer with experience in Industrial Digitisation. He has vast experience with building MVPs, launching and taking them to market. In addition to Saas and technology product development, Abiye has expertise in P.M., Software, Agile and Lean Systems.',
-        thumbnail: abiyeSmall,
-        mainImg: abiyeBig,
-        linkedin: 'https://www.linkedin.com/in/levybraide/',
-        twitter: 'https://twitter.com/levybuble',
+        name: 'Onyema Nwigwe',
+        title: 'VC Fundraising Partner',
+        desc: 'Onyema is a venture capital investor at AfricInvest Group who has experience investing in several start-ups, including 54gene, PalmPay, Migo, and KaiOS Technologies. He has a background in political science and has also studied international business negotiations and European business strategy. Onyema is a recipient of the Davis Scholarship and the Finstad Entrepreneurial Grant.',
+        thumbnail: onyemaSmall,
+        mainImg: onyemaBig,
+        linkedin: 'https://www.linkedin.com/in/justiceonwigwe/',
+        twitter: 'https://twitter.com/onyemanj',
     },
-
     {
         id: 3,
         name: 'Ololade Olanipekun',
@@ -51,14 +53,25 @@ const partners = [
 
     {
         id: 4,
-        name: 'James Adeniji PhD',
-        title: 'Research Partner',
-        desc: 'James is part of an influential market insight think tank, helping companies understand their position in the market, mapping out opportunities, and planning for the ever-changing macro and consumer behaviour dynamics. James has co-authored case studies and other publications in areas of Finance, Strategy and Marketing.',
-        thumbnail: jamesSmall,
-        mainImg: jamesBig,
-        linkedin: 'https://www.linkedin.com/in/james-adeniji-9a314a57/',
-        twitter: '',
+        name: 'Abiye Levy-Braide',
+        title: 'Technology Partner',
+        desc: 'Abiye has many years of experience as a CTO + Project Engineer with experience in Industrial Digitisation. He has vast experience with building MVPs, launching and taking them to market. In addition to Saas and technology product development, Abiye has expertise in P.M., Software, Agile and Lean Systems.',
+        thumbnail: abiyeSmall,
+        mainImg: abiyeBig,
+        linkedin: 'https://www.linkedin.com/in/levybraide/',
+        twitter: 'https://twitter.com/levybuble',
     },
+
+    // {
+    //     id: 5,
+    //     name: 'James Adeniji PhD',
+    //     title: 'Research Partner',
+    //     desc: 'James is part of an influential market insight think tank, helping companies understand their position in the market, mapping out opportunities, and planning for the ever-changing macro and consumer behaviour dynamics. James has co-authored case studies and other publications in areas of Finance, Strategy and Marketing.',
+    //     thumbnail: jamesSmall,
+    //     mainImg: jamesBig,
+    //     linkedin: 'https://www.linkedin.com/in/james-adeniji-9a314a57/',
+    //     twitter: '',
+    // },
 ];
 
 const advisory = [

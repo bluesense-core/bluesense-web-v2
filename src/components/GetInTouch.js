@@ -19,7 +19,6 @@ const GetInTouch = () => {
                 <div className='contact-us  d-flex justify-content-sm-center justify-content-start '>
                     <Link
                         to='/contact'
-                        reloadDocument
                         className='d-flex justify-content-sm-center justify-content-start text-decoration-none'>
                         <Button className='px-lg-5 px-4 py-sm-4 py-3 d-flex justify-content-between align-items-center'>
                             <span className='me-4'>Contact Us</span>

@@ -39,13 +39,11 @@ const Footer = () => {
                                 <div className='company'>
                                     <h5 className='mb-3'>Company</h5>
                                     <Nav.Item className='mb-2'>
-                                        <NavLink reloadDocument to='/about'>
-                                            About
-                                        </NavLink>
+                                        <NavLink to='/about'>About</NavLink>
                                     </Nav.Item>
 
                                     <Nav.Item className='mb-2'>
-                                        <NavLink reloadDocument to='/services'>
+                                        <NavLink to='/services'>
                                             Services
                                         </NavLink>
                                     </Nav.Item>
@@ -57,40 +55,30 @@ const Footer = () => {
                                     </Nav.Item>
 
                                     <Nav.Item className='mb-2'>
-                                        <NavLink reloadDocument to='/blog'>
-                                            Blog
-                                        </NavLink>
+                                        <NavLink to='/blog'>Blog</NavLink>
                                     </Nav.Item>
 
                                     <Nav.Item className=''>
-                                        <NavLink reloadDocument to='/contact'>
-                                            Contact
-                                        </NavLink>
+                                        <NavLink to='/contact'>Contact</NavLink>
                                     </Nav.Item>
                                 </div>
 
                                 <div className='legal'>
                                     <h5 className='mb-3'>Legal</h5>
                                     <Nav.Item className='mb-2'>
-                                        <NavLink
-                                            reloadDocument
-                                            to='/terms-and-conditions'>
+                                        <NavLink to='/terms-and-conditions'>
                                             Terms & Conditions
                                         </NavLink>
                                     </Nav.Item>
 
                                     <Nav.Item className='mb-2'>
-                                        <NavLink
-                                            reloadDocument
-                                            to='/privacy-policy'>
+                                        <NavLink to='/privacy-policy'>
                                             Privacy Policy
                                         </NavLink>
                                     </Nav.Item>
 
                                     <Nav.Item className=''>
-                                        <NavLink
-                                            reloadDocument
-                                            to='/cookie-policy'>
+                                        <NavLink to='/cookie-policy'>
                                             Cookie Policy
                                         </NavLink>
                                     </Nav.Item>

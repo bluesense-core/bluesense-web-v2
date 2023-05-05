@@ -33,10 +33,7 @@ const HomeHero = () => {
                     Tailored connections to select VC’S and Angels to get you
                     investment oppourtunities
                 </p>
-                <Link
-                    to='/contact'
-                    className='text-decoration-none text-white'
-                    reloadDocument>
+                <Link to='/contact' className='text-decoration-none text-white'>
                     <Button className='d-block mx-auto px-md-5 py-md-4 px-4 py-3'>
                         Contact Us
                     </Button>

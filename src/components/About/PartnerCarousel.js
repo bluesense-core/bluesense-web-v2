@@ -3,9 +3,9 @@ import { Carousel, Image, Modal } from 'react-bootstrap';
 import { BsLinkedin, BsTwitter } from 'react-icons/bs';
 import abiyeBig from '../../assets/images/about-img/abiye-big.svg';
 import christianBig from '../../assets/images/about-img/christian-big.svg';
-import jamesBig from '../../assets/images/about-img/james-big.svg';
+// import jamesBig from '../../assets/images/about-img/james-big.svg';
 import ololadeBig from '../../assets/images/about-img/ololade-big.svg';
-
+import onyemaBig from '../../assets/images/about-img/onyema-big.svg';
 import './about-modal-carousel.css';
 
 const PartnerCarousel = ({ code, show, hide }) => {
@@ -59,24 +59,24 @@ const PartnerCarousel = ({ code, show, hide }) => {
 
                     <Carousel.Item className='bg-white d-flex flex-lg-row flex-column justify-content-between align-items-center'>
                         <Image
-                            src={abiyeBig}
-                            alt='Abiye Levy-Braide'
+                            src={onyemaBig}
+                            alt='Onyema Nwigwe'
                             className='profile m-lg-0 mx-auto'
                             fluid={true}
                         />
                         <Carousel.Caption className='details text-dark position-relative text-start'>
-                            <h2>Abiye Levy-Braide</h2>
-                            <p className='title'>Technology Partner</p>
+                            <h2>Onyema Nwigwe</h2>
+                            <p className='title'>VC Fundraising Partner</p>
                             <div className='links  pb-4'>
                                 <a
-                                    href='https://www.linkedin.com/in/levybraide/'
+                                    href='https://www.linkedin.com/in/justiceonwigwe/'
                                     target='_blank'
                                     rel='noopener noreferrer'>
                                     <BsLinkedin />
                                 </a>
 
                                 <a
-                                    href='https://twitter.com/levybuble'
+                                    href='https://twitter.com/onyemanj'
                                     target='_blank'
                                     className='ms-3'
                                     rel='noopener noreferrer'>
@@ -84,13 +84,15 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
                             </div>
                             <p className='desc'>
-                                Abiye has many years of experience as a CTO +
-                                Project Engineer with experience in Industrial
-                                Digitisation. He has vast experience with
-                                building MVPs, launching and taking them to
-                                market. In addition to Saas and technology
-                                product development, Abiye has expertise in
-                                P.M., Software, Agile and Lean Systems.
+                                Onyema is a venture capital investor at
+                                AfricInvest Group who has experience investing
+                                in several start-ups, including 54gene, PalmPay,
+                                Migo, and KaiOS Technologies. He has a
+                                background in political science and has also
+                                studied international business negotiations and
+                                European business strategy. Onyema is a
+                                recipient of the Davis Scholarship and the
+                                Finstad Entrepreneurial Grant.
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -136,6 +138,44 @@ const PartnerCarousel = ({ code, show, hide }) => {
 
                     <Carousel.Item className='bg-white d-flex flex-lg-row flex-column justify-content-between align-items-center'>
                         <Image
+                            src={abiyeBig}
+                            alt='Abiye Levy-Braide'
+                            className='profile m-lg-0 mx-auto'
+                            fluid={true}
+                        />
+                        <Carousel.Caption className='details text-dark position-relative text-start'>
+                            <h2>Abiye Levy-Braide</h2>
+                            <p className='title'>Technology Partner</p>
+                            <div className='links  pb-4'>
+                                <a
+                                    href='https://www.linkedin.com/in/levybraide/'
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <BsLinkedin />
+                                </a>
+
+                                <a
+                                    href='https://twitter.com/levybuble'
+                                    target='_blank'
+                                    className='ms-3'
+                                    rel='noopener noreferrer'>
+                                    <BsTwitter />
+                                </a>
+                            </div>
+                            <p className='desc'>
+                                Abiye has many years of experience as a CTO +
+                                Project Engineer with experience in Industrial
+                                Digitisation. He has vast experience with
+                                building MVPs, launching and taking them to
+                                market. In addition to Saas and technology
+                                product development, Abiye has expertise in
+                                P.M., Software, Agile and Lean Systems.
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    {/* <Carousel.Item className='bg-white d-flex flex-lg-row flex-column justify-content-between align-items-center'>
+                        <Image
                             src={jamesBig}
                             alt='James Adeniji PhD'
                             className='profile m-lg-0 mx-auto'
@@ -152,13 +192,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                     <BsLinkedin />
                                 </a>
 
-                                {/* <a
-                                    href='https://twitter.com/levybuble'
-                                    target='_blank'
-                                    className='ms-3'
-                                    rel='noopener noreferrer'>
-                                    <BsTwitter />
-                                </a> */}
+                               
                             </div>
                             <p className='desc'>
                                 James is part of an influential market insight
@@ -171,7 +205,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 and Marketing.
                             </p>
                         </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item>  */}
                 </Carousel>
             </Modal.Body>
 
