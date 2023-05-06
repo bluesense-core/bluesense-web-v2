@@ -84,15 +84,18 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
                             </div>
                             <p className='desc'>
-                                Onyema is a venture capital investor at
-                                AfricInvest Group who has experience investing
-                                in several start-ups, including 54gene, PalmPay,
-                                Migo, and KaiOS Technologies. He has a
-                                background in political science and has also
-                                studied international business negotiations and
-                                European business strategy. Onyema is a
-                                recipient of the Davis Scholarship and the
-                                Finstad Entrepreneurial Grant.
+                                Onyema is an experienced venture capital
+                                investor and advisor with a background in
+                                political science, international business
+                                negotiations, and European business strategy. He
+                                has invested in several start-ups, including
+                                54gene, PalmPay, Migo, and KaiOS Technologies.
+                                He has experience not just in investing rounds
+                                as a venture capitalist, but also as a highly
+                                credible advisor to technology start-ups in
+                                Africa looking to fundraise. He is a Davis
+                                Scholar and a recipient of the Finstad
+                                Entrepreneurial Grant.
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
