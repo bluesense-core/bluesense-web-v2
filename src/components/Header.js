@@ -124,6 +124,7 @@ const Header = () => {
                                             Advisory
                                         </NavHashLink>
                                     </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
@@ -131,6 +132,15 @@ const Header = () => {
                                             onClick={handleClose}
                                             to='/services#learning'>
                                             Learning
+                                        </NavHashLink>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item className=''>
+                                        <NavHashLink
+                                            smooth
+                                            className='d-block'
+                                            onClick={handleClose}
+                                            to='/services#design'>
+                                            Design
                                         </NavHashLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
@@ -178,6 +188,7 @@ const Header = () => {
                                             Advisory
                                         </NavHashLink>
                                     </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
@@ -185,6 +196,15 @@ const Header = () => {
                                             onClick={handleClose}
                                             to='/services#learning'>
                                             Learning
+                                        </NavHashLink>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item className=''>
+                                        <NavHashLink
+                                            smooth
+                                            className='d-block'
+                                            onClick={handleClose}
+                                            to='/services#design'>
+                                            Design
                                         </NavHashLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>

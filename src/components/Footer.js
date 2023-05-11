@@ -2,12 +2,20 @@ import React from 'react';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import './footer.css';
 import Logo from '../assets/images/logo.svg';
-import { BsInstagram, BsTwitter } from 'react-icons/bs';
-import { MdAddIcCall, MdOutlineMail } from 'react-icons/md';
+import { BsApple, BsInstagram, BsSpotify, BsTwitter } from 'react-icons/bs';
+import { AiFillApple, AiOutlineProfile } from 'react-icons/ai';
+import {
+    MdAddIcCall,
+    MdOutlineFolderOpen,
+    MdOutlineMail,
+} from 'react-icons/md';
 import { FaFacebookF, FaLinkedin } from 'react-icons/fa';
 import { BiUser } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
 import Profile from '../assets/files/BlueSense Profile.pdf';
+import Port from '../assets/files/BlueSense Portfolio.pdf';
+import Startup from '../assets/files/Start-up Profile.pdf';
+
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
@@ -105,9 +113,27 @@ const Footer = () => {
                                         href={Profile}
                                         target='_blank'
                                         rel='noopener noreferrer'
-                                        className='d-block'>
+                                        className='d-block mb-2'>
                                         <BiUser className='icon me-2 mb-1' />
                                         View company profile
+                                    </a>
+
+                                    <a
+                                        href={Startup}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='d-block mb-2'>
+                                        <AiOutlineProfile className='icon me-2 mb-1' />
+                                        View start-up profile
+                                    </a>
+
+                                    <a
+                                        href={Port}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='d-block'>
+                                        <MdOutlineFolderOpen className='icon me-2 mb-1' />
+                                        View company portfolio
                                     </a>
                                 </div>
                             </Nav>
@@ -177,8 +203,26 @@ const Footer = () => {
                             href='https://www.linkedin.com/company/bluesensehq/'
                             target='_blank'
                             aria-label='Linkedin'
-                            rel='noreferrer'>
+                            rel='noreferrer'
+                            className='me-3'>
                             <FaLinkedin />
+                        </a>
+
+                        <a
+                            href='https://podcasts.apple.com/ng/podcast/bluesense-podcast/id1500778810'
+                            target='_blank'
+                            aria-label='Apple Podcast'
+                            rel='noreferrer'
+                            className='me-3 fs-3'>
+                            <AiFillApple />
+                        </a>
+
+                        <a
+                            href='https://open.spotify.com/show/2ipIcJs9j4ZoTMGgtHBBys?si=f16edb0d91904b4e'
+                            target='_blank'
+                            aria-label='Spotify Podcast'
+                            rel='noreferrer'>
+                            <BsSpotify />
                         </a>
                     </div>
                 </Container>

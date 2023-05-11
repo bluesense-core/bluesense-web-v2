@@ -7,6 +7,7 @@ import aly from '../assets/images/services-img/analytics.png';
 import fund from '../assets/images/services-img/fundraising.png';
 import learn from '../assets/images/services-img/learning.png';
 import stra from '../assets/images/services-img/strategy.png';
+import des from '../assets/images/services-img/design.jpg';
 import { Container, Image } from 'react-bootstrap';
 
 const Services = () => {
@@ -45,16 +46,32 @@ const Services = () => {
                                 of receiving investment.
                                 <br />
                                 <br />
-                                With years of hands-on experience, our team of
-                                fundraising strategy consultants will help you
-                                accelerate your fundraising process by creating
-                                a bespoke funding strategy, pitch deck
-                                construction/tailored feedback, introductions to
-                                select VCs and angels that your company matches
-                                their portfolio companies and investment thesis;
-                                to help you raise the investment capital you
-                                need, as quickly as possible, so that you can
-                                get on with building your thriving company.
+                                At Bluesense, we understand the challenges of
+                                fundraising for start-ups and have years of
+                                hands-on experience in helping companies
+                                navigate the fundraising process. Our team of
+                                fundraising strategy consultants will work with
+                                you to create a bespoke funding strategy
+                                tailored to your business needs.
+                                <br />
+                                <br />
+                                Our experts provide a range of services,
+                                including pitch deck construction and feedback,
+                                introductions to select VCs and angels whose
+                                portfolio companies and investment theses align
+                                with your business, and other tools to help you
+                                raise the investment capital you need quickly.
+                                <br />
+                                <br />
+                                With our help, you can accelerate your
+                                fundraising process and increase your chances of
+                                securing investment, so that you can focus on
+                                building and growing your company. Our team has
+                                a track record of success in helping start-ups
+                                raise the capital they need to thrive. Whether
+                                you are just starting out or looking to raise
+                                your next round of funding, we are here to
+                                support you every step of the way.
                             </p>
                         </div>
 
@@ -84,27 +101,49 @@ const Services = () => {
                             <div className='blue mb-3'></div>
                             <h2 className=''>Analytics</h2>
                             <p>
-                                The biggest challenge with managing data is that
-                                data and analytics initiatives are often
-                                disconnected from business objectives and
-                                instead treated as one-off technology
-                                implementations.
+                                At Bluesense, we recognize that winning
+                                organizations require a combination of strategic
+                                insight, domain expertise, data, and technology.
+                                That's why we offer simplified, solutions-based
+                                consulting services that combine proprietary
+                                data, software, analytics, and expertise to
+                                provide clients with a clear view of complex
+                                problems.
                                 <br />
                                 <br />
-                                Without an explicit understanding of how
-                                effectively your business operates, customer
-                                behaviours, return on investment, etc , it
-                                becomes very difficult to spot improvements,
-                                take advantage of trends, and ensure effective
-                                investments.
+                                Our solutions are configured to solve challenges
+                                in a measurable and repeatable way, equipping
+                                clients to make better decisions for their
+                                businesses. Clients can work with our engagement
+                                teams or integrate our tools into their own
+                                business processes.
                                 <br />
                                 <br />
-                                At Bluesense we comb through your data to look
-                                for patterns and build similarities in the data
-                                and offer recommendations. Upon applying our
-                                recommendations, clients go on to add
-                                significant value to their company’s bottom
-                                line.
+                                Through our solutions, we help clients gain an
+                                explicit understanding of how effectively their
+                                businesses operate, including customer
+                                behaviors, return on investment, and other key
+                                metrics. By doing so, we make it easier for
+                                clients to spot improvements, take advantage of
+                                trends, and ensure effective investments.
+                                <br />
+                                <br />
+                                At Bluesense, we comb through client data to
+                                look for patterns and build similarities,
+                                offering targeted recommendations that align
+                                with our clients' business goals. Our clients
+                                have gone on to add significant value to their
+                                company's bottom line by applying our
+                                recommendations.
+                                <br />
+                                <br />
+                                Overall, our solutions-based consulting approach
+                                helps clients leverage their data effectively
+                                and gain valuable insights that drive business
+                                growth. By combining strategic insight, domain
+                                expertise, data, and technology, we help our
+                                clients achieve their desired outcomes and stay
+                                ahead in today's competitive landscape.
                             </p>
                         </div>
                     </article>
@@ -116,24 +155,44 @@ const Services = () => {
                             <div className='blue mb-3'></div>
                             <h2 className=''>Strategy</h2>
                             <p>
-                                For big companies, becoming data-driven can take
-                                several months or even years, lots of money and
-                                a heavy workload and for start-ups trying to
-                                deliver value quickly, continuously iterate, and
-                                outpace the competition, it can feel out of
-                                reach and difficult to take decisive action with
-                                confidence.
+                                At BlueSense, we understand that becoming
+                                data-driven can be a challenge for both big
+                                companies and start-ups. To help our clients
+                                achieve their goals, we conduct market research,
+                                identify problems, and gather data to develop
+                                comprehensive strategic plans that lead to the
+                                next level of performance. Our approach saves
+                                clients significant resources and financials.
                                 <br />
                                 <br />
-                                BlueSense helps clients understand what their
-                                company is trying to achieve by conducting
-                                market research, identifying problems and
-                                gathering the necessary data to develop the
-                                strategic plan for the company. After our help,
-                                companies get comprehensive strategic plans, and
-                                goals to lead their organisation to the next
-                                level of performance, saving ⅔ on resources and
-                                ⅘ on financials.
+                                As the amount of available data in the world
+                                continues to grow, companies can leverage this
+                                data and our unique skills in building strategy
+                                to improve their overall output. Our team
+                                applies the latest analytics tools and
+                                techniques, including machine learning, data
+                                mining, and sequential pattern analysis, to help
+                                companies optimize internal processes and
+                                interactions with customers. With our expanding
+                                scope of skills and experience, we help clients
+                                worldwide translate analytical insight into
+                                real-world strategies and impact.
+                                <br />
+                                <br />
+                                Our team of data analysts and researchers come
+                                from different industries and technical
+                                backgrounds, offering clients a diverse range of
+                                expertise. We apply the latest analytics tools
+                                and techniques, including machine learning, data
+                                mining, and sequential pattern analysis, to help
+                                companies optimize internal processes and
+                                interactions with customers. With our expanding
+                                scope of skills and experience, we help clients
+                                worldwide translate analytical insight into
+                                real-world strategies and impact. Once tools and
+                                models are implemented, we ensure our clients
+                                build effective experience so that strategies
+                                become a long-term competitive advantage.
                             </p>
                         </div>
 
@@ -183,6 +242,7 @@ const Services = () => {
                             </p>
                         </div>
                     </article>
+
                     <article
                         id='learning'
                         className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
@@ -237,13 +297,73 @@ const Services = () => {
                             </p>
                         </div>
 
-                        <div className='img-div'>
+                        <div className='img-div '>
                             <Image
                                 src={learn}
+                                alt=''
+                                className='learn m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
+                    </article>
+
+                    <article
+                        id='design'
+                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='img-div'>
+                            <Image
+                                src={des}
                                 alt=''
                                 className='m-lg-0 mx-auto'
                                 fluid
                             />
+                        </div>
+
+                        <div className='details m-lg-0 mb-3'>
+                            <div className='blue mb-3'></div>
+                            <h2 className=''>Design</h2>
+                            <p>
+                                Good design can have a huge impact on the
+                                success of a business. A well-designed product
+                                or website can attract more customers, improve
+                                the user experience, and ultimately lead to more
+                                sales and revenue. In addition, good design can
+                                help a business stand out from its competitors
+                                and establish a strong brand identity.
+                                <br />
+                                <br />
+                                At Bluesense, we understand the importance of
+                                good design and how it can impact a business's
+                                success. Our team of experienced designers works
+                                closely with clients to create customized
+                                designs that meet their specific needs and
+                                objectives. We take a user-centered approach to
+                                design, which means we focus on the needs and
+                                preferences of the end-users of the product or
+                                website.
+                                <br />
+                                <br />
+                                In addition to creating beautiful and functional
+                                designs, we also prioritize usability and
+                                accessibility. We ensure that our designs are
+                                easy to use and navigate, and that they are
+                                accessible to all users, including those with
+                                disabilities. This helps to ensure that the
+                                product or website is inclusive and can be used
+                                by the widest possible audience.
+                                <br />
+                                <br />
+                                Whether you need a new website design, a product
+                                redesign, or help with branding and visual
+                                identity, Bluesense has the expertise to help
+                                you achieve your goals. We work closely with our
+                                clients to ensure that their design needs are
+                                met and that they are satisfied with the final
+                                product. With our focus on user-centered design,
+                                usability, and accessibility, we can help you
+                                create designs that not only look great but also
+                                drive business success.
+                            </p>
                         </div>
                     </article>
                 </main>
