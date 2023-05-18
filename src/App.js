@@ -5,6 +5,7 @@ import Airbnb from './components/Blog/blog-pages/Airbnb';
 import Autogas from './components/Blog/blog-pages/Autogas';
 import BreakTheBias from './components/Blog/blog-pages/BreakTheBias';
 import CommonMistakes from './components/Blog/blog-pages/CommonMistakes';
+import CassavaProducer from './components/Blog/blog-pages/CassavaProducer';
 import BusinessResilience from './components/Blog/blog-pages/BusinessResilience';
 import Divesting from './components/Blog/blog-pages/Divesting';
 import EarlyStage from './components/Blog/blog-pages/EarlyStage';
@@ -133,6 +134,16 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
+               <Route
+                    path='/blog/nigeria-is-the-biggest-cassava-producer-in-the-world-why-isnt-it-cashing-in-on-the-global-market'
+                    element={
+                        <CassavaProducer
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
                 <Route
                     path='/blog/africa-is-predicted-to-experience-a-sustained-funding-slowdown-in-2023'
                     element={
