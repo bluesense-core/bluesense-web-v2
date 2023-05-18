@@ -134,7 +134,7 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
-               <Route
+                 <Route
                     path='/blog/nigeria-is-the-biggest-cassava-producer-in-the-world-why-isnt-it-cashing-in-on-the-global-market'
                     element={
                         <CassavaProducer
@@ -144,6 +144,8 @@ function App() {
                             createMarkup={createMarkup}
                             shortenText={shortenText}
                         />
+                    }
+                />
                 <Route
                     path='/blog/africa-is-predicted-to-experience-a-sustained-funding-slowdown-in-2023'
                     element={
