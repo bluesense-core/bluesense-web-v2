@@ -14,12 +14,12 @@ const BusinessResilience = ({
     removeSpace,
 }) => {
     const data = blogs.items.filter(
-        (e) => e.title === 'Dimensions of Business Resilience: From CEO’s Standpoint'
+        (e) => e.title === 'Dimensions of Business Resilience: from the CEO’s Standpoint'
     );
     const finalBlog = data[0];
 
     const shuffledData = blogs.items
-        .filter((e) => e.title !== 'Dimensions of Business Resilience: From CEO’s Standpoint')
+        .filter((e) => e.title !== 'Dimensions of Business Resilience: from the CEO’s Standpoint')
         .sort((a, b) => 0.5 - Math.random())
         .slice(0, 3);
 
