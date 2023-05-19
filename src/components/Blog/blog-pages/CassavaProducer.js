@@ -19,7 +19,7 @@ const CassavaProducer = ({
     const finalBlog = data[0];
 
     const shuffledData = blogs.items
-        .filter((e) => e.title !== 'Africa’s Debt to China')
+        .filter((e) => e.title !== 'Nigeria is the Biggest Cassava Producer in the World. Why isn’t it Cashing in on the Global Market?')
         .sort((a, b) => 0.5 - Math.random())
         .slice(0, 3);
 
