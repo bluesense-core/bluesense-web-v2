@@ -9,7 +9,7 @@ import {
     MdOutlineFolderOpen,
     MdOutlineMail,
 } from 'react-icons/md';
-import { FaFacebookF, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaMediumM } from 'react-icons/fa';
 import { BiUser } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
 import Profile from '../assets/files/BlueSense Profile.pdf';
@@ -172,23 +172,14 @@ const Footer = () => {
                     </p>
 
                     <div className='social-icons mb-md-0 mb-3'>
-                        <a
+                        {/* <a
                             href='https://www.facebook.com/bluesensehq/'
                             target='_blank'
                             aria-label='Faceboook'
                             rel='noreferrer'
                             className='me-3'>
                             <FaFacebookF />
-                        </a>
-
-                        <a
-                            href='https://www.instagram.com/bluesensehq/'
-                            target='_blank'
-                            aria-label='Instagram'
-                            className='me-3'
-                            rel='noreferrer'>
-                            <BsInstagram />
-                        </a>
+                        </a> */}
 
                         <a
                             href='https://twitter.com/bluesensehq/'
@@ -198,7 +189,14 @@ const Footer = () => {
                             className='me-3'>
                             <BsTwitter />
                         </a>
-
+                        <a
+                            href='https://bluesense.medium.com/'
+                            target='_blank'
+                            aria-label='Medium'
+                            rel='noreferrer'
+                            className='me-3'>
+                            <FaMediumM />
+                        </a>
                         <a
                             href='https://www.linkedin.com/company/bluesensehq/'
                             target='_blank'
@@ -206,6 +204,14 @@ const Footer = () => {
                             rel='noreferrer'
                             className='me-3'>
                             <FaLinkedin />
+                        </a>
+                        <a
+                            href='https://www.instagram.com/bluesensehq/'
+                            target='_blank'
+                            aria-label='Instagram'
+                            className='me-3'
+                            rel='noreferrer'>
+                            <BsInstagram />
                         </a>
 
                         <a
