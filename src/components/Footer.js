@@ -173,12 +173,12 @@ const Footer = () => {
 
                     <div className='social-icons mb-md-0 mb-3'>
                         {/* <a
-                            href='https://www.facebook.com/bluesensehq/'
+                            href='https://bluesense.medium.com/'
                             target='_blank'
-                            aria-label='Faceboook'
+                            aria-label='Medium'
                             rel='noreferrer'
                             className='me-3'>
-                            <FaFacebookF />
+                            <FaMediumM />
                         </a> */}
 
                         <a
