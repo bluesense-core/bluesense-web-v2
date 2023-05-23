@@ -33,7 +33,9 @@ const HomeHero = () => {
                     Tailored connections to select VC’S and Angels to get you
                     investment oppourtunities
                 </p>
-                <Link to='/contact' className='text-decoration-none text-white'>
+                <Link
+                    to='/contact'
+                    className='text-decoration-none text-white mb-3'>
                     <Button className='d-block mx-auto px-md-5 py-md-4 px-4 py-3'>
                         Contact Us
                     </Button>
@@ -112,7 +114,7 @@ const HomeHero = () => {
                     </Carousel.Item>
                 </Carousel>
 
-                <p className='business mb-sm-5 mb-4 text-start'>
+                <p className='business mt-3 mb-sm-5 mb-4 text-start'>
                     Businesses of all sizes trust us
                 </p>
                 <Row className='pt-sm-5 pt-3 pb-4 gy-5 comp-logos'>

@@ -34,7 +34,9 @@ const HomeReviews = () => {
                             <h3>
                                 Andrew Garza
                                 <br />
-                                <span>Lifestores Pharmacy, Cofounder + COO</span>
+                                <span>
+                                    Lifestores Pharmacy, Cofounder + COO
+                                </span>
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>

@@ -56,6 +56,7 @@
 
     color: #fff;
     text-align: left;
+    min-height: 400px;
 }
 
 #home #home-reviews .carousel-control-next,
@@ -98,6 +99,7 @@
 @media (max-width: 1199px) {
     #home #home-reviews .carousel-caption {
         padding-right: 7em;
+        min-height: 500px;
     }
 
     #home #home-reviews .carousel {
@@ -116,6 +118,10 @@
 @media (max-width: 991px) {
     #home #home-reviews .carousel {
         width: 100%;
+    }
+
+    #home #home-reviews .carousel-caption {
+        min-height: 400px;
     }
 }
 
@@ -149,6 +155,7 @@
 @media (max-width: 575px) {
     #home #home-reviews .carousel-caption {
         text-align: center;
+        min-height: 450px;
     }
 
     #home #home-reviews .carousel-caption img {
@@ -190,5 +197,17 @@
         font-weight: 600;
         font-size: 32px;
         color: #101828;
+    }
+}
+
+@media (max-width: 424px) {
+    #home #home-reviews .carousel-caption {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 350px) {
+    #home #home-reviews .carousel-caption {
+        min-height: 550px;
     }
 }
