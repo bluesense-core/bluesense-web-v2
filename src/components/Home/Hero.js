@@ -118,12 +118,6 @@ const HomeHero = () => {
                     Businesses of all sizes trust us
                 </p>
                 <Row className='pt-sm-5 pt-3 pb-4 gy-5 comp-logos'>
-                    {/* <Col
-                        md={3}
-                        xs={3}
-                        className='d-flex justify-content-md-start justify-content-center align-items-center'>
-                        <Image src={Payhippo} alt='Payhippo Logo' />
-                    </Col> */}
                     <Col
                         md={3}
                         xs={3}
