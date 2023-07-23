@@ -5,7 +5,8 @@ import Blocks from '../../assets/images/home-img/hero-blocks.svg';
 import Imagery1 from '../../assets/images/home-img/Imagery-1.png';
 import Imagery2 from '../../assets/images/home-img/Imagery-2.png';
 import Imagery3 from '../../assets/images/home-img/Imagery-3.png';
-import Payhippo from '../../assets/images/home-img/payhippo-logo.svg';
+import Tap from '../../assets/images/home-img/tap.svg';
+import ColdHubs from '../../assets/images/home-img/cold-hubs.svg';
 import Hugo from '../../assets/images/home-img/hugo-logo.svg';
 import Hash from '../../assets/images/home-img/hash-logo.svg';
 import Mede from '../../assets/images/home-img/mede-logo.svg';
@@ -178,6 +179,17 @@ const HomeHero = () => {
                         xs={3}
                         className='d-flex  justify-content-center align-items-center'>
                         <Image src={Leeds} alt='Leeds Logo' />
+                    </Col>
+
+                    <Col
+                        md={3}
+                        xs={3}
+                        className='d-flex  justify-content-center align-items-center'>
+                        <Image src={Tap} alt='Tap Logo' />
+                    </Col>
+
+                    <Col md={3} xs={3} className='d-flex align-items-center'>
+                        <Image src={ColdHubs} alt='Cold Hubs Logo' />
                     </Col>
                 </Row>
             </Container>
