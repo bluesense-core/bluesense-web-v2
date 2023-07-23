@@ -28,10 +28,11 @@ const HomeHero = () => {
             <Container className='text-center'>
                 <h1 className='display-5'>
                     Most companies lack the time and expertise to build an
-                    effective training curriculum that gets results. BlueSense,
-                    will <span>build</span> a bespoke learning curriculum
-                    tailored to help your team execute better, so you can{' '}
-                    <span>build</span> a thriving company that develops the
+                    effective training curriculum that gets results.
+                    <br /> <br />
+                    BlueSense, will <span>build</span> a bespoke learning
+                    curriculum tailored to help your team execute better, so you
+                    can <span>build</span> a thriving company that develops the
                     vision you’ve set out to build.
                 </h1>
 
