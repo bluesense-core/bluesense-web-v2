@@ -92,19 +92,11 @@ const Header = () => {
                                             smooth
                                             className='d-block'
                                             onClick={handleClose}
-                                            to='/services#fundraising'>
-                                            Fundraising
+                                            to='/services#learning'>
+                                            Learning
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className=''>
-                                        <NavHashLink
-                                            smooth
-                                            className='d-block'
-                                            onClick={handleClose}
-                                            to='/services#analytics'>
-                                            Analytics
-                                        </NavHashLink>
-                                    </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
@@ -121,7 +113,7 @@ const Header = () => {
                                             className='d-block'
                                             onClick={handleClose}
                                             to='/services#advisory'>
-                                            Advisory
+                                            Advisory / Coaching
                                         </NavHashLink>
                                     </NavDropdown.Item>
 
@@ -130,10 +122,20 @@ const Header = () => {
                                             smooth
                                             className='d-block'
                                             onClick={handleClose}
-                                            to='/services#learning'>
-                                            Learning
+                                            to='/services#fundraising'>
+                                            Fundraising
                                         </NavHashLink>
                                     </NavDropdown.Item>
+                                    <NavDropdown.Item className=''>
+                                        <NavHashLink
+                                            smooth
+                                            className='d-block'
+                                            onClick={handleClose}
+                                            to='/services#analytics'>
+                                            Analytics
+                                        </NavHashLink>
+                                    </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
@@ -156,19 +158,11 @@ const Header = () => {
                                             smooth
                                             className='d-block'
                                             onClick={handleClose}
-                                            to='/services#fundraising'>
-                                            Fundraising
+                                            to='/services#learning'>
+                                            Learning
                                         </NavHashLink>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className=''>
-                                        <NavHashLink
-                                            smooth
-                                            className='d-block'
-                                            onClick={handleClose}
-                                            to='/services#analytics'>
-                                            Analytics
-                                        </NavHashLink>
-                                    </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
@@ -185,7 +179,7 @@ const Header = () => {
                                             className='d-block'
                                             onClick={handleClose}
                                             to='/services#advisory'>
-                                            Advisory
+                                            Advisory / Coaching
                                         </NavHashLink>
                                     </NavDropdown.Item>
 
@@ -194,10 +188,21 @@ const Header = () => {
                                             smooth
                                             className='d-block'
                                             onClick={handleClose}
-                                            to='/services#learning'>
-                                            Learning
+                                            to='/services#fundraising'>
+                                            Fundraising
                                         </NavHashLink>
                                     </NavDropdown.Item>
+
+                                    <NavDropdown.Item className=''>
+                                        <NavHashLink
+                                            smooth
+                                            className='d-block'
+                                            onClick={handleClose}
+                                            to='/services#analytics'>
+                                            Analytics
+                                        </NavHashLink>
+                                    </NavDropdown.Item>
+
                                     <NavDropdown.Item className=''>
                                         <NavHashLink
                                             smooth
