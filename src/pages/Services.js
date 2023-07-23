@@ -32,8 +32,171 @@ const Services = () => {
             <Container>
                 <main id='services' className=''>
                     <article
-                        id='fundraising'
+                        id='learning'
+                        className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='details m-lg-0 mb-3'>
+                            <div className='blue mb-3'></div>
+                            <h2 className=''>Learning</h2>
+                            <p>
+                                Learning should be updated too: The success or
+                                failure of your company is highly dependent on
+                                the productivity levels of your employees, both
+                                individually and collectively. Experts define
+                                employee productivity as the effectiveness,
+                                commitment, and ability of an employee or a
+                                group of employees. It is measured by the output
+                                an individual employee makes within a specified
+                                input (cost) and a specified duration.
+                                <br />
+                                <br />
+                                To understand this argument best, consider an
+                                employee who works at your organisation for
+                                eight hours and earns a net salary of
+                                ₦1,000,000.00 of the eight hours, how much work
+                                does he do? Can an average worker finish the
+                                same work within less or more than eight hours?
+                                If the average worker can complete the daily
+                                task within, say, seven hours and need a smaller
+                                salary, then the employee in question isn’t as
+                                productive as he/she should.
+                                <br />
+                                <br />
+                                But, does it mean that employees are always to
+                                blame for low productivity? Absolutely not!
+                                Experts recommend that employers should train
+                                their workers regularly on why and how to
+                                improve their productivity. You need to train
+                                them on new skills in order to inspire them to
+                                productivity.
+                                <br />
+                                <br />
+                                Learning & corporate training is at the core of
+                                what we do. We have built exceptional expertise
+                                in training and coaching over 17+ years. After
+                                our training program, teams get a 15-35% growth
+                                in productivity and a boost in organisational
+                                citizenship which leads to a ripple effect in
+                                the reduction of unproductive time and a more
+                                focused and enhanced team, more committed and
+                                loyal to the growth of the organisation.
+                            </p>
+                        </div>
+
+                        <div className='img-div '>
+                            <Image
+                                src={learn}
+                                alt=''
+                                className='learn m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
+                    </article>
+
+                    <article
+                        id='strategy'
+                        className=' d-flex flex-lg-row flex-column-reverse  justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='img-div'>
+                            <Image
+                                src={stra}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
+                        <div className='details m-lg-0 mb-3'>
+                            <div className='blue mb-3'></div>
+                            <h2 className=''>Strategy</h2>
+                            <p>
+                                At BlueSense, we understand that becoming
+                                data-driven can be a challenge for both big
+                                companies and start-ups. To help our clients
+                                achieve their goals, we conduct market research,
+                                identify problems, and gather data to develop
+                                comprehensive strategic plans that lead to the
+                                next level of performance. Our approach saves
+                                clients significant resources and financials.
+                                <br />
+                                <br />
+                                As the amount of available data in the world
+                                continues to grow, companies can leverage this
+                                data and our unique skills in building strategy
+                                to improve their overall output. Our team
+                                applies the latest analytics tools and
+                                techniques, including machine learning, data
+                                mining, and sequential pattern analysis, to help
+                                companies optimize internal processes and
+                                interactions with customers. With our expanding
+                                scope of skills and experience, we help clients
+                                worldwide translate analytical insight into
+                                real-world strategies and impact.
+                                <br />
+                                <br />
+                                Our team of data analysts and researchers come
+                                from different industries and technical
+                                backgrounds, offering clients a diverse range of
+                                expertise. We apply the latest analytics tools
+                                and techniques, including machine learning, data
+                                mining, and sequential pattern analysis, to help
+                                companies optimize internal processes and
+                                interactions with customers. With our expanding
+                                scope of skills and experience, we help clients
+                                worldwide translate analytical insight into
+                                real-world strategies and impact. Once tools and
+                                models are implemented, we ensure our clients
+                                build effective experience so that strategies
+                                become a long-term competitive advantage.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        id='advisory'
                         className=' d-flex flex-lg-row flex-column justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='details m-lg-0 mb-3'>
+                            <div className='blue mb-3'></div>
+                            <h2 className=''>Advisory/Coaching</h2>
+                            <p>
+                                Growing a business is complicated and scaling a
+                                company further is contingent on solving a
+                                number of business challenges.
+                                <br />
+                                <br />
+                                Our advisory delivers actionable solutions to
+                                real business challenges that span across
+                                people, technology, and data, that allow clients
+                                to grow their businesses and the organisation as
+                                a whole.
+                                <br />
+                                <br />
+                                We leverage our knowledge to develop practical
+                                and actionable recommendations designed to help
+                                you work smarter, grow faster, compete better
+                                and achieve recognisable value across your
+                                company.
+                            </p>
+                        </div>
+                        <div className='img-div'>
+                            <Image
+                                src={adv}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
+                    </article>
+
+                    <article
+                        id='fundraising'
+                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
+                        <div className='img-div'>
+                            <Image
+                                src={fund}
+                                alt=''
+                                className='m-lg-0 mx-auto'
+                                fluid
+                            />
+                        </div>
+
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
                             <h2 className=''>Fundraising</h2>
@@ -74,29 +237,11 @@ const Services = () => {
                                 support you every step of the way.
                             </p>
                         </div>
-
-                        <div className='img-div'>
-                            <Image
-                                src={fund}
-                                alt=''
-                                className='m-lg-0 mx-auto'
-                                fluid
-                            />
-                        </div>
                     </article>
 
                     <article
                         id='analytics'
-                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
-                        <div className='img-div'>
-                            <Image
-                                src={aly}
-                                alt=''
-                                className='m-lg-0 mx-auto'
-                                fluid
-                            />
-                        </div>
-
+                        className=' d-flex flex-lg-row flex-column justify-content-between   align-items-xl-start align-items-center'>
                         <div className='details m-lg-0 mb-3'>
                             <div className='blue mb-3'></div>
                             <h2 className=''>Analytics</h2>
@@ -146,162 +291,12 @@ const Services = () => {
                                 ahead in today's competitive landscape.
                             </p>
                         </div>
-                    </article>
-
-                    <article
-                        id='strategy'
-                        className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
-                        <div className='details m-lg-0 mb-3'>
-                            <div className='blue mb-3'></div>
-                            <h2 className=''>Strategy</h2>
-                            <p>
-                                At BlueSense, we understand that becoming
-                                data-driven can be a challenge for both big
-                                companies and start-ups. To help our clients
-                                achieve their goals, we conduct market research,
-                                identify problems, and gather data to develop
-                                comprehensive strategic plans that lead to the
-                                next level of performance. Our approach saves
-                                clients significant resources and financials.
-                                <br />
-                                <br />
-                                As the amount of available data in the world
-                                continues to grow, companies can leverage this
-                                data and our unique skills in building strategy
-                                to improve their overall output. Our team
-                                applies the latest analytics tools and
-                                techniques, including machine learning, data
-                                mining, and sequential pattern analysis, to help
-                                companies optimize internal processes and
-                                interactions with customers. With our expanding
-                                scope of skills and experience, we help clients
-                                worldwide translate analytical insight into
-                                real-world strategies and impact.
-                                <br />
-                                <br />
-                                Our team of data analysts and researchers come
-                                from different industries and technical
-                                backgrounds, offering clients a diverse range of
-                                expertise. We apply the latest analytics tools
-                                and techniques, including machine learning, data
-                                mining, and sequential pattern analysis, to help
-                                companies optimize internal processes and
-                                interactions with customers. With our expanding
-                                scope of skills and experience, we help clients
-                                worldwide translate analytical insight into
-                                real-world strategies and impact. Once tools and
-                                models are implemented, we ensure our clients
-                                build effective experience so that strategies
-                                become a long-term competitive advantage.
-                            </p>
-                        </div>
 
                         <div className='img-div'>
                             <Image
-                                src={stra}
+                                src={aly}
                                 alt=''
                                 className='m-lg-0 mx-auto'
-                                fluid
-                            />
-                        </div>
-                    </article>
-
-                    <article
-                        id='advisory'
-                        className=' d-flex flex-lg-row flex-column-reverse justify-content-between   align-items-xl-start align-items-center'>
-                        <div className='img-div'>
-                            <Image
-                                src={adv}
-                                alt=''
-                                className='m-lg-0 mx-auto'
-                                fluid
-                            />
-                        </div>
-
-                        <div className='details m-lg-0 mb-3'>
-                            <div className='blue mb-3'></div>
-                            <h2 className=''>Advisory</h2>
-                            <p>
-                                Growing a business is complicated and scaling a
-                                company further is contingent on solving a
-                                number of business challenges.
-                                <br />
-                                <br />
-                                Our advisory delivers actionable solutions to
-                                real business challenges that span across
-                                people, technology, and data, that allow clients
-                                to grow their businesses and the organisation as
-                                a whole.
-                                <br />
-                                <br />
-                                We leverage our knowledge to develop practical
-                                and actionable recommendations designed to help
-                                you work smarter, grow faster, compete better
-                                and achieve recognisable value across your
-                                company.
-                            </p>
-                        </div>
-                    </article>
-
-                    <article
-                        id='learning'
-                        className=' d-flex flex-lg-row flex-column  justify-content-between   align-items-xl-start align-items-center'>
-                        <div className='details m-lg-0 mb-3'>
-                            <div className='blue mb-3'></div>
-                            <h2 className=''>Learning</h2>
-                            <p>
-                                Leadership training is at the core of what we
-                                do. We have built exceptional expertise in
-                                leadership training and coaching over 17+ years
-                                as executives are arguably the most important
-                                group in an organisation. They usually have the
-                                most overt power and their decisions have
-                                implications for the entire organisation; yet
-                                the executive team is often poorly resourced to
-                                accomplish its tasks. In the last 20 years,
-                                particularly the past 24 months, there's been a
-                                surge in the utilisation of senior teams for top
-                                leadership as the workplace becomes more complex
-                                due to globalisation and remote work.
-                                <br />
-                                <br />
-                                Organisations who have bravely embarked on this
-                                model, but are finding it difficult to ensure
-                                the effectiveness of these teams invite us. A
-                                few roadblocks faced by executives include: i.
-                                The spotlight is always on them ii. Power
-                                dynamics are central to the operations of the
-                                executive group iii. Tension usually exists
-                                between cooperation required to do good work and
-                                the implicit competition of individuals iv.
-                                Executives are typically stars in their own
-                                fields and practices; and have been rewarded for
-                                outstanding individual contributions. Most
-                                executives usually have the most overt power and
-                                their decisions have implications for the entire
-                                organisation; yet the executive team is often
-                                poorly resourced to accomplish its task. At
-                                bluesense we lead intensive leadership workshops
-                                for companies, carry out research and present
-                                the findings that best solves day-to-day
-                                challenges faced.
-                                <br />
-                                <br />
-                                After our leadership training program, teams get
-                                a 15-35% growth in productivity and a boost in
-                                organisational citizenship which leads to a
-                                ripple effect in the reduction of unproductive
-                                time and a more focused and enhanced team, more
-                                committed and loyal to the growth of the
-                                organisation.
-                            </p>
-                        </div>
-
-                        <div className='img-div '>
-                            <Image
-                                src={learn}
-                                alt=''
-                                className='learn m-lg-0 mx-auto'
                                 fluid
                             />
                         </div>
