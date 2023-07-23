@@ -7,7 +7,6 @@
 #home .home-hero h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 4.75rem;
     line-height: 120%;
     color: #0a0a33;
     margin-bottom: 32px;
@@ -90,7 +89,7 @@
 
 @media (max-width: 1199px) {
     #home .home-hero h1 {
-        font-size: 4.6rem;
+        font-size: 2.8125rem;
     }
     #home .imagery3 {
         bottom: 0.7em;
@@ -152,7 +151,7 @@
 
 @media (max-width: 61.9375rem) {
     #home .home-hero h1 {
-        font-size: 3.3rem;
+        font-size: 2.5rem;
     }
     #home .home-hero {
         padding-top: 8em;
@@ -173,7 +172,7 @@
     }
 
     #home .home-hero h1 {
-        font-size: 2.45rem;
+        font-size: 2rem;
     }
     #home .home-hero .subtitle {
         padding: 0;
@@ -206,8 +205,8 @@
 
 @media (max-width: 425px) {
     #home .home-hero h1 {
-        font-size: 36px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 32px;
     }
 
     #home .home-hero .subtitle {
