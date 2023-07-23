@@ -42,15 +42,14 @@
     object-position: center;
 }
 
-#services #advisory .details {
-    padding-right: 6em;
-}
+/* #services #advisory .details {
+    padding-right: 0em;
+} */
 
 @media (max-width: 1199px) {
     #services img:last-of-type {
         object-position: right;
     }
-
     /* #services #analytics img {
         height: 550px;
     }
@@ -138,6 +137,11 @@
     line-height: 27px;
 }
 
+@media (max-width: 1199px) {
+    #services p {
+        font-size: 1rem;
+    }
+}
 @media (max-width: 425px) {
     #services h2 {
         font-weight: 600;
