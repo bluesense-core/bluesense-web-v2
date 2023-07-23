@@ -214,7 +214,7 @@ const HomeAbout = () => {
                     <div className='datas mt-lg-0 mt-sm-3 d-flex flex-md-nowrap flex-wrap justify-content-between align-items-center'>
                         <div className='data data1'>
                             <span className='ms-xl-5 ms-0'>
-                                <h3>$100M+</h3>
+                                <h3>$1M+</h3>
                                 <div className='box'></div>
                                 <p>
                                     Added to Client{' '}
@@ -226,7 +226,7 @@ const HomeAbout = () => {
 
                         <div className='data data2'>
                             <span className='mb-4'>
-                                <h3>49</h3>
+                                <h3>63</h3>
                                 <div className='box'></div>
                                 <p>Projects executed</p>
                             </span>
