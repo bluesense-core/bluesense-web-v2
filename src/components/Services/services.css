@@ -42,15 +42,10 @@
     object-position: center;
 }
 
-#services #advisory .details {
-    padding-right: 6em;
-}
-
 @media (max-width: 1199px) {
     #services img:last-of-type {
         object-position: right;
     }
-
     /* #services #analytics img {
         height: 550px;
     }
@@ -61,10 +56,6 @@
 
     #services #advisory img {
         height: 550px;
-    }
-
-    #services #advisory .details {
-        padding-right: 4em;
     }
 }
 
@@ -90,9 +81,6 @@
         width: 100%;
         object-fit: cover;
         object-position: center;
-    }
-    #services #advisory .details {
-        padding-right: 0;
     }
 }
 
@@ -138,6 +126,11 @@
     line-height: 27px;
 }
 
+@media (max-width: 1199px) {
+    #services p {
+        font-size: 1rem;
+    }
+}
 @media (max-width: 425px) {
     #services h2 {
         font-weight: 600;

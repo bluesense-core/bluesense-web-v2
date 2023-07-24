@@ -5,7 +5,8 @@ import Blocks from '../../assets/images/home-img/hero-blocks.svg';
 import Imagery1 from '../../assets/images/home-img/Imagery-1.png';
 import Imagery2 from '../../assets/images/home-img/Imagery-2.png';
 import Imagery3 from '../../assets/images/home-img/Imagery-3.png';
-import Payhippo from '../../assets/images/home-img/payhippo-logo.svg';
+import Tap from '../../assets/images/home-img/tap.svg';
+import ColdHubs from '../../assets/images/home-img/cold-hubs.svg';
 import Hugo from '../../assets/images/home-img/hugo-logo.svg';
 import Hash from '../../assets/images/home-img/hash-logo.svg';
 import Mede from '../../assets/images/home-img/mede-logo.svg';
@@ -25,13 +26,19 @@ const HomeHero = () => {
     return (
         <section className='home-hero'>
             <Container className='text-center'>
-                <h1 className=''>
-                    A simpler way to <span>grow</span> your company with
-                    management and start-up consulting services.
+                <h1 className='display-5'>
+                    Most companies lack the time and expertise to build an
+                    effective training curriculum that gets results.
+                    <br /> <br />
+                    BlueSense, will <span>build</span> a bespoke learning
+                    curriculum tailored to help your team execute better, so you
+                    can <span>build</span> a thriving company that develops the
+                    vision you’ve set out to build.
                 </h1>
+
                 <p className='subtitle'>
-                    Tailored connections to select VC’S and Angels to get you
-                    investment oppourtunities
+                    Tailored learning modules to help you build effective and
+                    productive teams that will super-charge your growth.
                 </p>
                 <Link
                     to='/contact'
@@ -168,6 +175,17 @@ const HomeHero = () => {
                         xs={3}
                         className='d-flex  justify-content-center align-items-center'>
                         <Image src={Leeds} alt='Leeds Logo' />
+                    </Col>
+
+                    <Col
+                        md={3}
+                        xs={3}
+                        className='d-flex  justify-content-center align-items-center'>
+                        <Image src={Tap} alt='Tap Logo' />
+                    </Col>
+
+                    <Col md={3} xs={3} className='d-flex align-items-center'>
+                        <Image src={ColdHubs} alt='Cold Hubs Logo' />
                     </Col>
                 </Row>
             </Container>
