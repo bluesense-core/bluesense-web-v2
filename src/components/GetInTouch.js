@@ -16,12 +16,12 @@ const GetInTouch = () => {
                         together to bring your ideas to life.
                     </p>
                 </div>
-                <div className='contact-us  d-flex justify-content-sm-center justify-content-start '>
+                <div className='contact-us  d-flex justify-content-sm-center  '>
                     <Link
                         to='/contact'
-                        className='d-flex justify-content-sm-center justify-content-start text-decoration-none'>
+                        className='d-flex justify-content-sm-center text-decoration-none'>
                         <Button className='px-lg-5 px-4 py-sm-4 py-3 d-flex justify-content-between align-items-center'>
-                            <span className='me-4'>Contact Us</span>
+                            <span className='me-4'>Schedule Consultation</span>
                             <BsArrowRight className='ms-4 arrow' />
                         </Button>
                     </Link>

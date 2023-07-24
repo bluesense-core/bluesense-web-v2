@@ -239,7 +239,7 @@ const Header = () => {
                                 as='a'
                                 href='/contact'
                                 className='mt-4 d-md-none d-block contact-btn'>
-                                Contact Us
+                                Schedule Consultation
                             </Button>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
