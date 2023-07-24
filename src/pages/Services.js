@@ -38,15 +38,15 @@ const Services = () => {
                             <div className='blue mb-3'></div>
                             <h2 className=''>Learning</h2>
                             <p>
-                                Learning should be updated too: The success or
-                                failure of your company is highly dependent on
-                                the productivity levels of your employees, both
-                                individually and collectively. Experts define
-                                employee productivity as the effectiveness,
-                                commitment, and ability of an employee or a
-                                group of employees. It is measured by the output
-                                an individual employee makes within a specified
-                                input (cost) and a specified duration.
+                                The success or failure of your company is highly
+                                dependent on the productivity levels of your
+                                employees, both individually and collectively.
+                                Experts define employee productivity as the
+                                effectiveness, commitment, and ability of an
+                                employee or a group of employees. It is measured
+                                by the output an individual employee makes
+                                within a specified input (cost) and a specified
+                                duration.
                                 <br />
                                 <br />
                                 To understand this argument best, consider an

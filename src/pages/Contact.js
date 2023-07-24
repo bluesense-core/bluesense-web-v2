@@ -10,6 +10,7 @@ import {
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
 import '../components/Contact/contact.css';
+import { PopupButton } from 'react-calendly';
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
@@ -71,14 +72,14 @@ const Contact = () => {
 
             <main id='contact'>
                 <Container>
-                    <h2>Contact</h2>
+                    <h2>Schedule Conversation</h2>
                     <p>
                         Want to connect with <span>BlueSense</span>: to discuss
                         possible consulting engagements,{' '}
                         <br className='d-lg-block d-none' />
-                        please get in touch with us via the info/form below.
+                        please get in touch with us via the info/form below or
+                        schedule a 15mins free consultation on our calendly.
                     </p>
-
                     <Form
                         ref={formRef}
                         className='mt-5'
@@ -199,6 +200,13 @@ const Contact = () => {
                             {text}
                         </p>
                     </Form>
+
+                    <PopupButton
+                        url='https://calendly.com/bluesense/35min'
+                        className='btn-2 d-block rounded-pill  py-3 ms-sm-auto'
+                        rootElement={document.getElementById('root')}
+                        text='Schedule a Consultation!'
+                    />
                 </Container>
             </main>
         </HelmetProvider>

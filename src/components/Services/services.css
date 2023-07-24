@@ -42,10 +42,6 @@
     object-position: center;
 }
 
-/* #services #advisory .details {
-    padding-right: 0em;
-} */
-
 @media (max-width: 1199px) {
     #services img:last-of-type {
         object-position: right;
@@ -60,10 +56,6 @@
 
     #services #advisory img {
         height: 550px;
-    }
-
-    #services #advisory .details {
-        padding-right: 4em;
     }
 }
 
@@ -89,9 +81,6 @@
         width: 100%;
         object-fit: cover;
         object-position: center;
-    }
-    #services #advisory .details {
-        padding-right: 0;
     }
 }
 
