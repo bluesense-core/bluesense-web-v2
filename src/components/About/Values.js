@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import team from '../../assets/images/about-img/sales-team.jpg';
 import './values.css';
 
 const Values = () => {
@@ -7,6 +8,12 @@ const Values = () => {
         <section className='values'>
             <Container>
                 <Row className='gx-lg-4 gy-sm-5'>
+                    <Image
+                        src={team}
+                        alt=''
+                        className='mb-4 mx-auto'
+                        style={{ width: '90%' }}
+                    />
                     <Col lg='4'>
                         <h2>
                             Values we <br className='d-lg-block d-none' />

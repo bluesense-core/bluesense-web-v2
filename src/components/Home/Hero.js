@@ -26,7 +26,7 @@ const HomeHero = () => {
     return (
         <section className='home-hero'>
             <Container className='text-center'>
-                <h1 className='display-5'>
+                <h1 className=''>
                     Most companies lack the time and expertise to build an
                     effective training curriculum that gets results.
                     <br /> <br />
@@ -44,7 +44,7 @@ const HomeHero = () => {
                     to='/contact'
                     className='text-decoration-none text-white mb-3'>
                     <Button className='d-block mx-auto px-md-5 py-md-4 px-4 py-3'>
-                        Contact Us
+                        Schedule Consultation
                     </Button>
                 </Link>
                 <Carousel
@@ -129,13 +129,17 @@ const HomeHero = () => {
                         md={3}
                         xs={3}
                         className='d-flex justify-content-md-start justify-content-center  align-items-center'>
-                        <Image src={Hugo} alt='Hugo Logo' className='me-xl-5' />
+                        <Image src={Tap} alt='Tap Logo' className='me-xl-5' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
                         className='d-flex justify-content-md-start justify-content-center  align-items-center'>
-                        <Image src={Hash} alt='Hash Logo' className='ms-xl-5' />
+                        <Image
+                            src={ColdHubs}
+                            alt='Cold Hubs Logo'
+                            className='ms-xl-5'
+                        />
                     </Col>
                     <Col
                         md={3}
@@ -181,11 +185,11 @@ const HomeHero = () => {
                         md={3}
                         xs={3}
                         className='d-flex  justify-content-center align-items-center'>
-                        <Image src={Tap} alt='Tap Logo' />
+                        <Image src={Hugo} alt='Hugo Logo' />
                     </Col>
 
                     <Col md={3} xs={3} className='d-flex align-items-center'>
-                        <Image src={ColdHubs} alt='Cold Hubs Logo' />
+                        <Image src={Hash} alt='Hash Logo' />
                     </Col>
                 </Row>
             </Container>
