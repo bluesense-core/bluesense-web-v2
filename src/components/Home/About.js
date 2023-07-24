@@ -62,46 +62,46 @@ const HomeAbout = () => {
 
                     <div className='circle-div mx-auto'>
                         <div className='circle circle-top mx-auto text-center d-flex flex-column justify-content-center align-items-center'>
-                            <h4 className=''>Organisations</h4>
+                            <h4 className=''>Government</h4>
                             <p className='mb-xxl-3 mb-2'>
-                                BlueSense helps to shape organisations like
-                                yours to plan for sustainable growth by
-                                identifying the issues unique to your company
-                                and developing strategic plans to help you
-                                attain your set goals and keep you competitive.
-                            </p>
-                            <p className='mb-xxl-3 mb-2'>
-                                We also build tailored training & workshop
-                                module to help your team effectively deal with
-                                the challenges they face on a day-to-day basis.
+                                BlueSense works with bold, ambitious leaders who
+                                are not satisfied with the status quo and are
+                                eager for change, utilising key strategic tools
+                                that improve performance and help public-sector
+                                entities do the work they do better.
                             </p>
                             <p>
-                                We partner with, connect and support founders
-                                through our start-up advisory and growth,
-                                helping you find the right strategy & channel to
-                                grow your company.
+                                BlueSense works with national and regional
+                                governments, city municipalities,
+                                quasi-government agencies such as development
+                                funds and trade associations as well as
+                                government-owned companies to help realise their
+                                economic and social goals.
                             </p>
                         </div>
 
                         <div className='circle-bottom d-flex flex-lg-row flex-column justify-content-center align-items-center text-center'>
                             <div className='circle circle-left me-xl-3 d-flex flex-column justify-content-center align-items-center'>
-                                <h4 className=''>Government</h4>
-
+                                <h4 className=''>Organisations</h4>
                                 <p className='mb-xxl-3 mb-2'>
-                                    BlueSense works with bold, ambitious leaders
-                                    who are not satisfied with the status quo
-                                    and are eager for change, utilising key
-                                    strategic tools that improve performance and
-                                    help public-sector entities do the work they
-                                    do better.
+                                    BlueSense helps to shape organisations like
+                                    yours to plan for sustainable growth by
+                                    identifying the issues unique to your
+                                    company and developing strategic plans to
+                                    help you attain your set goals and keep you
+                                    competitive.
+                                </p>
+                                <p className='mb-xxl-3 mb-2'>
+                                    We also build tailored training & workshop
+                                    module to help your team effectively deal
+                                    with the challenges they face on a
+                                    day-to-day basis.
                                 </p>
                                 <p>
-                                    BlueSense works with national and regional
-                                    governments, city municipalities,
-                                    quasi-government agencies such as
-                                    development funds and trade associations as
-                                    well as government-owned companies to help
-                                    realise their economic and social goals.
+                                    We partner with, connect and support
+                                    founders through our start-up advisory and
+                                    growth, helping you find the right strategy
+                                    & channel to grow your company.
                                 </p>
                             </div>
                             <div
@@ -299,7 +299,7 @@ const HomeAbout = () => {
 
                         <div className='data data2'>
                             <span className='mb-4'>
-                                <h3>63</h3>
+                                <h3>49</h3>
                                 <div className='box'></div>
                                 <p>Projects executed</p>
                             </span>
