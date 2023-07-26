@@ -148,7 +148,7 @@ const HomeCaseStudies = () => {
                                 executives + an Executive board + an Advisory
                                 board. <br />
                                 <br />
-                                We added ₦5.2b value to the company’s
+                                We added ₦250M value to the company’s
                                 bottomline.
                             </p>
                             <Image

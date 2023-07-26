@@ -12,9 +12,9 @@ import {
 import { FaLinkedin, FaMediumM } from 'react-icons/fa';
 import { BiUser } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
-import Profile from '../assets/files/BlueSense Profile.pdf';
+import Profile from '../assets/files/BlueSense Profile - 2023.pdf';
 import Port from '../assets/files/BlueSense Portfolio.pdf';
-import Startup from '../assets/files/Start-up Profile.pdf';
+import Startup from '../assets/files/BlueSense Start-up Profile - 2023.pdf';
 
 import { HashLink } from 'react-router-hash-link';
 
