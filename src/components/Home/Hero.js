@@ -128,18 +128,14 @@ const HomeHero = () => {
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-md-start justify-content-center  align-items-center'>
-                        <Image src={Tap} alt='Tap Logo' className='me-xl-5' />
+                        className='d-flex  justify-content-center  align-items-center'>
+                        <Image src={Tap} alt='Tap Logo' className='' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-md-start justify-content-center  align-items-center'>
-                        <Image
-                            src={ColdHubs}
-                            alt='Cold Hubs Logo'
-                            className='ms-xl-5'
-                        />
+                        className='d-flex justify-content-center  align-items-center'>
+                        <Image src={ColdHubs} alt='Cold Hubs Logo' />
                     </Col>
                     <Col
                         md={3}
@@ -157,27 +153,23 @@ const HomeHero = () => {
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-md-start justify-content-center  align-items-center'>
+                        className='d-flex justify-content-center  align-items-center'>
                         <Image
                             src={Lifestores}
                             alt='Lifestores Logo'
-                            className='me-xl-5'
+                            className=''
                         />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-md-start justify-content-center align-items-center'>
-                        <Image
-                            src={Ease}
-                            alt='Easeme Logo'
-                            className='ms-xl-5'
-                        />
+                        className='d-flex justify-content-center align-items-center'>
+                        <Image src={Ease} alt='Easeme Logo' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex  justify-content-center align-items-center'>
+                        className='d-flex justify-content-center align-items-center'>
                         <Image src={Leeds} alt='Leeds Logo' />
                     </Col>
 
@@ -188,8 +180,11 @@ const HomeHero = () => {
                         <Image src={Hugo} alt='Hugo Logo' />
                     </Col>
 
-                    <Col md={3} xs={3} className='d-flex align-items-center'>
-                        <Image src={Hash} alt='Hash Logo' />
+                    <Col
+                        md={3}
+                        xs={3}
+                        className='d-flex justify-content-center align-items-center'>
+                        <Image src={Hash} alt='Hash Logo' className='mt-4' />
                     </Col>
                 </Row>
             </Container>
