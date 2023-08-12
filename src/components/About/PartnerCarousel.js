@@ -3,7 +3,7 @@ import { Carousel, Image, Modal } from 'react-bootstrap';
 import { BsLinkedin, BsTwitter } from 'react-icons/bs';
 import abiyeBig from '../../assets/images/about-img/abiye-big.svg';
 import christianBig from '../../assets/images/about-img/christian-big.svg';
-// import jamesBig from '../../assets/images/about-img/james-big.svg';
+import jamesBig from '../../assets/images/about-img/james-big.svg';
 import ololadeBig from '../../assets/images/about-img/ololade-big.svg';
 import onyemaBig from '../../assets/images/about-img/onyema-big.svg';
 import './about-modal-carousel.css';
@@ -177,7 +177,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                         </Carousel.Caption>
                     </Carousel.Item>
 
-                    {/* <Carousel.Item className='bg-white d-flex flex-lg-row flex-column justify-content-between align-items-center'>
+                    <Carousel.Item className='bg-white d-flex flex-lg-row flex-column justify-content-between align-items-center'>
                         <Image
                             src={jamesBig}
                             alt='James Adeniji PhD'
@@ -194,8 +194,6 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                     rel='noopener noreferrer'>
                                     <BsLinkedin />
                                 </a>
-
-                               
                             </div>
                             <p className='desc'>
                                 James is part of an influential market insight
@@ -208,7 +206,7 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 and Marketing.
                             </p>
                         </Carousel.Caption>
-                    </Carousel.Item>  */}
+                    </Carousel.Item>
                 </Carousel>
             </Modal.Body>
 

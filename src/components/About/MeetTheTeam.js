@@ -45,7 +45,7 @@ const MeetTheTeam = () => {
 
                 <section className='partnerCards'>
                     <h3>Partners</h3>
-                    <Row xs={1} sm={2} lg={4} className='g-4'>
+                    <Row xs={1} sm={2} lg={5} className='g-4'>
                         {partners.map((item) => (
                             <Col key={item.id}>
                                 <Card
