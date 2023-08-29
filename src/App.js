@@ -2,7 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AfricaDebtChina from './components/Blog/blog-pages/AfricaDebtChina';
 import Airbnb from './components/Blog/blog-pages/Airbnb';
-import ArtificialIntelligence from './components/Blog/blog-pages/ArtifialIntelligence';
+import ArtificialIntelligence from './components/Blog/blog-pages/ArtificialIntelligence';
 import Autogas from './components/Blog/blog-pages/Autogas';
 import BreakTheBias from './components/Blog/blog-pages/BreakTheBias';
 import CassavaProducer from './components/Blog/blog-pages/CassavaProducer';
