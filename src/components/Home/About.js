@@ -215,7 +215,11 @@ const HomeAbout = () => {
 
                     <div className='py-5 d-block d-md-none extra'>
                         <div className='mb-5'>
-                            <Image src={Graph} alt='Graph' className='mb-4' />
+                            <Image
+                                src={Graph}
+                                alt='Graph'
+                                className='mb-4 mx-auto d-block'
+                            />
                             <h3 className='mb-sm-3 mb-2'>Strategy</h3>
                             <p className='mb-0'>
                                 As a consulting firm, we work with organizations
@@ -228,7 +232,11 @@ const HomeAbout = () => {
                             </p>
                         </div>
                         <div className='mb-5'>
-                            <Image src={Bulb} alt='Bulb' className='mb-4' />
+                            <Image
+                                src={Bulb}
+                                alt='Bulb'
+                                className='mb-4 mx-auto d-block'
+                            />
                             <h3 className='mb-sm-3 mb-2'>Learning</h3>
                             <p className='mb-0'>
                                 {' '}
@@ -242,7 +250,11 @@ const HomeAbout = () => {
                             </p>
                         </div>
                         <div className=''>
-                            <Image src={Brain} alt='Brain' className='mb-4' />
+                            <Image
+                                src={Brain}
+                                alt='Brain'
+                                className='mb-4 mx-auto d-block'
+                            />
                             <h3 className='mb-sm-3 mb-2'>Advisory</h3>
                             <p className='mb-0'>
                                 {' '}

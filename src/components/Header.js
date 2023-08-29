@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
-import {
-    Button,
-    Container,
-    Image,
-    Nav,
-    Navbar,
-    NavDropdown,
-} from 'react-bootstrap';
+import { Container, Image, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './header.css';
 import Logo from '../assets/images/logo.svg';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate, Link } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 const Header = () => {
@@ -23,6 +16,12 @@ const Header = () => {
         setDropdown(false);
     };
 
+    const [isCollapsed, setIsCollapsed] = useState(true);
+
+    const handleNavbarToggle = () => {
+        setIsCollapsed(!isCollapsed);
+    };
+
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -31,10 +30,18 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const handleLinkClick = () => {
+        setIsCollapsed(true); // Close the navigation menu when a link is clicked
+    };
+
     return (
         <header id='header'>
-            <Navbar className='bg-white ' expand='md'>
-                <Container>
+            <Navbar
+                className='bg-white '
+                expanded={!isCollapsed}
+                onToggle={handleNavbarToggle}
+                expand='md'>
+                <Container className='flex-md-row flex-row-reverse'>
                     <Navbar.Brand href='/' className='py-2 d-flex'>
                         <Image
                             src={Logo}
@@ -46,11 +53,10 @@ const Header = () => {
                     <Navbar.Toggle
                         aria-controls='basic-navbar-nav'
                         onClick={toggleMenu}>
-                        {menuOpen ? (
-                            <span className='btn-close'></span>
-                        ) : (
-                            <span className='navbar-toggler-icon' />
-                        )}
+                        <span className='navbar-toggler-icon'></span>
+                        {/* ) : (
+                            <span className='btn-close' />
+                        )} */}
                     </Navbar.Toggle>
 
                     <Navbar.Collapse
@@ -60,10 +66,14 @@ const Header = () => {
                             id='header-nav'
                             className='justify-content-md-between align-items-md-center'>
                             <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-3 d-md-none d-block'>
-                                <NavLink to='/'>Home</NavLink>
+                                <NavLink to='/' onClick={handleLinkClick}>
+                                    Home
+                                </NavLink>
                             </Nav.Item>
                             <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-3'>
-                                <NavLink to='/about'>About</NavLink>
+                                <NavLink to='/about' onClick={handleLinkClick}>
+                                    About
+                                </NavLink>
                             </Nav.Item>
 
                             <NavDropdown
@@ -136,11 +146,16 @@ const Header = () => {
 
                             <NavDropdown
                                 title='Services'
-                                onClick={(e) => navigate('/services')}
+                                onClick={(e) => {
+                                    navigate('/services');
+                                    // handleLinkClick();
+                                }}
                                 to='/services'
                                 id='nav-dropdown'
                                 className='pb-md-0 pb-3 px-lg-4 px-md-3 d-md-none d-block'>
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -149,7 +164,9 @@ const Header = () => {
                                     </NavHashLink>
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -158,7 +175,9 @@ const Header = () => {
                                     </NavHashLink>
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -167,7 +186,9 @@ const Header = () => {
                                     </NavHashLink>
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -176,7 +197,9 @@ const Header = () => {
                                     </NavHashLink>
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -185,7 +208,9 @@ const Header = () => {
                                     </NavHashLink>
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className=''>
+                                <NavDropdown.Item
+                                    className=''
+                                    onClick={handleLinkClick}>
                                     <NavHashLink
                                         smooth
                                         className='d-block'
@@ -196,23 +221,33 @@ const Header = () => {
                             </NavDropdown>
 
                             <Nav.Item className='team-link px-lg-4 px-md-3 px-0 pb-md-0 pb-3'>
-                                <HashLink smooth to='/about#team'>
+                                <HashLink
+                                    smooth
+                                    to='/about#team'
+                                    onClick={handleLinkClick}>
                                     Team
                                 </HashLink>
                             </Nav.Item>
                             <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-3'>
-                                <NavLink to='/blog'>Blog</NavLink>
+                                <NavLink onClick={handleLinkClick} to='/blog'>
+                                    Blog
+                                </NavLink>
                             </Nav.Item>
-                            <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-3 d-md-block d-none'>
-                                <NavLink to='/contact'>Contact</NavLink>
+                            <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-3'>
+                                <NavLink
+                                    to='/contact'
+                                    onClick={handleLinkClick}>
+                                    Contact
+                                </NavLink>
                             </Nav.Item>
                         </Nav>
-                        <Button
-                            as='a'
-                            href='/contact'
-                            className='d-md-none d-block contact-btn text-white'>
+
+                        <Link
+                            to='/contact'
+                            onClick={handleLinkClick}
+                            className='d-md-none text-center d-block contact-btn text-white mt-3'>
                             Schedule Consultation
-                        </Button>
+                        </Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

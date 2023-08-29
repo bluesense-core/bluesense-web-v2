@@ -223,13 +223,14 @@ header .navbar-toggler-icon {
 }
 
 .contact-btn {
-    padding: 12px 0 !important;
+    padding: 10px 0 !important;
     border-radius: 20px;
     background-color: #0075ff;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.05px;
+    border: none;
 }
 
 @media (max-width: 767px) {
@@ -266,6 +267,12 @@ header .navbar-toggler-icon {
 
     header .navbar .dropdown-menu {
         margin: 18px;
+    }
+
+    .contact-btn:hover,
+    .contact-btn:focus,
+    .contact-btn:active {
+        border: none !important;
     }
 }
 

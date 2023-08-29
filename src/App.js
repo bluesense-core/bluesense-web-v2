@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AfricaDebtChina from './components/Blog/blog-pages/AfricaDebtChina';
 import Airbnb from './components/Blog/blog-pages/Airbnb';
@@ -73,7 +73,7 @@ function App() {
         return arr.join(', ');
     }
     return (
-        <BrowserRouter>
+        <>
             <Header />
 
             <Routes>
@@ -134,7 +134,7 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
-                 <Route
+                <Route
                     path='/blog/nigeria-is-the-biggest-cassava-producer-in-the-world-why-isnt-it-cashing-in-on-the-global-market'
                     element={
                         <CassavaProducer
@@ -409,7 +409,7 @@ function App() {
             </Routes>
 
             <Footer />
-        </BrowserRouter>
+        </>
     );
 }
 
