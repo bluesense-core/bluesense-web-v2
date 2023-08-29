@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AfricaDebtChina from './components/Blog/blog-pages/AfricaDebtChina';
 import Airbnb from './components/Blog/blog-pages/Airbnb';
+import ArtificialIntelligence from './components/Blog/blog-pages/ArtifialIntelligence';
 import Autogas from './components/Blog/blog-pages/Autogas';
 import BreakTheBias from './components/Blog/blog-pages/BreakTheBias';
 import CassavaProducer from './components/Blog/blog-pages/CassavaProducer';
@@ -134,6 +135,18 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
+                <Route
+                    path='/blog/harnessing-the-power-of-artificial-intelligence-to-simplify-bookkeeping'
+                    element={
+                        <ArtifialIntelligence
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
                  <Route
                     path='/blog/nigeria-is-the-biggest-cassava-producer-in-the-world-why-isnt-it-cashing-in-on-the-global-market'
                     element={
