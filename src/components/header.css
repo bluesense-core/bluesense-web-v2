@@ -28,16 +28,16 @@ header .navbar a {
     text-decoration: none;
     color: #667085;
     transition: 300ms;
-    padding-bottom: 0.5em;
+    padding: 1.75em 0;
 }
 
 header .navbar a:hover,
 header .navbar a:focus,
 header .navbar a.active {
-    border-bottom: 5px solid #0075ff;
+    border-top: 5px solid #0075ff;
     border-left: none;
     border-right: none;
-    border-top: none;
+    border-bottom: none;
     color: #0075ff;
 }
 
@@ -46,28 +46,17 @@ header .navbar .team-link a.active {
     color: #667085;
 }
 
-.navbar-collapse {
-    padding: 1em 0;
-}
-
-/* Dropdown */
-
-#nav-dropdown {
-    padding-bottom: 0;
-}
-
-#nav-dropdown:hover,
-#nav-dropdown:focus,
-#nav-dropdown:active {
-    border: none;
-}
 header .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
 }
 
 header #header-nav .show > .nav-link {
-    border: none;
+    border-top: 5px solid #0075ff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: #0075ff;
 }
 
 header #header-nav .show > .nav-link > a {
@@ -128,8 +117,8 @@ header .navbar .dropdown-menu {
 }
 
 header #hover-dropdown {
-    /* margin-bottom: 0.1em; */
-    padding: 1.8em 0;
+    margin-bottom: 0.1em;
+    padding: 1.75em 0;
 }
 
 /* Navbar Brand */
@@ -241,6 +230,43 @@ header .navbar-toggler-icon {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.05px;
+}
+
+@media (max-width: 767px) {
+    header .navbar .nav-link,
+    header .navbar a {
+        padding-top: 0;
+        padding-bottom: 0.5em;
+    }
+
+    header .navbar a:hover,
+    header .navbar a:focus,
+    header .navbar a.active {
+        border-bottom: 5px solid #0075ff;
+        border-top: none;
+    }
+
+    .navbar-collapse {
+        padding: 1em 0;
+    }
+
+    #nav-dropdown {
+        padding-bottom: 0;
+    }
+
+    #nav-dropdown:hover,
+    #nav-dropdown:focus,
+    #nav-dropdown:active {
+        border: none;
+    }
+
+    header #header-nav .show > .nav-link {
+        border: none;
+    }
+
+    header .navbar .dropdown-menu {
+        margin: 18px;
+    }
 }
 
 @media (max-width: 575px) {
