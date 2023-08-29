@@ -144,9 +144,9 @@ function App() {
                             removeSpace={removeSpace}
                             createMarkup={createMarkup}
                             shortenText={shortenText}
-                        />
-                    }
-                />
+                         />
+                     }
+                 />
                  <Route
                     path='/blog/nigeria-is-the-biggest-cassava-producer-in-the-world-why-isnt-it-cashing-in-on-the-global-market'
                     element={
