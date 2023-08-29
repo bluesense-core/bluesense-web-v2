@@ -138,7 +138,7 @@ function App() {
                 <Route
                     path='/blog/harnessing-the-power-of-artificial-intelligence-to-simplify-bookkeeping'
                     element={
-                        <ArtifialIntelligence
+                        <ArtificialIntelligence
                             toText={toText}
                             removeDashAndJoin={removeDashAndJoin}
                             removeSpace={removeSpace}
