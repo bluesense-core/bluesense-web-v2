@@ -88,12 +88,16 @@
     margin-bottom: 0;
 }
 
-.single-blog #main-content p a {
+.single-blog #main-content p a,
+.single-blog #main-content a {
     color: #292929;
 }
 .single-blog #main-content p a:hover,
+.single-blog #main-content a:hover,
 .single-blog #main-content p a:focus,
-.single-blog #main-content p a:active {
+.single-blog #main-content a:focus,
+.single-blog #main-content p a:active,
+.single-blog #main-content a:active {
     color: #444549;
 }
 
