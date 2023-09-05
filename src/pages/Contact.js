@@ -205,7 +205,7 @@ const Contact = () => {
                         url='https://calendly.com/bluesense/35min'
                         className='btn-2 d-block rounded-pill  py-3 ms-sm-auto'
                         rootElement={document.getElementById('root')}
-                        text='Schedule a Consultation!'
+                        text='Schedule a Consultation'
                     />
                 </Container>
             </main>

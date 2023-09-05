@@ -234,8 +234,49 @@ header .navbar-toggler-icon {
 }
 
 @media (max-width: 767px) {
+    /* .navbar.fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+       
+        left: 0;
+    }
+
+    .navbar.fixed .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    } */
+
+    .overlay-menu {
+        position: absolute;
+        width: 100%; /* Set the desired width */
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: width 0.3s ease-in-out;
+        z-index: 1; /* Ensure the Navbar is above the content */
+    }
+
+    /* .overlay-menu.expanded {
+        width: 100%;
+    } */
+
+    .overlay-menu.expanded .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 100vh;
+        overflow-y: hidden;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    header .header-logo,
+    .offcanvas .header-logo {
+        width: 110px;
+    }
+
     header .navbar .nav-link,
     header .navbar a {
+        font-size: 18px;
+        font-weight: 500;
         padding-top: 0;
         padding-bottom: 0.5em;
     }
@@ -281,8 +322,4 @@ header .navbar-toggler-icon {
         padding: 1.05rem 0;
     }
     /* Logo */
-    header .header-logo,
-    .offcanvas .header-logo {
-        width: 110px;
-    }
 }
