@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Image, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './header.css';
+import { BsChevronDown } from 'react-icons/bs';
 import Logo from '../assets/images/logo.svg';
 import { NavLink, useNavigate, Link } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
@@ -35,11 +36,11 @@ const Header = () => {
     const handleToggle = () => {
         setExpanded(!expanded);
         // Disable scrolling when the menu is open
-        if (!expanded) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto'; // Enable scrolling when the menu is closed
-        }
+        // if (!expanded) {
+        //     document.body.style.overflow = 'hidden';
+        // } else {
+        //     document.body.style.overflow = 'auto'; // Enable scrolling when the menu is closed
+        // }
     };
 
     return (
@@ -179,7 +180,15 @@ const Header = () => {
                             </NavDropdown>
 
                             <NavDropdown
-                                title='Services'
+                                title={
+                                    <span className='d-flex justify-content-between align-items-center'>
+                                        <span>Services</span>
+
+                                        <span>
+                                            <BsChevronDown />
+                                        </span>
+                                    </span>
+                                }
                                 onClick={(e) => {
                                     navigate('/services');
                                 }}
@@ -300,9 +309,10 @@ const Header = () => {
                                     Blog
                                 </NavLink>
                             </Nav.Item>
-                            <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-4'>
+                            <Nav.Item className='px-lg-4 px-md-3 px-0 '>
                                 <NavLink
                                     reloadDocument
+                                    className='pb-md-auto pb-0'
                                     to='/contact'
                                     onClick={() => {
                                         handleLinkClick();

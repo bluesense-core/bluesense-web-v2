@@ -247,7 +247,12 @@ header .navbar-toggler-icon {
         background-color: rgba(255, 255, 255, 0.95);
         border-top: 1px solid rgba(0, 0, 0, 0.2);
     } */
-
+    /* .dropdown-toggle::after {
+        display: inline-block;
+        text-align: right;
+        float: right;
+        vertical-align: 0.5em;
+    } */
     .overlay-menu {
         position: absolute;
         width: 100%; /* Set the desired width */
@@ -263,9 +268,10 @@ header .navbar-toggler-icon {
 
     .overlay-menu.expanded .navbar-collapse {
         background-color: rgba(255, 255, 255, 0.5);
-        height: 100vh;
+        /* height: 100vh; */
         overflow-y: scroll;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     }
 
     header .header-logo,
@@ -275,7 +281,7 @@ header .navbar-toggler-icon {
 
     header .navbar .nav-link,
     header .navbar a {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 500;
         padding-top: 0;
         padding-bottom: 0.5em;
@@ -290,6 +296,7 @@ header .navbar-toggler-icon {
 
     .navbar-collapse {
         padding: 1em 0;
+        /* padding-bottom: 0; */
     }
 
     #nav-dropdown {
@@ -322,4 +329,8 @@ header .navbar-toggler-icon {
         padding: 1.05rem 0;
     }
     /* Logo */
+    header .navbar .nav-link,
+    header .navbar a {
+        font-size: 7vw;
+    }
 }
