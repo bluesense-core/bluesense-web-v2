@@ -286,14 +286,12 @@ const Header = () => {
                                 </NavDropdown.Item>
                             </NavDropdown>
 
-                            <Nav.Item className='team-link px-lg-4 px-md-3 px-0 pb-md-0 pb-4'>
+                            <Nav.Item className='team-link px-lg-4 px-md-3 px-0 pb-md-0 pb-4 d-md-block d-none'>
                                 <HashLink
                                     smooth
                                     to='/about#team'
                                     onClick={() => {
                                         handleLinkClick();
-                                        setExpanded(false);
-                                        document.body.style.overflow = 'auto';
                                     }}>
                                     Team
                                 </HashLink>
