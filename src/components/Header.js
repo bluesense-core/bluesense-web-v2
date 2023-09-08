@@ -42,12 +42,6 @@ const Header = () => {
         }
     };
 
-    // useEffect(() => {
-    //     return () => {
-    //         document.body.style.overflow = 'auto';
-    //     };
-    // }, []);
-
     return (
         <header id='header' className='bg-white'>
             <Navbar
@@ -91,7 +85,10 @@ const Header = () => {
                                 <NavLink
                                     reloadDocument
                                     to='/'
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     Home
                                 </NavLink>
                             </Nav.Item>
@@ -99,7 +96,10 @@ const Header = () => {
                                 <NavLink
                                     reloadDocument
                                     to='/about'
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     About
                                 </NavLink>
                             </Nav.Item>
@@ -182,14 +182,16 @@ const Header = () => {
                                 title='Services'
                                 onClick={(e) => {
                                     navigate('/services');
-                                    // handleLinkClick();
                                 }}
                                 to='/services'
                                 id='nav-dropdown'
                                 className='pb-md-0 pb-4 px-lg-4 px-md-3 d-md-none d-block'>
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -201,7 +203,10 @@ const Header = () => {
 
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -213,7 +218,10 @@ const Header = () => {
 
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -225,7 +233,10 @@ const Header = () => {
 
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -237,7 +248,10 @@ const Header = () => {
 
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -249,7 +263,10 @@ const Header = () => {
 
                                 <NavDropdown.Item
                                     className=''
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     <NavHashLink
                                         smooth
                                         reloadDocument
@@ -263,16 +280,22 @@ const Header = () => {
                             <Nav.Item className='team-link px-lg-4 px-md-3 px-0 pb-md-0 pb-4'>
                                 <HashLink
                                     smooth
-                                    reloadDocument
                                     to='/about#team'
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        setExpanded(false);
+                                        document.body.style.overflow = 'auto';
+                                    }}>
                                     Team
                                 </HashLink>
                             </Nav.Item>
                             <Nav.Item className='px-lg-4 px-md-3 px-0 pb-md-0 pb-4'>
                                 <NavLink
                                     reloadDocument
-                                    onClick={handleLinkClick}
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}
                                     to='/blog'>
                                     Blog
                                 </NavLink>
@@ -281,7 +304,10 @@ const Header = () => {
                                 <NavLink
                                     reloadDocument
                                     to='/contact'
-                                    onClick={handleLinkClick}>
+                                    onClick={() => {
+                                        handleLinkClick();
+                                        handleToggle();
+                                    }}>
                                     Contact
                                 </NavLink>
                             </Nav.Item>
@@ -290,7 +316,10 @@ const Header = () => {
                         {/* <Link
                             reloadDocument
                             to='/contact'
-                            onClick={handleLinkClick}
+                            onClick={() => {
+                                        handleLinkClick()
+                                        handleToggle()
+                                    }}
                             className='d-md-none text-center d-block contact-btn text-white mt-3'>
                             Schedule Consultation
                         </Link> */}
