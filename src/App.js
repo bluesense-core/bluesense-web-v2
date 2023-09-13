@@ -17,6 +17,7 @@ import NigeriaBill from './components/Blog/blog-pages/NigeriaBill';
 import NigeriaDebt from './components/Blog/blog-pages/NigeriaDebt';
 import NigeriaFintech from './components/Blog/blog-pages/NigeriaFintech';
 import NigeriaWage from './components/Blog/blog-pages/NigeriaWage';
+import PricingResearch from './components/Blog/blog-pages/PricingResearch';
 import SeedFunding from './components/Blog/blog-pages/SeedFunding';
 import SharingEco from './components/Blog/blog-pages/SharingEco';
 import StartUpTrends22 from './components/Blog/blog-pages/StartUpTrends22';
@@ -136,6 +137,18 @@ function App() {
 
                 {/* Blog Pages */}
                 <Route
+                    path='/blog/6-effective-steps-to-carry-out-pricing-research-remotely'
+                    element={
+                        <PricingResearch
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
+               <Route
                     path='/blog/harnessing-the-power-of-artificial-intelligence-to-simplify-bookkeeping'
                     element={
                         <ArtificialIntelligence
