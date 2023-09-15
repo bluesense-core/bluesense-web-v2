@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel, Image, Modal } from 'react-bootstrap';
+import { FaXTwitter } from 'react-icons/fa6';
 import { BsLinkedin, BsTwitter } from 'react-icons/bs';
 import abiyeBig from '../../assets/images/about-img/abiye-big.svg';
 import christianBig from '../../assets/images/about-img/christian-big.svg';
@@ -37,11 +38,11 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
 
                                 <a
-                                    href='https://twitter.com/xtianreuben'
+                                    href='https://x.com/xtianreuben'
                                     target='_blank'
                                     className='ms-3'
                                     rel='noopener noreferrer'>
-                                    <BsTwitter />
+                                    <FaXTwitter />
                                 </a>
                             </div>
                             <p className='desc'>
@@ -76,11 +77,11 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
 
                                 <a
-                                    href='https://twitter.com/onyemanj'
+                                    href='https://x.com/onyemanj'
                                     target='_blank'
                                     className='ms-3'
                                     rel='noopener noreferrer'>
-                                    <BsTwitter />
+                                    <FaXTwitter />
                                 </a>
                             </div>
                             <p className='desc'>
@@ -119,11 +120,11 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
 
                                 <a
-                                    href='https://twitter.com/ololade_b_o'
+                                    href='https://x.com/ololade_b_o'
                                     target='_blank'
                                     className='ms-3'
                                     rel='noopener noreferrer'>
-                                    <BsTwitter />
+                                    <FaXTwitter />
                                 </a>
                             </div>
                             <p className='desc'>
@@ -158,11 +159,11 @@ const PartnerCarousel = ({ code, show, hide }) => {
                                 </a>
 
                                 <a
-                                    href='https://twitter.com/levybuble'
+                                    href='https://x.com/levybuble'
                                     target='_blank'
                                     className='ms-3'
                                     rel='noopener noreferrer'>
-                                    <BsTwitter />
+                                    <FaXTwitter />
                                 </a>
                             </div>
                             <p className='desc'>

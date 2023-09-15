@@ -27,7 +27,7 @@ const partners = [
         thumbnail: christianSmall,
         mainImg: christianBig,
         linkedin: 'https://www.linkedin.com/in/christianreuben/',
-        twitter: 'https://twitter.com/xtianreuben',
+        twitter: 'https://x.com/xtianreuben',
     },
 
     {
@@ -38,7 +38,7 @@ const partners = [
         thumbnail: onyemaSmall,
         mainImg: onyemaBig,
         linkedin: 'https://www.linkedin.com/in/justiceonwigwe/',
-        twitter: 'https://twitter.com/onyemanj',
+        twitter: 'https://x.com/onyemanj',
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ const partners = [
         thumbnail: ololadeSmall,
         mainImg: ololadeBig,
         linkedin: 'https://www.linkedin.com/in/ololadeolanipekun/',
-        twitter: 'https://twitter.com/ololade_b_o',
+        twitter: 'https://x.com/ololade_b_o',
     },
 
     {
@@ -59,7 +59,7 @@ const partners = [
         thumbnail: abiyeSmall,
         mainImg: abiyeBig,
         linkedin: 'https://www.linkedin.com/in/levybraide/',
-        twitter: 'https://twitter.com/levybuble',
+        twitter: 'https://x.com/levybuble',
     },
 
     {
@@ -83,7 +83,7 @@ const advisory = [
         thumbnail: olaleyeSmall,
         mainImg: olaleyeBig,
         linkedin: 'https://www.linkedin.com/in/andrew-olaleye/',
-        twitter: 'https://twitter.com/AndrewOlaleye',
+        twitter: 'https://x.com/AndrewOlaleye',
     },
 
     {
@@ -94,7 +94,7 @@ const advisory = [
         thumbnail: nadayarSmall,
         mainImg: nadayarBig,
         linkedin: 'https://www.linkedin.com/in/nadayar/',
-        twitter: 'https://twitter.com/nadayar',
+        twitter: 'https://x.com/nadayar',
     },
 
     {

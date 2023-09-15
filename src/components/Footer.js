@@ -10,6 +10,7 @@ import {
     MdOutlineMail,
 } from 'react-icons/md';
 import { FaLinkedin, FaMediumM } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { BiUser } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
 import Profile from '../assets/files/BlueSense Profile - 2023.pdf';
@@ -182,12 +183,12 @@ const Footer = () => {
                         </a> */}
 
                         <a
-                            href='https://twitter.com/bluesensehq/'
+                            href='https://x.com/bluesensehq/'
                             target='_blank'
-                            aria-label='Twitter'
+                            aria-label='X (Formerly Twitter)'
                             rel='noreferrer'
                             className='me-3'>
-                            <BsTwitter />
+                            <FaXTwitter />
                         </a>
                         <a
                             href='https://bluesense.medium.com/'

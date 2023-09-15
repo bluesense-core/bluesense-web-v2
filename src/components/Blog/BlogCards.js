@@ -16,6 +16,7 @@ import {
     WhatsappIcon,
     WhatsappShareButton,
 } from 'react-share';
+
 import { FiSearch } from 'react-icons/fi';
 import blogs from './blogs.json';
 import './blog.css';
