@@ -21,6 +21,7 @@ import PricingResearch from './components/Blog/blog-pages/PricingResearch';
 import SeedFunding from './components/Blog/blog-pages/SeedFunding';
 import SharingEco from './components/Blog/blog-pages/SharingEco';
 import StartUpTrends22 from './components/Blog/blog-pages/StartUpTrends22';
+import TextMarketing from './components/Blog/blog-pages/TextMarketing';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ErrorPage from './pages/404';
@@ -137,6 +138,19 @@ function App() {
 
                 {/* Blog Pages */}
                 <Route
+                    path='/blog/test-marketing-a-new-avenue-for-business-growth'
+                    element={
+                        <TextMarketing
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
+
+              <Route
                     path='/blog/6-effective-steps-to-carry-out-pricing-research-remotely'
                     element={
                         <PricingResearch
