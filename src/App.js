@@ -13,6 +13,7 @@ import EarlyStage from './components/Blog/blog-pages/EarlyStage';
 import FindingTalent from './components/Blog/blog-pages/FindingTalent';
 import FlightDelays from './components/Blog/blog-pages/FlightDelays';
 import Incubators from './components/Blog/blog-pages/Incubators';
+import MarketResearch from './components/Blog/blog-pages/MarketResearch';
 import NigeriaBill from './components/Blog/blog-pages/NigeriaBill';
 import NigeriaDebt from './components/Blog/blog-pages/NigeriaDebt';
 import NigeriaFintech from './components/Blog/blog-pages/NigeriaFintech';
@@ -137,6 +138,19 @@ function App() {
                 <Route path='*' element={<ErrorPage />} />
 
                 {/* Blog Pages */}
+                <Route
+                    path='/blog/market-research-4-tested-tools-for-executing-a-pricing-study'
+                    element={
+                        <MarketResearch
+                            toText={toText}
+                            removeDashAndJoin={removeDashAndJoin}
+                            removeSpace={removeSpace}
+                            createMarkup={createMarkup}
+                            shortenText={shortenText}
+                        />
+                    }
+                />
+                                
                 <Route
                     path='/blog/test-marketing-a-new-avenue-for-business-growth'
                     element={
