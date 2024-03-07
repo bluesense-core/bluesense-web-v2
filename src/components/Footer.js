@@ -20,6 +20,7 @@ import Startup from '../assets/files/BlueSense Start-up Profile - 2023.pdf';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
+    const date = new Date()
     return (
         <footer>
             <section id='footer-top'>
@@ -168,7 +169,7 @@ const Footer = () => {
             <section id='footer-bottom'>
                 <Container className='d-flex flex-md-row flex-column-reverse justify-content-between align-items-md-center'>
                     <p className='copyright m-0 text-start'>
-                        © 2023 All Rights Reserved. BlueSense. Reuben & Company.
+                        © {date.getFullYear()} All Rights Reserved. BlueSense. Reuben & Company.
                         Lagos. Nigeria.
                     </p>
 

@@ -27,13 +27,8 @@ const HomeHero = () => {
         <section className='home-hero'>
             <Container className='text-center'>
                 <h1 className=''>
-                    Most companies lack the time and expertise to build an
-                    effective training curriculum that gets results.
-                    <br /> <br />
-                    BlueSense, will <span>build</span> a bespoke learning
-                    curriculum tailored to help your team execute better, so you
-                    can <span>build</span> a thriving company that develops the
-                    vision you’ve set out to build.
+                    A simpler way to <span>grow</span> your company with
+                    management and start-up consulting services.
                 </h1>
 
                 <p className='subtitle'>
@@ -42,7 +37,8 @@ const HomeHero = () => {
                 </p>
                 <Link
                     to='/contact'
-                    className='text-decoration-none text-white mb-3'>
+                    className='text-decoration-none text-white mb-3'
+                >
                     <Button className='d-block mx-auto px-md-5 py-md-4 px-4 py-3'>
                         Schedule Consultation
                     </Button>
@@ -60,28 +56,29 @@ const HomeHero = () => {
                             WebkitAnimation:
                                 'slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
                             animation:
-                                'slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+                                'slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'
                         });
                         setStyle3({
                             WebkitAnimation:
                                 'slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
                             animation:
-                                'slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+                                'slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'
                         });
                         setStyle2({
                             WebkitAnimation:
                                 'slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
                             animation:
-                                'slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+                                'slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'
                         });
 
                         setStyle1({
                             WebkitAnimation:
                                 'slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
                             animation:
-                                'slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+                                'slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'
                         });
-                    }}>
+                    }}
+                >
                     <Carousel.Item id='blocks-img'>
                         <Image
                             style={style4}
@@ -128,32 +125,37 @@ const HomeHero = () => {
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex  justify-content-center  align-items-center'>
+                        className='d-flex  justify-content-center  align-items-center'
+                    >
                         <Image src={Tap} alt='Tap Logo' className='' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center  align-items-center'>
+                        className='d-flex justify-content-center  align-items-center'
+                    >
                         <Image src={ColdHubs} alt='Cold Hubs Logo' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-center align-items-center'
+                    >
                         <Image src={Mede} alt='Mede Logo' />
                     </Col>
 
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex  justify-content-center align-items-center'>
+                        className='d-flex  justify-content-center align-items-center'
+                    >
                         <Image src={Icrc} alt='ICRC Logo' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center  align-items-center'>
+                        className='d-flex justify-content-center  align-items-center'
+                    >
                         <Image
                             src={Lifestores}
                             alt='Lifestores Logo'
@@ -163,27 +165,31 @@ const HomeHero = () => {
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-center align-items-center'
+                    >
                         <Image src={Ease} alt='Easeme Logo' />
                     </Col>
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-center align-items-center'
+                    >
                         <Image src={Leeds} alt='Leeds Logo' />
                     </Col>
 
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex  justify-content-center align-items-center'>
+                        className='d-flex  justify-content-center align-items-center'
+                    >
                         <Image src={Hugo} alt='Hugo Logo' />
                     </Col>
 
                     <Col
                         md={3}
                         xs={3}
-                        className='d-flex justify-content-center align-items-center'>
+                        className='d-flex justify-content-center align-items-center'
+                    >
                         <Image src={Hash} alt='Hash Logo' className='mt-4' />
                     </Col>
                 </Row>

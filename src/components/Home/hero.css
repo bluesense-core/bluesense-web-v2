@@ -10,7 +10,7 @@
     line-height: 120%;
     color: #0a0a33;
     margin-bottom: 32px;
-    font-size: 2.25rem;
+    font-size: 4.75rem;
 }
 
 #home .home-hero h1 span {
@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 1399px) {
+    #home .home-hero h1 {
+        font-size: 5rem;
+    }
     #home .imagery3 {
         bottom: 1em;
     }
@@ -90,7 +93,7 @@
 
 @media (max-width: 1199px) {
     #home .home-hero h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     #home .imagery3 {
         bottom: 0.7em;
@@ -166,11 +169,12 @@
 
 @media (max-width: 767px) {
     #home .home-hero {
-        padding-top: 5em;
+        padding-top: 7em;
     }
 
     #home .home-hero h1 {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        line-height: 130%;
     }
     #home .home-hero .subtitle {
         padding: 0;
@@ -202,11 +206,6 @@
 }
 
 @media (max-width: 425px) {
-    #home .home-hero h1 {
-        font-size: 22px;
-        line-height: 32px;
-    }
-
     #home .home-hero .subtitle {
         font-size: 16px;
         line-height: 24px;
